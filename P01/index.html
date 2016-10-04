@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>La mangue: Style Guide</title>
+
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/fonts.css" rel="stylesheet">
+    <link href="css/grid.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    
+  </head>
+
+  <body>
+    <header id="header">
+      <h1>la mangue | style guide template</h1>
+      <p>Welcome to la mangue, where fine dining comes to you</p>
+    </header>
+
+
+    <nav id="side-nav-bar">
+      
+      <h2>Find What You Need</h2>
+      <ul>
+        <li class="side-button"><h3>Interactive Elements</h3>
+          <ul>
+            <li><a href="#navigation-button">Navigation Button</a></li>
+            <li><a href="#in-text-link">In-text Link</a></li>
+            <li><a href="#submit-button">Submit/Reset Buttons</a></li>
+            <li><a href="#text-input-field">Text Input Field</a></li>
+          </ul>
+        </li>
+        <li class="side-button"><h3>Text Elements</h3>
+          <ul>
+            <li><a href="#headings">Headings</a></li>
+            <li><a href="#paragraphs">Paragraphs</a></li>
+            <li><a href="#bull-list">Bulleted List</a></li>
+            <li><a href="#num-list">Numbered List</a></li>
+          </ul>
+        </li>
+        <li class="side-button"><h3>Combined Elements</h3>
+          <ul>
+            <li><a href="#main-nav">Main Navigation</a></li>
+            <li><a href="#product-listing">Product Listing</a></li>
+            <li><a href="#grid-layout">Grid Layout</a></li>
+          </ul>
+        </li>
+        <li class="side-button"><h3>Miscellaneous</h3>
+          <ul>
+            <li><a href="references.html">References</a></li>
+            <li><a href="prototype/index.html">Prototype</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+
+
+
+    <!-- INTERACTIVE ELEMENTS SECTION // -->
+    <section id="content">
+      <section id="interactive_elements" class="content-section">
+        <!-- Default Button styling section -->
+        <section id="navigation-button">
+
+          <h2>Navigation Button</h2>
+
+          <h3>CSS Selector:</h3>
+          <p>.nav-button</p>
+
+          <h3>Sample Code:</h3>
+          <code>&lt;a href="#" class="nav-button"&gt;Default Button&lt;/a&gt;</code>
+
+          <h3>Rendered Element:</h3>
+          <a class="nav-button" href="#">Default Button</a>
+
+        </section>
+
+        <section id="in-text-link">
+          <h2>In-text link</h2>
+
+          <h3>CSS Selector:</h3>
+          <p>.link</p>
+
+          <h3>Sample Code:</h3>
+          <code>&lt;a href="#" class="link"&gt;Default Link&lt;/a&gt;</code>
+          
+          <h3>Rendered Element:</h3>
+          <a class="link" href="#">Default Link</a>
+        </section>
+
+        <section id="submit-button">
+          <h2>Submit/Reset Buttons</h2>
+
+          <h3>CSS Selector:</h3>
+          <p>.button</p>
+
+          <h3>Sample Code:</h3>
+          <code>&lt;a href="#" class="button"&gt;Default Submit&lt;/a&gt;</code>
+
+          <h3>Rendered Element:</h3>
+          <p class="button">Default Submit</p>
+
+        </section>
+
+        <section id="text-input-field">
+          <h2>Text Input Field</h2>
+
+          <h3>CSS Selector:</h3>
+          <p>.text-input</p>
+
+          <h3>Sample Code:</h3>
+          <code>
+          &lt;form&gt;
+          <br>&nbsp;&lt;input type="text" placeholder="text input" name="example class="text-input"&gt;
+          <br>&nbsp;&lt;input type="submit" value="Submit" class="button"&gt;
+          <br>&lt;/form&gt;
+          </code>
+
+          <h3>Rendered Element:</h3>
+          <form>
+            <input type="text" placeholder="text input" name="example" class="text-input">
+            <input type="submit" value="Submit" class="button" >
+          </form>
+
+        </section>
+
+      </section>
+      <!-- // INTERACTIVE ELEMENTS SECTION -->
+
+
+
+      <!-- TEXT ELEMENTS SECTION // -->
+      <section id="text_elements" class="content-section">
+
+        <section id="headings">
+          <h2>Headings</h2>
+
+          <h1>main heading</h1>
+          <h2>Section Headings</h2>
+          <h3>Subheadings</h3>
+        </section>
+
+        <section id="paragraphs">
+          <h2>Paragraphs</h2>
+
+          <p>
+          This is a paragraph. This text area is used to describe other elements in greater depth. It can involve fancy wording to set the tone of the website. Many times these paragraphs will be interesting to read. To understand how it looks in context, you can also look at the combined elements section to see how everything fits in place. How exciting! Please enjoy the rest of your time looking through this style guide. 
+          </p>
+        </section>
+
+        <section id="bull-list">
+          <h2>Bulleted Lists</h2>
+
+          <h3>CSS Selector:</h3>
+          <p>.bull-list</p>
+
+          <h3>Sample Code:</h3>
+          <code>&lt;ul class="bull-list"&gt;
+          <br>&nbsp;&lt;li&gt;Item example one&lt;/li&gt;
+          <br>&nbsp;&lt;li&gt;Item example two&lt;/li&gt;
+          <br>&nbsp;&lt;li&gt;Item example three&lt;/li&gt;
+          <br>&lt;/ul&gt;</code>
+
+          <h3>Rendered Element:</h3>
+          <ul class="bull-list">
+            <li>Item example one</li>
+            <li>Iteam example two</li>
+            <li>Item example three</li>
+          </ul>
+
+        </section>
+
+        <section id="num-list">
+          <h2>Numbered Lists</h2>
+
+          <h3>CSS Selector:</h3>
+          <p>.num-list</p>
+
+          <h3>Sample Code:</h3>
+          <code>&lt;ol class="num-list"&gt;
+          <br>&nbsp;&lt;li&gt;Item example one&lt;/li&gt;
+          <br>&nbsp;&lt;li&gt;Item example two&lt;/li&gt;
+          <br>&nbsp;&lt;li&gt;Item example three&lt;/li&gt;
+          <br>&lt;/ol&gt;</code>
+
+          <h3>Rendered Element:</h3>
+          <ol class="num-list">
+            <li>Item example one</li>
+            <li>Iteam example two</li>
+            <li>Item example three</li>
+          </ol>
+
+        </section>
+
+      </section>
+      <!-- // TEXT ELEMENTS SECTION -->
+
+
+
+      <!-- COMBINED ELEMENTS SECTION // -->
+      <section id="combined_elements" class="content-section">
+
+        <section id="main-nav">
+          <h2>Main Navigation</h2>
+          <nav class="main-nav">
+            <ul>
+              <li><a href=# class="nav-button">Contact</a></li>
+              <li><a href=# class="nav-button">About</a></li>
+              <li><a href=# class="nav-button">Menu</a></li>
+            </ul>
+          </nav>
+
+        </section>
+
+        <section id="product-listing">
+          <h2>Product Listing</h2>
+
+          <h3>CSS Selector</h3>
+          <p>.item-container</p>
+          <p>.item</p>
+
+          <h3>Sample Code</h3>
+          <code>
+            &lt;ul class="item-container"&gt;
+            <br>&nbsp;&lt;li class="item"&gt;1&lt;/li&gt;
+            <br>&nbsp;&lt;li class="item"&gt;2&lt;/li&gt;
+            <br>&nbsp;&lt;li class="item"&gt;3&lt;/li&gt;
+            <br>&nbsp;&lt;li class="item"&gt;4&lt;/li&gt;
+            <br>&nbsp;&lt;li class="item"&gt;5&lt;/li&gt;
+            <br>&nbsp;&lt;li class="item"&gt;6&lt;/li&gt;
+            <br>&nbsp;&lt;li class="item"&gt;7&lt;/li&gt;
+            <br>&nbsp;&lt;li class="item"&gt;8&lt;/li&gt;
+            <br>&lt;/ul"&gt;
+          </code>
+
+          <h3>Rendered Element:</h3>
+          <ul class="item-container">
+            <li class="item">1</li>
+            <li class="item">2</li>
+            <li class="item">3</li>
+            <li class="item">4</li>
+            <li class="item">5</li>
+            <li class="item">6</li>
+            <li class="item">7</li>
+            <li class="item">8</li>
+          </ul>
+        </section>
+
+        <section id="grid-layout">
+          <h2>Grid Layout</h2>
+          <h3>CSS Selector</h3>
+          <p>.container</p>
+          <p>.col-2</p>
+          <h3>Sample Code</h3>
+          <code>
+          &lt;div class="container"&gt;
+          <br>&nbsp;&lt;p class="col-2"&gt;Lorem ipsum dolor sit amet, consectetur...&lt;/p&gt;
+          <br>&nbsp;&lt;p class="col-2"&gt;Lorem ipsum dolor sit amet, consectetur...&lt;/p&gt;
+          <br>&lt;/div&gt;
+          </code>
+          <h3>Two-Column Layout</h3>
+          <div class="container">
+            <p class="col-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.</p>
+            <p class="col-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.</p>
+          </div>
+        </section>
+
+      </section>
+      <!-- // COMBINED ELEMENTS SECTION -->
+    </section>
+
+
+  </body>
+</html>

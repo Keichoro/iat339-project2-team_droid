@@ -1,0 +1,70 @@
+/* grid.css */
+
+.container, body {
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+
+	justify-content: space-between;
+}
+
+/* sets structure for entire page */
+#header {
+	-webkit-flex: 1 1 auto;
+	-ms-flex: 1 1 auto;
+	flex: 1 1 auto;
+	width: 100%;
+}
+
+#side-bar-nav {
+	-webkit-flex: 1 1 auto;
+	-ms-flex: 1 1 auto;
+	flex: 1 1 auto;
+}
+
+#content {
+	-webkit-flex: 1 1 auto;
+	-ms-flex: 1 1 auto;
+	flex: 1 1 auto;
+	width: 50%;
+}
+
+.col-2{
+	-webkit-flex: 1 1 auto;
+	-ms-flex: 1 1 auto;
+	flex: 1 1 auto;
+	width: 50%;
+}
+
+
+/* sets columns for product listing */
+
+.item-container {
+	list-style: none;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+
+	-webkit-flex-flow: wrap;
+	flex-flow: wrap;
+}
+
+.item{
+	background: rgb(128,128,128);
+	padding: 3em;
+	width: 13%;
+	height: 6em;
+	margin: 0.5em;
+
+	text-align: center;
+	color: white;
+}
+
+
+
