@@ -1,0 +1,636 @@
+/*
+  STYLE GUIDE STYLING 
+  Default styling for the style guide 
+*/
+
+#styleguidetitle{
+  background-color: #FFC280;
+  width:auto;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  color:#FFFFFF;
+  padding-left:1em;
+  margin-bottom: 0em;
+}
+
+.url-links{
+  background-color: #FFE09D;
+  padding-left: 2em;
+  width:auto;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.url-links a{
+  color:blue;
+  margin-right: 3em;
+}
+
+body {
+  font-family: sans-serif;
+  padding: 2rem;
+}
+
+section:not([id]) {
+  margin: 1em 0;
+  padding: 0.5em 0;
+  border-top: 1px solid #333;
+}
+
+section h3 {
+  margin-bottom: 1em;
+}
+
+section p {
+  margin-top: 0;
+}
+
+section code {
+  background-color: #EEE;
+  padding: 0em 0.75em;
+}
+
+#text_elements{
+  margin-top: 1em;
+}
+
+
+/* 
+  INTERACTIVE ELEMENTS -------------------
+*/
+
+#interactive_elements code{
+  margin-top: 1em;
+}
+
+/* Styling for the navigation button */
+.button-nav{
+  display: inline-block;
+  padding: 0.25em 5em 0.25em 5em;
+  color: #FFF;
+  background-color: #D18334;
+  border-radius: 0.25em;
+  border-color: #DF9C58;
+  border-width:5px;
+  border-style: solid;
+  text-decoration: none;
+  font-family: 'TsukuBRdGothic-Regular','Tsukushi B Round Gothic';
+  font-size: 16px;
+/*  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;*/
+}
+
+.button-nav:hover {
+  background-color: #CC6600;
+}
+
+.button-nav:active {
+  background-color: #D18334;
+}
+
+.button-nav-sp-gc{
+  display: inline-block;
+  padding: 0.25em 5em 0.25em 5em;
+  color: #FFF;
+  background-color: #D18334;
+  border-radius: 0.25em;
+  border-color: #DF9C58;
+  border-width:5px;
+  border-style: solid;
+  text-decoration: none;
+  font-family: 'TsukuBRdGothic-Regular','Tsukushi B Round Gothic';
+  font-size: 22px;
+/*  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;*/
+}
+
+.button-nav-sp-gc:hover {
+  background-color: #CC6600;
+}
+
+.button-nav-sp-gc:active {
+  background-color: #D18334;
+}
+
+
+#submit{
+  display: inline-block;
+  padding: 0.25em 1.6em 0.25em 1.6em;
+  color: #FFF;
+  background-color: #f5af18;
+  border-radius: 1em;
+  border-color: #ca8147;
+  border-width:5px;
+  border-style: solid;
+  text-decoration: none;
+  font-family: 'TsukuBRdGothic-Regular','Tsukushi B Round Gothic';
+  font-size: 16px;
+/*  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;*/
+}
+
+#submit:hover{
+  background-color: #eb8e1f;
+}
+
+#submit:active {
+  background-color: #f5af18;
+}
+
+#reset{
+  display: inline-block;
+  padding: 0.25em 2em 0.25em 2em;
+  color: #FFF;
+  background-color: #e03333;
+  border-radius: 1em;
+  border-color: #e14a4a;
+  border-width:5px;
+  border-style: solid;
+  text-decoration: none;
+  font-family: 'TsukuBRdGothic-Regular','Tsukushi B Round Gothic';
+  font-size: 16px;
+}
+
+#reset:hover{
+  background-color: #b11a1a;
+}
+
+#reset:active {
+  background-color: #e03333;
+}
+
+#submit-gc{
+  display: inline-block;
+  padding: 0.1em 1.6em 0.1em 1.6em;
+  color: #FFF;
+  background-color: #f5af18;
+  border-radius: 0.75em;
+  border-color: #ca8147;
+  border-width:5px;
+  border-style: solid;
+  text-decoration: none;
+  font-family: 'TsukuBRdGothic-Regular','Tsukushi B Round Gothic';
+  font-size: 22px;
+}
+
+#submit-gc:hover{
+  background-color: #eb8e1f;
+}
+
+#reset-gc{
+  display: inline-block;
+  padding: 0.1em 2em 0.1em 2em;
+  color: #FFF;
+  background-color: #e03333;
+  border-radius: 0.75em;
+  border-color: #e14a4a;
+  border-width:5px;
+  border-style: solid;
+  text-decoration: none;
+  font-family: 'TsukuBRdGothic-Regular','Tsukushi B Round Gothic';
+  font-size: 22px;
+}
+
+#reset-gc:hover{
+  background-color: #b11a1a;
+}
+
+.link-sample{
+  font-family: 'Avenir Book';
+  color:blue;
+  font-size: 16px;
+}
+
+.link-sample-gameconsole{
+  font-family: 'Avenir-Medium';
+  color:blue;
+  font-size: 20px;
+}
+
+.textfieldlabel {
+
+  margin-top: 2em;
+  margin-right: 2em;
+  display:block;
+  font-family: 'Avenir Book';
+}
+#textfieldlabel-16px{
+  float:left;
+  font-size: 16px;
+}
+#textfieldlabel-20px{
+  float:left;
+  font-size: 20px;
+}
+#input-mobile{
+  margin-left:-2.4em;
+  margin-top:2em;
+  width: 25%;
+  height: 16px;
+
+}
+#input-gameconsole{
+  margin-top:2em;
+  width:25%;
+  height:20px;
+  margin-left: -3em;
+  float:left;
+}
+
+.textfield-info{
+  font-family: 'Avenir Book';
+  margin-top:5em;
+  margin-right:2em;
+  font-size: 20px;
+}
+
+
+
+/* 
+  TEXT ELEMENTS -------------------
+*/
+
+.pageheading{
+  margin-top: 2em;
+}
+
+.pageheading p {
+  font-family:'Avenir-Heavy';
+  font-size: 36px;
+  display:inline-block;
+  margin-right: 1em;
+  
+}
+#pageheading-36px{
+  font-size: 36px;
+  background-color: #FFC287;
+  color:white;
+  padding: 0.25em 1em 0.25em 1em;
+  width: 20%;
+  
+}
+#pageheading-25px{
+  font-size: 25px;
+  background-color: #FFC287;
+  color:white;
+  width: 14%;
+  padding: 0.25em 1em 0.25em 1em;
+}
+
+.subpageheading{
+  margin-top: 5em;
+}
+
+.subpageheading p {
+  font-family:'Avenir-Medium';
+  font-size: 28px;
+  display:inline-block;
+  margin-right: 1em;
+}
+#subpageheading-20px{
+  font-size: 20px;
+  background-color: #FFC287;
+  color:white;
+  width: 14.5%;
+  border-radius: 15px;
+  text-align: center;
+  padding: 0.25em 1em 0.25em 1em;
+}
+#subpageheading-28px{
+  font-size: 28px;
+  background-color: #FFC287;
+  color:white;
+  width: 20%;
+  border-radius: 15px;
+  padding: 0.25em 1em 0.25em 1em;
+}
+
+.sectionheading{
+  margin-top: 5em;
+}
+
+.sectionheading p{
+  font-family: 'Avenir-Medium';
+  font-size: 22px;
+  margin-right: 2em;
+}
+
+#sectionheading-22px{
+  display: inline-block;
+  font-family: 'Avenir-Medium';
+  font-size: 22px;
+  margin-top: -0.5em;
+}
+
+.paragraph-sample-smartwatch-smartphone{
+  margin-top: 1em;
+  font-family:'Avenir Light';
+  font-size: 13px;
+}
+
+.paragraph-sample-gameconsole{
+  margin-top: 1em;
+  font-family:'Avenir Light';
+  font-size: 18px;
+}
+
+.bulletedlist-smartwatch-smartphone li{
+  font-family: 'Avenir Light';
+  font-size: 14px;
+}
+
+.bulletedlist-gameconsole li{
+  font-family: 'Avenir Light';
+  font-size: 18px;
+}
+
+.numberedlist-smartwatch-smartphone li{
+  font-family: 'Avenir Light';
+  font-size: 14px;
+}
+
+.numberedlist-gameconsole li{
+  font-family: 'Avenir Light';
+  font-size: 18px;
+}
+
+/* 
+  COMBINED ELEMENTS -------------------
+*/
+
+
+/*Menu Button*/
+.menu-button-up{
+display: inline-block;
+  padding: 0.25em 3em 0.25em 1em;
+  color: #FFF;
+  background-color: #D18334;
+  border-radius: 0.5em;
+  border-color: #DF9C58;
+  border-width:5px;
+  border-style: solid;
+  text-decoration: none;
+  font-family: 'TsukuBRdGothic-Regular','Tsukushi B Round Gothic';
+  font-size: 16px;
+}
+
+.menu-button-up img{
+  margin-left: 0.5em;
+  position: absolute;
+}
+
+.menu-button-up:hover {
+  background-color: #CC6600;
+}
+
+.menu-button-up:active {
+  background-color: #D18334;
+}
+
+.menu-button-down{
+display: inline-block;
+  padding: 0.25em 3em 0.25em 1em;
+  color: #FFF;
+  background-color: #D18334;
+  border-radius: 0.5em;
+  border-color: #DF9C58;
+  border-width:5px;
+  border-style: solid;
+  text-decoration: none;
+  font-family: 'TsukuBRdGothic-Regular','Tsukushi B Round Gothic';
+  font-size: 16px;
+}
+
+.menu-button-down img{
+  margin-left: 0.5em;
+  position: absolute;
+}
+
+.menu-button-down:hover {
+  background-color: #CC6600;
+}
+
+.menu-button-down:active {
+  background-color: #D18334;
+}
+
+.menu-gc button{
+  font-size: 22px;
+}
+
+/*Back and Next Buttons*/
+
+.back-button{
+display: inline-block;
+  padding: 0.1em 0.3em 0.1em 0.3em;
+  color: #FFF;
+  background-color: #D18334;
+  border-radius: 0.5em;
+  border-color: #DF9C58;
+  border-width:3px;
+  border-style: solid;
+  text-decoration: none;
+  font-family: 'TsukuBRdGothic-Regular','Tsukushi B Round Gothic';
+  font-size: 18px;
+}
+
+.back-button:hover{
+  background-color: #CC6600;
+}
+
+.back-button:active{
+  background-color: #D18334;  
+}
+
+.next-button{
+display: inline-block;
+  padding: 0.1em 0.3em 0.1em 0.3em;
+  color: #FFF;
+  background-color: #D18334;
+  border-radius: 0.5em;
+  border-color: #DF9C58;
+  border-width:3px;
+  border-style: solid;
+  text-decoration: none;
+  font-family: 'TsukuBRdGothic-Regular','Tsukushi B Round Gothic';
+  font-size: 18px;
+}
+
+.next-button:hover{
+  background-color: #CC6600;
+}
+
+.next-button:active{
+  background-color: #D18334;  
+}
+
+#back-next-smartphone a{
+  padding: 0.1em 2.5em 0.1em 2.5em;
+}
+
+#back-next-gameconsole a{
+  font-size: 22px;
+  padding: 0.1em 1.8em 0.1em 1.8em;
+}
+
+/*Home page buttons*/
+
+.homepage-buttons a{
+  width:15em;
+  text-align: center;
+  font-family: 'TsukuBRdGothic-Regular','Tsukushi B Round Gothic';
+  display: inline-block;
+  padding: 0.25em 1em 0.25em 1em;
+  color: #FFF;
+  background-color: #D18334;
+  border-radius: 0.25em;
+  border-color: #DF9C58;
+  border-width:5px;
+  border-style: solid;
+  text-decoration: none;
+}
+
+.homepage-buttons a:hover {
+  background-color: #CC6600;
+}
+
+.homepage-buttons a:active {
+  background-color: #D18334;
+}
+
+#homepage-button-smartwatch{
+  font-size: 16px;
+}
+
+#homepage-button-smartphone{
+  font-size: 18px;
+}
+
+#homepage-button-gameconsole{
+  font-size: 20px;
+}
+
+/*Navigation Bar*/
+
+#smartwatch-nav{
+  margin-top: -2em;
+  width:30%;
+}
+
+#smartwatch-nav a{
+  margin-top: 1.5em;
+  font-size: 16px;
+  width:8em;
+  text-align: center;
+  font-family: 'TsukuBRdGothic-Regular','Tsukushi B Round Gothic';
+}
+
+#smartphone-nav{
+  width:50%;
+}
+
+#smartphone-nav a{
+  font-size: 16px;
+  width:8em;
+  padding-top: 0.8em;
+  padding-bottom: 0.8em;
+  padding-left: 5em;
+  padding-right: 5em;
+  text-align: center;
+  border-width: 4px;
+  font-family: 'TsukuBRdGothic-Regular','Tsukushi B Round Gothic';
+}
+
+#gameconsole-nav{
+  width:50%;
+}
+
+#gameconsole-nav a{
+  font-size: 22px;
+  width:8em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-left: 5em;
+  padding-right: 5em;
+  text-align: center;
+  border-width: 4px;
+  font-family: 'TsukuBRdGothic-Regular','Tsukushi B Round Gothic';
+}
+
+/*Product Listing*/
+
+.productlisting{
+  margin-top: 1em;
+}
+
+.productlisting img{
+  margin-bottom: 1.5em;
+}
+
+.productlisting a{
+  margin-top: 10em;
+  margin-left: -9em;
+}
+
+.productlisting p{
+  margin-top: 1em;
+  width:200px;
+}
+
+#productlisting-smartphone .productlisting p{
+  width:350px;
+}
+
+#productlisting-smartphone .productlisting a{
+  margin-left: -22.25em;
+}
+
+#productlisting-gameconsole .productlisting a{
+  font-family: 'Avenir-Medium';
+  margin-left: -25.3em;
+  font-size: 20px;
+}
+
+#productlisting-gameconsole .productlisting p{
+  width: 576px;
+}
+
+/*Grid Structure*/
+
+[class^='grid-col-'] {
+  float: left;
+  padding:0;
+  text-align: center;
+}
+
+.grid-col-1of1, .grid-col-2of10, .grid-col-1of4{
+  width: 100%;
+  background: #D18334;
+  height:3em;
+  margin-right: 0.5em;
+  margin-bottom: 1em;
+}
+
+.grid-row:after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+@media (min-width:17em){
+  .grid-col-1of1 {
+    width: 10%;
+  }
+}
+
+@media (min-width:25em){
+  .grid-col-1of4 {
+    width: 22.5%;
+  }
+}
+
+@media (min-width:45em){
+  .grid-col-2of10 {
+    width: 18.5%;
+  }
+}
