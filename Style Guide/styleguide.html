@@ -8,508 +8,531 @@
 
     <link href="css/main.css" rel="stylesheet">
     <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/format.css" rel="stylesheet">
+    <link href="css/grid.css" rel="stylesheet">
 
   </head>
 
   <body>
+    <section id="header"> <!--styleguidetitle-->
+        <h1 id="styleguidetitle">The Friental Company Style Guide</h1>
+        <div class="url-links">
+        <a href="http://www.sfu.ca/~kcngo/iat339/P1/week5/ThomasNgo_Style%20Guide/styleguide.html">Style Guide</a>
+        <a href="http://www.sfu.ca/~kcngo/iat339/P1/week5/ThomasNgo_Project%201/#g=1&p=smartwatch_wireframes_-_home_page">Wireframes</a>
+        <a href="http://www.sfu.ca/~kcngo/iat339/P1/week5/ThomasNgo_citations.html">Citations</a>
+        </div>
+    </section>
 
-    <h1 id="styleguidetitle">The Friental Company Style Guide</h1>
-    <div class="url-links">
-    <a href="http://www.sfu.ca/~kcngo/iat339/P1/week5/ThomasNgo_Style%20Guide/styleguide.html">Style Guide</a>
-    <a href="http://www.sfu.ca/~kcngo/iat339/P1/week5/ThomasNgo_Project%201/#g=1&p=smartwatch_wireframes_-_home_page">Wireframes</a>
-    <a href="http://www.sfu.ca/~kcngo/iat339/P1/week5/ThomasNgo_citations.html">Citations</a>
-    </div>
-
-    <nav>
-      
-      <p>
-        Table of Contents:
-        <a href="#interactive_elements">Interactive Elements</a>,
-        <a href="#text_elements">Text Elements</a>,
-        <a href="#combined_elements">Combined Elements</a>,
-      </p>
-
+    <nav id="side-nav-bar" >
+      <h2>Table of Contents:</h2>
+      <ul>
+        <li class="side-button">
+            <ul><p>Interactive Elements</p>
+                <li><a href="#nav-button">Navigation Button</a></li>
+                <li><a href="#in-text-link">In-text Link</a></li>
+                <li><a href="#submit-button">Submit/Reset Buttons</a></li>
+                <li><a href="#input-fields">Text Input Field and Label</a></li>
+            </ul>
+        </li>
+        <li class="side-button">
+            <ul><p>Text Elements</p>
+                <li><a href="#heading-sect">Headings</a></li>
+                <li><a href="#para-sect">Paragraphs</a></li>
+                <li><a href="#bull-list">Bullet Lists</a></li>
+                <li><a href="#num-list">Numbered Lists</a></li>
+            </ul>
+        </li>
+        <li class="side-button">
+            <ul><p>Combined Elements</p>
+                <li><a href="#main-nav-sect">Main Navigation</a></li>
+                <li><a href="#prod-sect">Product Listing</a></li>
+                <li><a href="#grid-sect">Grid Structure</a></li>
+            </ul>
+        </li>
+      </ul>
     </nav>
 
     <!-- INTERACTIVE ELEMENTS SECTION // -->
-    <section id="interactive_elements">
+    <section id="content">
+        <section id="interactive_elements">
 
-      <!-- Default Button styling section -->
-      <section>
+          <!-- Default Button styling section -->
+          <section id="nav-button">
 
-        <h2>Navigation Button</h2>
+            <h2>Navigation Button</h2>
 
-        <p> Font for navigation button in smartwatch is 16px. Font for navigation button in smartphone and game console is 22px.</p>
+            <p> Font for navigation button in smartwatch is 16px. Font for navigation button in smartphone and game console is 22px.</p>
 
-        <h3>CSS selector:</h3>
-        <p>.button-nav</p>
+            <h3>CSS selector:</h3>
+            <p>.button-nav</p>
 
-        <h3>Sample code:</h3>
-        <code>&lt;a href="#" class="button-nav"&gt;Default Button&lt;/a&gt;</code>
+            <h3>Sample code:</h3>
+            <code>&lt;a href="#" class="button-nav"&gt;Default Button&lt;/a&gt;</code>
 
-        <h3>Colors:</h3>
-        <p>Border: <img src="img/bordercolor-nav.jpg" alt="bordercolorfornav" width="100" height="20"></p>
-        <p>Background: <img src="img/backgroundcolor-nav.jpg" alt="backgroundcolorfornav" width="100" height="20"></p>
-        <p>Font: <img src="img/fontcolor.jpg" alt="fontcolorfornav" width="100" height="20"></p>
-        <p>Hover: <img src="img/hovercolor-nav.jpg" alt="hovercolorfornav" width="100" height="20"></p>
-        <p>Active: <img src="img/backgroundcolor-nav.jpg" alt="activecolorfornav" width="100" height="20"></p>
-        <h3>Rendered element for Smartwatch:</h3>
-        <a class="button-nav" href="">Default Button</a>
+            <h3>Colors:</h3>
+            <p>Border: <img src="img/bordercolor-nav.jpg" alt="bordercolorfornav" width="100" height="20"></p>
+            <p>Background: <img src="img/backgroundcolor-nav.jpg" alt="backgroundcolorfornav" width="100" height="20"></p>
+            <p>Font: <img src="img/fontcolor.jpg" alt="fontcolorfornav" width="100" height="20"></p>
+            <p>Hover: <img src="img/hovercolor-nav.jpg" alt="hovercolorfornav" width="100" height="20"></p>
+            <p>Active: <img src="img/backgroundcolor-nav.jpg" alt="activecolorfornav" width="100" height="20"></p>
+            <h3>Rendered element for Smartwatch:</h3>
+            <a class="button-nav" href="">Default Button</a>
 
-        <h3>Rendered element for Smartphone and Game Console:</h3>
-        <a class="button-nav-sp-gc" href="">Default Button</a>
+            <h3>Rendered element for Smartphone and Game Console:</h3>
+            <a class="button-nav-sp-gc" href="">Default Button</a>
 
-      </section>
+          </section>
 
-      <section>
-        <h2>In-text link</h2>
+          <section id="in-text-link">
+            <h2>In-text link</h2>
 
-        <p> In-text link is in Avenir Book font and 16px for smartwatch and smartphone. Avenir Medium and 20px for game console. </p>
-        
-        <h3>CSS selector:</h3>
-        <p>.link</p>
+            <p> In-text link is in Avenir Book font and 16px for smartwatch and smartphone. Avenir Medium and 20px for game console. </p>
+            
+            <h3>CSS selector:</h3>
+            <p>.link</p>
 
-        <h3>Sample code:</h3>
-        <code>&lt;a class="link" href=""&gt;Sample Link&lt;/a&gt;</code>
-        
-        <h3>Rendered element for smartwatch and smartphone:</h3>
-        <a class="link-sample" href="">Sample Link</a>
+            <h3>Sample code:</h3>
+            <code>&lt;a class="link" href=""&gt;Sample Link&lt;/a&gt;</code>
+            
+            <h3>Rendered element for smartwatch and smartphone:</h3>
+            <a class="link-sample" href="">Sample Link</a>
 
-        <h3>Rendered element for game console:</h3>
-        <a class="link-sample-gameconsole" href="">Sample Link</a>
+            <h3>Rendered element for game console:</h3>
+            <a class="link-sample-gameconsole" href="">Sample Link</a>
 
-      </section>
+          </section>
 
-      <section>
-        <h2>Submit/Reset Buttons</h2>
+          <section id="submit-button">
+            <h2>Submit/Reset Buttons</h2>
 
-        <p> Font for submit and reset buttons in smartwatch is 16px. Font for submit and reset buttons in smartphone and game console is 22px.</p>
+            <p> Font for submit and reset buttons in smartwatch is 16px. Font for submit and reset buttons in smartphone and game console is 22px.</p>
 
-        <h3>CSS selectors:</h3>
-        <p>#submit</p>
-        <p>#reset</p>
+            <h3>CSS selectors:</h3>
+            <p>#submit</p>
+            <p>#reset</p>
 
-        <h3>Colors:</h3>
-        <p>Border: <img src="img/submit-border.jpg" alt="bordercolorforsubmit" width="100" height="20"> <img src="img/reset-border.jpg" alt="bordercolorforreset" width="100" height="20"></p>
-        <p>Background: <img src="img/submit-background.jpg" alt="backgroundcolorforsubmit" width="100" height="20">
-          <img src="img/reset-background.jpg" alt="backgroundcolorforreset" width="100" height="20"></p>
-        <p>Font: <img src="img/fontcolor.jpg" alt="fontcolorforsubmit" width="100" height="20">
-          <img src="img/fontcolor.jpg" alt="fontcolorforreset" width="100" height="20"></p>
-        <p>Hover: <img src="img/submit-hover.jpg" alt="hovercolorforsubmit" width="100" height="20">
-          <img src="img/reset-hover.jpg" alt="hovercolorforreset" width="100" height="20"></p>
-        <p>Active: <img src="img/submit-background.jpg" alt="activecolorforsubmit" width="100" height="20">
-          <img src="img/reset-background.jpg" alt="activecolorforreset" width="100" height="20"></p>
+            <h3>Colors:</h3>
+            <p>Border: <img src="img/submit-border.jpg" alt="bordercolorforsubmit" width="100" height="20"> <img src="img/reset-border.jpg" alt="bordercolorforreset" width="100" height="20"></p>
+            <p>Background: <img src="img/submit-background.jpg" alt="backgroundcolorforsubmit" width="100" height="20">
+              <img src="img/reset-background.jpg" alt="backgroundcolorforreset" width="100" height="20"></p>
+            <p>Font: <img src="img/fontcolor.jpg" alt="fontcolorforsubmit" width="100" height="20">
+              <img src="img/fontcolor.jpg" alt="fontcolorforreset" width="100" height="20"></p>
+            <p>Hover: <img src="img/submit-hover.jpg" alt="hovercolorforsubmit" width="100" height="20">
+              <img src="img/reset-hover.jpg" alt="hovercolorforreset" width="100" height="20"></p>
+            <p>Active: <img src="img/submit-background.jpg" alt="activecolorforsubmit" width="100" height="20">
+              <img src="img/reset-background.jpg" alt="activecolorforreset" width="100" height="20"></p>
 
-        <h3>Sample code:</h3>
-        <code>&lt;a id="submit" href=""&gt;Submit&lt;/a&gt;</code>
-        <code>&lt;button type="button" id="reset"&gt;Reset&lt;/button&gt;</code>
+            <h3>Sample code:</h3>
+            <code>&lt;a id="submit" href=""&gt;Submit&lt;/a&gt;</code>
+            <code>&lt;button type="button" id="reset"&gt;Reset&lt;/button&gt;</code>
 
-        <h3>Rendered element for smartwatch and smartphone:</h3>
-        <a id="submit" href="">Submit</a>
-        <button type="button" id="reset">Reset</button>
-        <h3>Rendered element for game console:</h3>
-        <a id="submit-gc" href="">Submit</a>
-        <button type="button" id="reset-gc">Reset</button>
+            <h3>Rendered element for smartwatch and smartphone:</h3>
+            <a id="submit" href="">Submit</a>
+            <button type="button" id="reset">Reset</button>
+            <h3>Rendered element for game console:</h3>
+            <a id="submit-gc" href="">Submit</a>
+            <button type="button" id="reset-gc">Reset</button>
 
-      </section>
+          </section>
 
-      <section>
-        <h2>Text Input Field and Label</h2>
+          <section id="input-fields">
+            <h2>Text Input Field and Label</h2>
 
-        <h3>CSS selectors:</h3>
-        <p>.label</p>
-        <p>.inputfield</p>
+            <h3>CSS selectors:</h3>
+            <p>.label</p>
+            <p>.inputfield</p>
 
-        <h3>Sample Code:</h3>
-        <code>&lt;label class="label"&gt;Default Label&lt;/label&gt;</code>
-        <code>&lt;input type="text" class="inputfield" name="lastname"&gt;</code>
+            <h3>Sample Code:</h3>
+            <code>&lt;label class="label"&gt;Default Label&lt;/label&gt;</code>
+            <code>&lt;input type="text" class="inputfield" name="lastname"&gt;</code>
 
-        
-        <div class="textfieldlabel">
-        <p> Labels are in Avenir Book font. 16px for smartwatch and smartphone, and 20px for game console. </p>
-        <h3>Rendered element for Smartwatch and Smartphone:</h3>
-        <label id="textfieldlabel-16px">Label</label>
-        <input type="text" id="input-mobile" name="input-mobile">
+            
+            <div class="textfieldlabel">
+            <p> Labels are in Avenir Book font. 16px for smartwatch and smartphone, and 20px for game console. </p>
+            <h3>Rendered element for Smartwatch and Smartphone:</h3>
+            <label id="textfieldlabel-16px">Label</label>
+            <input type="text" id="input-mobile" name="input-mobile">
 
-        <h3 id="rendered-element-title">Rendered element for Game Console:</h3>
-        <label id="textfieldlabel-20px">Label</label>
-        <input type="text" id="input-gameconsole" name="input-gameconsole">
-        </div>
+            <h3 id="rendered-element-title">Rendered element for Game Console:</h3>
+            <label id="textfieldlabel-20px">Label</label>
+            <input type="text" id="input-gameconsole" name="input-gameconsole">
+            </div>
 
-        <div class="textfield-info">
-          <p>16px/20px</p>
-          <p>Book</p>
-        </div>
+            <div class="textfield-info">
+              <p>16px/20px</p>
+              <p>Book</p>
+            </div>
 
-      </section>
+          </section>
 
+        </section>
+        <!-- // INTERACTIVE ELEMENTS SECTION -->
+
+
+
+        <!-- TEXT ELEMENTS SECTION // -->
+        <section id="text_elements">
+
+          <section id="heading-sect" class="headings">
+            <h2>Headings</h2>
+
+            <p>The font for the headings is Avenir. The thickness of the font represents
+              the hierarchy of the overall structure of the website.</p>
+
+            <h3>CSS selectors:</h3>
+            <p>.pageheading</p>
+            <p>.subpageheading</p>
+            <p>.sectionheading</p>
+
+            <h3>Colors:</h3>
+            <p>Background: <img src="img/header-background.jpg" alt="backgroundcolorforheading" width="100" height="20"></p>
+            <p>Font: <img src="img/fontcolor.jpg" alt="fontcolorforheading" width="100" height="20"></p>
+            
+            <div class="pageheading">
+            <h3>Sample code for Page Heading:</h3>
+            <code>&lt;h1&gt;Page Heading&lt;/h1&gt;</code>
+            <h3>Rendered Element for Smartwatch and Smartphone:</h3>
+            <h1 id="pageheading-25px">Page Heading</h1>
+            <h3>Rendered Element for Game Console:</h3>
+            <h1 id="pageheading-36px">Page Heading</h1>
+            <p>25px/36px</p>
+            <p>Heavy</p>
+            </div>
+
+            
+            <div class="subpageheading">
+            <h3>Sample code for Subpage Heading:</h3>
+            <code>&lt;h2&gt;Subpage Heading&lt;/h2&gt;</code>
+            <h3>Rendered Element for Smartwatch and Smartphone:</h3>
+            <h2 id="subpageheading-20px">Subpage Heading</h2>
+            <h3>Rendered Element for Game Console:</h3>
+            <h2 id="subpageheading-28px">Subpage Heading</h2>
+            <p>20px/28px</p>
+            <p>Medium</p>
+            </div>
+
+            <div class="sectionheading">
+            <h3>Sample code for Section Heading:</h3>
+            <code>&lt;h3&gt;Section Heading&lt;/h3&gt;</code>
+            <h3>Rendered Element:</h3>
+            <h3 id="sectionheading-22px">Section Heading</h3>
+            <p>22px</p>
+            <p>Medium</p>
+            </div>
+
+          </section>
+
+          <section id="para-sect" class="paragraphs">
+            <h2>Paragraphs</h2>
+
+            <p> Font is Avenir Light. Default size for body text on smartwatch and smartphone is 13px. Default size for body text on game console is 18px.</p>
+
+            <h3>CSS selector:</h3>
+            <p>.paragraph</p>
+
+            <h3>Sample code for Paragraphs:</h3>
+            <code>&lt;p class="paragraph"&gt;Lorem ipsum dolor sit amet.&lt;/p&gt;</code>
+
+            <h3>Sample Paragraph for Smartwatch and Smartphone:</h3>
+
+            <p class="paragraph-sample-smartwatch-smartphone">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.</p>
+
+            <h3>Sample Paragraph for Game Console:</h3>
+
+            <p class="paragraph-sample-gameconsole">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.</p>
+
+          </section>
+
+          <section id="bull-list" class="bulletedlists">
+            <h2>Bulleted Lists</h2>
+
+            <p> Items in bulleted lists for smartwatch and smartphone are 14px. Items in bulleted lists for game console are 18px. </p>
+
+            <h3>CSS selector:</h3>
+            <p>.bulleted-list</p>
+
+            <h3>Sample code for Bulleted List:</h3>
+            <code id="bulletedlist-code">
+              &lt;ul class="bulleted-list"&gt;
+                &lt;li&gt;Rule 1&lt;/li&gt;
+                &lt;li&gt;Rule 2&lt;/li&gt;
+                &lt;li&gt;Rule 3&lt;/li&gt;
+              &lt;/ul&gt;
+            </code>
+
+            <h3> Sample Bulleted List for Smartwatch and Smartphone:</h3>
+            <ul class="bulletedlist-smartwatch-smartphone">
+              <li>Rule 1</li>
+              <li>Rule 2</li>
+              <li>Rule 3</li>
+            </ul>
+
+            <h3> Sample Bulleted List for Game Console:</h3>
+            <ul class="bulletedlist-gameconsole">
+              <li>Rule 1</li>
+              <li>Rule 2</li>
+              <li>Rule 3</li>
+            </ul> 
+
+          </section>
+
+          <section id="num-list" class="numberedlists">
+            <h2>Numbered Lists</h2>
+
+            <p> Items in bulleted lists for smartwatch and smartphone are 14px. Items in bulleted lists for game console are 18px. </p>
+
+            <h3>CSS selector:</h3>
+            <p>.numbered-list</p>
+
+            <h3>Sample code for Numbered List:</h3>
+            <code>
+              &lt;ul class="numbered-list"&gt;
+                &lt;li&gt;Item A&lt;/li&gt;
+                &lt;li&gt;Item B&lt;/li&gt;
+                &lt;li&gt;Item C&lt;/li&gt;
+              &lt;/ul&gt;
+            </code>
+
+            <h3> Sample Numbered List for Smartwatch and Smartphone:</h3>
+            <ol class="numberedlist-smartwatch-smartphone">
+              <li>Item A</li>
+              <li>Item B</li>
+              <li>Item C</li>
+            </ol>
+
+            <h3> Sample Numbered List for Game Console:</h3>
+            <ol class="numberedlist-gameconsole">
+              <li>Item A</li>
+              <li>Item B</li>
+              <li>Item C</li>
+            </ol>
+
+          </section>
+
+        </section>
+        <!-- // TEXT ELEMENTS SECTION -->
+
+
+
+        <!-- COMBINED ELEMENTS SECTION // -->
+        <section id="combined_elements">
+
+          <section id="main-nav-sect">
+            <h2>Main Navigation</h2>
+
+            <h3>Colors:</h3>
+            <p>Border: <img src="img/bordercolor-nav.jpg" alt="bordercolorformainnav" width="100" height="20"></p>
+            <p>Background: <img src="img/backgroundcolor-nav.jpg" alt="backgroundcolorformainnav" width="100" height="20"></p>
+            <p>Font: <img src="img/fontcolor.jpg" alt="fontcolorformainnav" width="100" height="20"></p>
+            <p>Hover: <img src="img/hovercolor-nav.jpg" alt="hovercolorformainnav" width="100" height="20"></p>
+            <p>Active: <img src="img/backgroundcolor-nav.jpg" alt="activecolorformainnav" width="100" height="20"></p>
+            
+            <h3>Menu Button</h3>
+            <h4>CSS selector:</h4>
+            <p>.menu-button-up</p>
+            <p>.menu-button-down</p>
+
+            <h4>Sample code for Menu button</h4>
+            <code>&lt;button type="button" class="menu-button"&gt;Menu&lt;img src="img/up.png" width="25" height="25"&gt;&lt;/button&gt;</code>
+
+            <h4>Rendered Element for Smartphone:</h4>
+            <button type="button" class="menu-button-up">Menu<img src="img/up.png" alt="uparrow" width="25" height="25"></button>
+
+            <button type="button" class="menu-button-down">Menu<img src="img/down.png" alt="downarrow" width="25" height="25"></button>
+
+            <h4>Rendered Element for Game Console:</h4>
+            <div class="menu-gc">
+            <button type="button" class="menu-button-up">Menu<img src="img/up.png" alt="uparrow" width="30" height="30"></button>
+
+            <button type="button" class="menu-button-down">Menu<img src="img/down.png" alt="downarrow" width="30" height="30"></button>
+            </div>
+
+            <h3>Back and Next Buttons</h3>
+
+            <p> Font for back and next buttons in smartwatch is 16px. Font for back and next buttons in smartphone and game console is 22px.</p>
+
+            <h4>CSS selector:</h4>
+            <p>.back-button</p>
+            <p>.next-button</p>
+
+            <h4>Sample code for Back button</h4>
+            <code>&lt;a class="back-button" href=""&gt;BACK&lt;/a&gt;</code>
+            <h4>Sample code for Next button</h4>
+            <code>&lt;a class="next-button" href=""&gt;NEXT&lt;/a&gt;</code>
+
+            <h4>Rendered Element for Smartwatch:</h4>
+            <a class="back-button" href="">BACK</a>
+            <a class="next-button" href="">NEXT</a>
+
+            <h4>Rendered Element for Smartphone:</h4>
+            <div id="back-next-smartphone">
+            <a class="back-button" href="">BACK</a>
+            <a class="next-button" href="">NEXT</a>
+            </div>
+
+            <h4>Rendered Element for Game Console:</h4>
+            <div id="back-next-gameconsole">
+            <a class="back-button" href="">BACK</a>
+            <a class="next-button" href="">NEXT</a>
+            </div>
+
+            <h3>Return to Home Page Button</h3>
+
+            <h4>CSS selector:</h4>
+            <p>.homepage-button</p>
+
+            <div class="homepage-buttons">
+            <h4>Sample code for Return To Home Page button</h4>
+            <code>&lt;a class="homepage-button" href=""&gt;Return To Home Page&lt;/a&gt;</code>
+
+            <h4>Rendered Element for Smartwatch:</h4>
+            <a id="homepage-button-smartwatch" href="">Return To Home Page</a>
+
+            <h4>Rendered Element for Smartphone:</h4>
+            <a id="homepage-button-smartphone" href="">Return To Home Page</a>
+
+            <h4>Rendered Element for Game Console:</h4>
+            <a id="homepage-button-gameconsole" href="">Return To Home Page</a>
+            </div>
+
+            <h3>Navigation Bar</h3>
+
+            <h4>CSS selector:</h4>
+            <p>.nav-bar</p>
+
+            <h4>Sample code for navigation bar</h4>
+            <code>&lt;div class="nav-bar"&gt;
+            &lt;a class="button-nav" href="">About Us&lt;/a&gt;
+            &lt;a class="button-nav" href="">Calendar&lt;/a&gt;
+            &lt;a class="button-nav" href="">Default Button&lt;/a&gt;
+            &lt;a class="button-nav" href="">Default Button&lt;/a&gt;
+            &lt;a class="button-nav" href="">Default Button&lt;/a&gt;
+            &lt;/div&gt;
+            </code>
+
+            <h4>Rendered Element for Smartwatch:</h4>
+
+            <div id="smartwatch-nav">
+            <a class="button-nav" href="">About Us</a>
+            <a class="button-nav" href="">Calendar</a>
+            <a class="button-nav" href="">Rent A Friend</a>
+            <a class="button-nav" href="">Service Catalog</a>
+            <a class="button-nav" href="">Apply For Job</a>
+            </div>
+
+            <h4>Rendered Element for Smartphone:</h4>
+            <button type="button" class="menu-button-down">Menu<img src="img/down.png" alt="downarrow" width="25" height="25"></button>
+            <div id="smartphone-nav">
+            <a class="button-nav" href="">About Us</a>
+            <a class="button-nav" href="">Calendar</a>
+            <a class="button-nav" href="">Rent A Friend</a>
+            <a class="button-nav" href="">Service Catalog</a>
+            <a class="button-nav" href="">Apply For Job</a>
+            </div>
+
+            <h4>Rendered Element for Game Console:</h4>
+
+            <div class="menu-gc">
+            <button type="button" class="menu-button-down">Menu<img src="img/down.png" alt="downarrow" width="30" height="30"></button>
+            </div>
+            <div id="gameconsole-nav">
+            <a class="button-nav" href="">About Us</a>
+            <a class="button-nav" href="">Calendar</a>
+            <a class="button-nav" href="">Rent A Friend</a>
+            <a class="button-nav" href="">Service Catalog</a>
+            <a class="button-nav" href="">Apply For Job</a>
+            </div>
+
+          </section>
+
+          <section id="prod-sect">
+            <h2>Product Listing</h2>
+
+            <h3>CSS Selector:</h3>
+            <p>.productlisting</p>
+
+            <h3>Sample code for product listing</h3>
+            <code>&lt;div class="productlisting"&gt;
+              &lt;a class="link" href=""&gt;Picnic Lunch&lt;/a&gt;
+              &lt;img src="img/picnic.jpg" width="200" height="130"&gt;
+              &lt;p class="paragraph"&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.&lt;/p&gt;
+            &lt;/div&gt;
+          </code>
+
+            <h3>Rendered element for smartwatch:</h3>
+            <div class="productlisting">
+              <img src="img/picnic.jpg" alt="picnic" width="200" height="130">
+              <a class="link-sample" href="">Picnic Lunch</a>
+              <p class="paragraph-sample-smartwatch-smartphone">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.</p>
+            </div>
+
+            <h3>Rendered element for smartphone:</h3>
+            <div id="productlisting-smartphone">
+            <div class="productlisting">
+              <img src="img/picnic.jpg" alt="picnic" width="350" height="210">
+              <a class="link-sample" href="">Picnic Lunch</a>
+              <p class="paragraph-sample-smartwatch-smartphone">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.</p>
+            </div>
+            </div>
+
+            <h3>Rendered element for game console:</h3>
+            <div id="productlisting-gameconsole">
+            <div class="productlisting">
+              <img src="img/picnic.jpg" alt="picnic" width="500" height="280">
+              <a class="link-sample" href="">Picnic Lunch</a>
+              <p class="paragraph-sample-gameconsole">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.</p>
+            </div>
+            </div>
+
+          </section>
+
+          <section id="grid-sect">
+            <h2>Website Grid Structure</h2>
+
+            <h3>CSS Selector:</h3>
+            <p>.grid-row</p>
+            <p>.grid-col-1of1</p>
+            <p>.grid-col-1of4</p>
+            <p>.grid-col-2of10</p>
+
+            <h3>Sample code for grid</h3>
+            <code>&lt;div class="grid-row"&gt;
+              &lt;div class="grid-col-1of4"&gt;&lt;/div&gt;
+              &lt;div class="grid-col-1of4"&gt;&lt;/div&gt;
+              &lt;div class="grid-col-1of4"&gt;&lt;/div&gt;
+              &lt;div class="grid-col-1of4"&gt;&lt;/div&gt;
+            &lt;/div&gt;
+          </code>
+
+            <h3>Website Grid Structure for Smartwatch</h3>
+
+            <div class="grid-row">
+              <div class="grid-col-1of1"></div>
+            </div>
+
+            <h3>Website Grid Structure for Smartphone</h3>
+
+            <div class="grid-row">
+              <div class="grid-col-1of4"></div>
+              <div class="grid-col-1of4"></div>
+              <div class="grid-col-1of4"></div>
+              <div class="grid-col-1of4"></div>
+            </div>
+
+            <h3>Website Grid Structure for Game Console</h3>
+
+            <div class="grid-row">
+              <div class="grid-col-2of10"></div>
+              <div class="grid-col-2of10"></div>
+              <div class="grid-col-2of10"></div>
+              <div class="grid-col-2of10"></div>
+              <div class="grid-col-2of10"></div>
+            </div>
+
+        </section>
     </section>
-    <!-- // INTERACTIVE ELEMENTS SECTION -->
-
-
-
-    <!-- TEXT ELEMENTS SECTION // -->
-    <section id="text_elements">
-
-      <section class="headings">
-        <h2>Headings</h2>
-
-        <p>The font for the headings is Avenir. The thickness of the font represents
-          the hierarchy of the overall structure of the website.</p>
-
-        <h3>CSS selectors:</h3>
-        <p>.pageheading</p>
-        <p>.subpageheading</p>
-        <p>.sectionheading</p>
-
-        <h3>Colors:</h3>
-        <p>Background: <img src="img/header-background.jpg" alt="backgroundcolorforheading" width="100" height="20"></p>
-        <p>Font: <img src="img/fontcolor.jpg" alt="fontcolorforheading" width="100" height="20"></p>
-        
-        <div class="pageheading">
-        <h3>Sample code for Page Heading:</h3>
-        <code>&lt;h1&gt;Page Heading&lt;/h1&gt;</code>
-        <h3>Rendered Element for Smartwatch and Smartphone:</h3>
-        <h1 id="pageheading-25px">Page Heading</h1>
-        <h3>Rendered Element for Game Console:</h3>
-        <h1 id="pageheading-36px">Page Heading</h1>
-        <p>25px/36px</p>
-        <p>Heavy</p>
-        </div>
-
-        
-        <div class="subpageheading">
-        <h3>Sample code for Subpage Heading:</h3>
-        <code>&lt;h2&gt;Subpage Heading&lt;/h2&gt;</code>
-        <h3>Rendered Element for Smartwatch and Smartphone:</h3>
-        <h2 id="subpageheading-20px">Subpage Heading</h2>
-        <h3>Rendered Element for Game Console:</h3>
-        <h2 id="subpageheading-28px">Subpage Heading</h2>
-        <p>20px/28px</p>
-        <p>Medium</p>
-        </div>
-
-        <div class="sectionheading">
-        <h3>Sample code for Section Heading:</h3>
-        <code>&lt;h3&gt;Section Heading&lt;/h3&gt;</code>
-        <h3>Rendered Element:</h3>
-        <h3 id="sectionheading-22px">Section Heading</h3>
-        <p>22px</p>
-        <p>Medium</p>
-        </div>
-
-      </section>
-
-      <section class="paragraphs">
-        <h2>Paragraphs</h2>
-
-        <p> Font is Avenir Light. Default size for body text on smartwatch and smartphone is 13px. Default size for body text on game console is 18px.</p>
-
-        <h3>CSS selector:</h3>
-        <p>.paragraph</p>
-
-        <h3>Sample code for Paragraphs:</h3>
-        <code>&lt;p class="paragraph"&gt;Lorem ipsum dolor sit amet.&lt;/p&gt;</code>
-
-        <h3>Sample Paragraph for Smartwatch and Smartphone:</h3>
-
-        <p class="paragraph-sample-smartwatch-smartphone">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.</p>
-
-        <h3>Sample Paragraph for Game Console:</h3>
-
-        <p class="paragraph-sample-gameconsole">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.</p>
-
-      </section>
-
-      <section class="bulletedlists">
-        <h2>Bulleted Lists</h2>
-
-        <p> Items in bulleted lists for smartwatch and smartphone are 14px. Items in bulleted lists for game console are 18px. </p>
-
-        <h3>CSS selector:</h3>
-        <p>.bulleted-list</p>
-
-        <h3>Sample code for Bulleted List:</h3>
-        <code id="bulletedlist-code">
-          &lt;ul class="bulleted-list"&gt;
-            &lt;li&gt;Rule 1&lt;/li&gt;
-            &lt;li&gt;Rule 2&lt;/li&gt;
-            &lt;li&gt;Rule 3&lt;/li&gt;
-          &lt;/ul&gt;
-        </code>
-
-        <h3> Sample Bulleted List for Smartwatch and Smartphone:</h3>
-        <ul class="bulletedlist-smartwatch-smartphone">
-          <li>Rule 1</li>
-          <li>Rule 2</li>
-          <li>Rule 3</li>
-        </ul>
-
-        <h3> Sample Bulleted List for Game Console:</h3>
-        <ul class="bulletedlist-gameconsole">
-          <li>Rule 1</li>
-          <li>Rule 2</li>
-          <li>Rule 3</li>
-        </ul> 
-
-      </section>
-
-      <section class="numberedlists">
-        <h2>Numbered Lists</h2>
-
-        <p> Items in bulleted lists for smartwatch and smartphone are 14px. Items in bulleted lists for game console are 18px. </p>
-
-        <h3>CSS selector:</h3>
-        <p>.numbered-list</p>
-
-        <h3>Sample code for Numbered List:</h3>
-        <code>
-          &lt;ul class="numbered-list"&gt;
-            &lt;li&gt;Item A&lt;/li&gt;
-            &lt;li&gt;Item B&lt;/li&gt;
-            &lt;li&gt;Item C&lt;/li&gt;
-          &lt;/ul&gt;
-        </code>
-
-        <h3> Sample Numbered List for Smartwatch and Smartphone:</h3>
-        <ol class="numberedlist-smartwatch-smartphone">
-          <li>Item A</li>
-          <li>Item B</li>
-          <li>Item C</li>
-        </ol>
-
-        <h3> Sample Numbered List for Game Console:</h3>
-        <ol class="numberedlist-gameconsole">
-          <li>Item A</li>
-          <li>Item B</li>
-          <li>Item C</li>
-        </ol>
-
-      </section>
-
+        <!-- // COMBINED ELEMENTS SECTION -->
     </section>
-    <!-- // TEXT ELEMENTS SECTION -->
-
-
-
-    <!-- COMBINED ELEMENTS SECTION // -->
-    <section id="combined_elements">
-
-      <section>
-        <h2>Main Navigation</h2>
-
-        <h3>Colors:</h3>
-        <p>Border: <img src="img/bordercolor-nav.jpg" alt="bordercolorformainnav" width="100" height="20"></p>
-        <p>Background: <img src="img/backgroundcolor-nav.jpg" alt="backgroundcolorformainnav" width="100" height="20"></p>
-        <p>Font: <img src="img/fontcolor.jpg" alt="fontcolorformainnav" width="100" height="20"></p>
-        <p>Hover: <img src="img/hovercolor-nav.jpg" alt="hovercolorformainnav" width="100" height="20"></p>
-        <p>Active: <img src="img/backgroundcolor-nav.jpg" alt="activecolorformainnav" width="100" height="20"></p>
-        
-        <h3>Menu Button</h3>
-        <h4>CSS selector:</h4>
-        <p>.menu-button-up</p>
-        <p>.menu-button-down</p>
-
-        <h4>Sample code for Menu button</h4>
-        <code>&lt;button type="button" class="menu-button"&gt;Menu&lt;img src="img/up.png" width="25" height="25"&gt;&lt;/button&gt;</code>
-
-        <h4>Rendered Element for Smartphone:</h4>
-        <button type="button" class="menu-button-up">Menu<img src="img/up.png" alt="uparrow" width="25" height="25"></button>
-
-        <button type="button" class="menu-button-down">Menu<img src="img/down.png" alt="downarrow" width="25" height="25"></button>
-
-        <h4>Rendered Element for Game Console:</h4>
-        <div class="menu-gc">
-        <button type="button" class="menu-button-up">Menu<img src="img/up.png" alt="uparrow" width="30" height="30"></button>
-
-        <button type="button" class="menu-button-down">Menu<img src="img/down.png" alt="downarrow" width="30" height="30"></button>
-        </div>
-
-        <h3>Back and Next Buttons</h3>
-
-        <p> Font for back and next buttons in smartwatch is 16px. Font for back and next buttons in smartphone and game console is 22px.</p>
-
-        <h4>CSS selector:</h4>
-        <p>.back-button</p>
-        <p>.next-button</p>
-
-        <h4>Sample code for Back button</h4>
-        <code>&lt;a class="back-button" href=""&gt;BACK&lt;/a&gt;</code>
-        <h4>Sample code for Next button</h4>
-        <code>&lt;a class="next-button" href=""&gt;NEXT&lt;/a&gt;</code>
-
-        <h4>Rendered Element for Smartwatch:</h4>
-        <a class="back-button" href="">BACK</a>
-        <a class="next-button" href="">NEXT</a>
-
-        <h4>Rendered Element for Smartphone:</h4>
-        <div id="back-next-smartphone">
-        <a class="back-button" href="">BACK</a>
-        <a class="next-button" href="">NEXT</a>
-        </div>
-
-        <h4>Rendered Element for Game Console:</h4>
-        <div id="back-next-gameconsole">
-        <a class="back-button" href="">BACK</a>
-        <a class="next-button" href="">NEXT</a>
-        </div>
-
-        <h3>Return to Home Page Button</h3>
-
-        <h3>CSS selector:</h3>
-        <p>.homepage-button</p>
-
-        <div class="homepage-buttons">
-        <h4>Sample code for Return To Home Page button</h4>
-        <code>&lt;a class="homepage-button" href=""&gt;Return To Home Page&lt;/a&gt;</code>
-
-        <h4>Rendered Element for Smartwatch:</h4>
-        <a id="homepage-button-smartwatch" href="">Return To Home Page</a>
-
-        <h4>Rendered Element for Smartphone:</h4>
-        <a id="homepage-button-smartphone" href="">Return To Home Page</a>
-
-        <h4>Rendered Element for Game Console:</h4>
-        <a id="homepage-button-gameconsole" href="">Return To Home Page</a>
-        </div>
-
-        <h3>Navigation Bar</h3>
-
-        <h4>CSS selector:</h4>
-        <p>.nav-bar</p>
-
-        <h4>Sample code for navigation bar</h4>
-        <code>&lt;div class="nav-bar"&gt;
-        &lt;a class="button-nav" href="">About Us&lt;/a&gt;
-        &lt;a class="button-nav" href="">Calendar&lt;/a&gt;
-        &lt;a class="button-nav" href="">Default Button&lt;/a&gt;
-        &lt;a class="button-nav" href="">Default Button&lt;/a&gt;
-        &lt;a class="button-nav" href="">Default Button&lt;/a&gt;
-        &lt;/div&gt;
-        </code>
-
-        <h4>Rendered Element for Smartwatch:</h4>
-
-        <div id="smartwatch-nav">
-        <a class="button-nav" href="">About Us</a>
-        <a class="button-nav" href="">Calendar</a>
-        <a class="button-nav" href="">Rent A Friend</a>
-        <a class="button-nav" href="">Service Catalog</a>
-        <a class="button-nav" href="">Apply For Job</a>
-        </div>
-
-        <h4>Rendered Element for Smartphone:</h4>
-        <button type="button" class="menu-button-down">Menu<img src="img/down.png" alt="downarrow" width="25" height="25"></button>
-        <div id="smartphone-nav">
-        <a class="button-nav" href="">About Us</a>
-        <a class="button-nav" href="">Calendar</a>
-        <a class="button-nav" href="">Rent A Friend</a>
-        <a class="button-nav" href="">Service Catalog</a>
-        <a class="button-nav" href="">Apply For Job</a>
-        </div>
-
-        <h4>Rendered Element for Game Console:</h4>
-
-        <div class="menu-gc">
-        <button type="button" class="menu-button-down">Menu<img src="img/down.png" alt="downarrow" width="30" height="30"></button>
-        </div>
-        <div id="gameconsole-nav">
-        <a class="button-nav" href="">About Us</a>
-        <a class="button-nav" href="">Calendar</a>
-        <a class="button-nav" href="">Rent A Friend</a>
-        <a class="button-nav" href="">Service Catalog</a>
-        <a class="button-nav" href="">Apply For Job</a>
-        </div>
-
-      </section>
-
-      <section>
-        <h2>Product Listing</h2>
-
-        <h3>CSS Selector:</h3>
-        <p>.productlisting</p>
-
-        <h3>Sample code for product listing</h3>
-        <code>&lt;div class="productlisting"&gt;
-          &lt;a class="link" href=""&gt;Picnic Lunch&lt;/a&gt;
-          &lt;img src="img/picnic.jpg" width="200" height="130"&gt;
-          &lt;p class="paragraph"&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.&lt;/p&gt;
-        &lt;/div&gt;
-      </code>
-
-        <h3>Rendered element for smartwatch:</h3>
-        <div class="productlisting">
-          <img src="img/picnic.jpg" alt="picnic" width="200" height="130">
-          <a class="link-sample" href="">Picnic Lunch</a>
-          <p class="paragraph-sample-smartwatch-smartphone">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.</p>
-        </div>
-
-        <h3>Rendered element for smartphone:</h3>
-        <div id="productlisting-smartphone">
-        <div class="productlisting">
-          <img src="img/picnic.jpg" alt="picnic" width="350" height="210">
-          <a class="link-sample" href="">Picnic Lunch</a>
-          <p class="paragraph-sample-smartwatch-smartphone">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.</p>
-        </div>
-        </div>
-
-        <h3>Rendered element for game console:</h3>
-        <div id="productlisting-gameconsole">
-        <div class="productlisting">
-          <img src="img/picnic.jpg" alt="picnic" width="500" height="280">
-          <a class="link-sample" href="">Picnic Lunch</a>
-          <p class="paragraph-sample-gameconsole">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.</p>
-        </div>
-        </div>
-
-      </section>
-
-      <section>
-        <h2>Website Grid Structure</h2>
-
-        <h3>CSS Selector:</h3>
-        <p>.grid-row</p>
-        <p>.grid-col-1of1</p>
-        <p>.grid-col-1of4</p>
-        <p>.grid-col-2of10</p>
-
-        <h3>Sample code for grid</h3>
-        <code>&lt;div class="grid-row"&gt;
-          &lt;div class="grid-col-1of4"&gt;&lt;/div&gt;
-          &lt;div class="grid-col-1of4"&gt;&lt;/div&gt;
-          &lt;div class="grid-col-1of4"&gt;&lt;/div&gt;
-          &lt;div class="grid-col-1of4"&gt;&lt;/div&gt;
-        &lt;/div&gt;
-      </code>
-
-        <h3>Website Grid Structure for Smartwatch</h3>
-
-        <div class="grid-row">
-          <div class="grid-col-1of1"></div>
-        </div>
-
-        <h3>Website Grid Structure for Smartphone</h3>
-
-        <div class="grid-row">
-          <div class="grid-col-1of4"></div>
-          <div class="grid-col-1of4"></div>
-          <div class="grid-col-1of4"></div>
-          <div class="grid-col-1of4"></div>
-        </div>
-
-        <h3>Website Grid Structure for Game Console</h3>
-
-        <div class="grid-row">
-          <div class="grid-col-2of10"></div>
-          <div class="grid-col-2of10"></div>
-          <div class="grid-col-2of10"></div>
-          <div class="grid-col-2of10"></div>
-          <div class="grid-col-2of10"></div>
-        </div>
-
-    </section>
-</section>
-    <!-- // COMBINED ELEMENTS SECTION -->
 
 
     
