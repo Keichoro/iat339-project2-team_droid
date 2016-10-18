@@ -3,6 +3,14 @@
   Default styling for the style guide 
 */
 
+.color-box{
+
+  padding:1em;
+  background-color: #D18334;
+  color: white;
+  width: 20%;
+}
+
 #styleguidetitle{
   background-color: #FFC280;
   padding-top: 1em;
