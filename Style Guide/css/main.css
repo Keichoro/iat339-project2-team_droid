@@ -3,16 +3,100 @@
   Default styling for the style guide 
 */
 
+
+/* descriptive colors used to highlight specific colors for each element */
+.descriptive-colors li{
+  list-style:none;
+}
+
 .color-box{
-  padding:1em;
+  padding: 0.5em 1em;
   background-color: #D18334;
   color: white;
   width: 20%;
+  display:inline-block;
+}
+
+.title-box{
+  display: inline-block;
 }
 
 #border-col{
   background-color: #DF9C58;
 }
+
+#back-col{
+  background-color: #D18334;
+}
+
+.font-col{
+  border:1px solid black;
+  background-color:#FFFFFF;
+  color: black;
+}
+
+#hover-col{
+  background-color:#CC6600;
+}
+
+#active-col{
+  background-color:#DF9C58;
+}
+
+#butt-border-col1{
+  background-color:#CA8147;
+}
+
+#butt-border-col2{
+  background-color:#E14A4A;
+}
+
+#butt-back-col1{
+  background-color:#F5AF18;
+}
+
+#butt-back-col2{
+  background-color:#E03333;
+}
+
+#butt-hover-col1{
+  background-color:#EB8E1F;
+}
+
+#butt-hover-col2{
+  background-color:#B11A1A;
+}
+
+#butt-active-col1{
+  background-color:#F5AF18;
+}
+
+#butt-active-col2{
+  background-color:#E03333;
+}
+
+#main-border-col{
+  background-color:#DF9C58;
+}
+
+#main-back-col{
+  background-color:#D18334;
+}
+
+#main-hover-col{
+  background-color:#CC6600;
+}
+
+#main-active-col{
+  background-color:#D18334;
+}
+
+#heading-back-col{
+  background-color:#FFC287;
+}
+
+/* end of descriptive colors section*/
+
 
 #styleguidetitle{
   background-color: #FFC280;
