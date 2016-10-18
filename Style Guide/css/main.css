@@ -4,11 +4,14 @@
 */
 
 .color-box{
-
   padding:1em;
   background-color: #D18334;
   color: white;
   width: 20%;
+}
+
+#border-col{
+  background-color: #DF9C58;
 }
 
 #styleguidetitle{
