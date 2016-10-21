@@ -6,13 +6,13 @@
 
 #content {
   padding-top: 1em;
-  padding-left: 2em;
 }
 
 /* ------ styling the side navigation bar ----- */
 
 #side-nav-bar{
   color: #FFC280;
+  margin-right:2em;
 }
 
 #side-nav-bar ul {

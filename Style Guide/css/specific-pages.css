@@ -1,0 +1,47 @@
+div{
+	border:1px solid black;
+}
+
+
+/* ----FOOTER STYLING----- */
+
+#footer{
+	display: -webkit-flex;
+	display: -ms-flex;	
+	display: flex;
+
+	align-items: center;
+	justify-content: center;
+
+
+
+	border: 1px solid black;
+}
+
+#footer a{
+	text-decoration: none;
+	padding:0;
+	margin: 1em;
+	margin-top: 2em;
+
+}
+
+#footer a:hover{
+	color:#ABABAB;
+}
+
+/** Stacks content when screen is smaller */
+@media (max-width: 30em){
+  #footer{
+  	-webkit-flex-flow: row wrap;
+	-ms-flex-flow: row wrap;
+	flex-flow: row wrap;
+  }
+
+  #footer a{
+  	width: 100%;
+  	text-align:center;
+  	margin:0.5em;
+  }
+}
+/* -----END OF FOOTER STYLING----- */
