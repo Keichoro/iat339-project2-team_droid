@@ -1,5 +1,8 @@
  /*visual formating for navigational for structural elements of style guide */
 
+#header{
+  margin: 0;
+}
 
 #content {
   padding-top: 1em;
