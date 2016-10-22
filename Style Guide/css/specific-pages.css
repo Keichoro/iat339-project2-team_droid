@@ -3,6 +3,76 @@ div{
 }
 
 
+/* ----HEADER STYLING----- */
+#head-nav-main{
+	list-style-type:none;
+	display:block;
+	width:100%;
+	padding:1em;
+	margin:0;
+	background-color: #FFE09D;
+	z-index: 99;
+}
+
+#head-nav-main a{
+	text-decoration:none;
+}
+
+.head-nav-main-link{
+	display:inline;
+	padding:1em 0;
+	background-color: #FFE09D;
+	/*border:1px solid black;*/
+	position:relative;
+}
+
+.head-nav-main-link:hover{
+ 	background: #FFC280;
+}
+
+.head-nav-main-link a{
+	padding:1em;
+	color:white;
+/*	border:1px solid red;*/
+}
+
+.head-nav-sub{
+	display:inline-block;
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	width:100%;
+	background: white;
+	border:1px solid black;
+	z-index:100; /*keeps it just above the head-nav-main*/
+}
+
+.head-nav-sub-link{
+	/*padding-left:0;*/
+	border:1px solid red;
+}
+
+.head-nav-sub a{
+	color:black;
+	/*padding-top:3em;*/
+	border:1px solid black;
+}
+
+.head-nav-sub-link a:hover{
+	color:black;
+}
+.head-nav-sub{
+	display:none;
+}
+
+.head-nav-main-link:hover .head-nav-sub{
+	display:block;
+	position: absolute;
+}
+/* -----END OF HEADER STYLING	----- */
+
+
+
 /* ----FOOTER STYLING----- */
 
 #footer{
@@ -44,4 +114,4 @@ div{
   	margin:0.5em;
   }
 }
-/* -----END OF FOOTER STYLING----- */
+/* -----END OF FOOTER STYLING	----- */
