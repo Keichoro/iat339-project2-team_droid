@@ -40,11 +40,11 @@
 }
 
 #active-col{
-  background-color:#DF9C58;
+  background-color:#B2702C;
 }
 
 #butt-border-col1{
-  background-color:#CA8147;
+  background-color:#A36839;
 }
 
 #butt-border-col2{
@@ -60,7 +60,7 @@
 }
 
 #butt-hover-col1{
-  background-color:#EB8E1F;
+  background-color:#DC7B1A;
 }
 
 #butt-hover-col2{
@@ -68,11 +68,11 @@
 }
 
 #butt-active-col1{
-  background-color:#F5AF18;
+  background-color:#E58811;
 }
 
 #butt-active-col2{
-  background-color:#E03333;
+  background-color:#6E1616;
 }
 
 #main-border-col{
@@ -88,7 +88,7 @@
 }
 
 #main-active-col{
-  background-color:#D18334;
+  background-color:#B2702C;
 }
 
 #heading-back-col{
@@ -185,7 +185,7 @@ section code {
 }
 
 .button-nav:active {
-  background-color: #D18334;
+  background-color:#B2702C;
 }
 
 .button-nav-sp-gc{
@@ -217,9 +217,9 @@ section code {
   display: inline-block;
   padding: 0.25em 1.6em 0.25em 1.6em;
   color: #FFF;
-  background-color: #f5af18;
+  background-color: #F5AF18;
   border-radius: 1em;
-  border-color: #ca8147;
+  border-color: #A36839;
   border-width:5px;
   border-style: solid;
   text-decoration: none;
@@ -230,11 +230,11 @@ section code {
 }
 
 #submit:hover{
-  background-color: #eb8e1f;
+  background-color: #DC7B1A;
 }
 
 #submit:active {
-  background-color: #f5af18;
+  background-color: #F68711;
 }
 
 #reset{
@@ -256,7 +256,7 @@ section code {
 }
 
 #reset:active {
-  background-color: #e03333;
+  background-color: #6E1616;
 }
 
 #submit-gc{
@@ -297,15 +297,14 @@ section code {
 
 .link-sample{
   font-family: 'Avenir Book';
-  color:blue;
+  color:#0360B2;
   font-size: 16px;
 }
 
-.link-sample-gameconsole{
-  font-family: 'Avenir-Medium';
-  color:blue;
-  font-size: 20px;
+.link-sample:visited{
+  color:#6450B2;
 }
+
 
 .textfieldlabel {
 
@@ -356,24 +355,18 @@ section code {
 
 .pageheading p {
   font-family:'Avenir-Heavy';
-  font-size: 36px;
+  font-size: 32px;
   display:inline-block;
   margin-right: 1em;
   
 }
-#pageheading-36px{
-  font-size: 36px;
+
+#pageheading-rendered{
+  font-size: 32px;
+  font-family:'Avenir-Heavy';
   background-color: #FFC287;
   color:white;
-  padding: 0.25em 1em 0.25em 1em;
-  width: 20%;
-  
-}
-#pageheading-25px{
-  font-size: 25px;
-  background-color: #FFC287;
-  color:white;
-  width: 14%;
+  width: 80%;
   padding: 0.25em 1em 0.25em 1em;
 }
 
@@ -383,25 +376,18 @@ section code {
 
 .subpageheading p {
   font-family:'Avenir-Medium';
-  font-size: 28px;
+  font-size: 26px;
   display:inline-block;
   margin-right: 1em;
 }
-#subpageheading-20px{
-  font-size: 20px;
+#subpageheading-rendered{
+  font-size: 26px;
+  font-family:'Avenir-Medium';
   background-color: #FFC287;
   color:white;
-  width: 14.5%;
+  width: 75%;
   border-radius: 15px;
-  text-align: center;
-  padding: 0.25em 1em 0.25em 1em;
-}
-#subpageheading-28px{
-  font-size: 28px;
-  background-color: #FFC287;
-  color:white;
-  width: 20%;
-  border-radius: 15px;
+  text-align: left;
   padding: 0.25em 1em 0.25em 1em;
 }
 
@@ -415,41 +401,25 @@ section code {
   margin-right: 2em;
 }
 
-#sectionheading-22px{
+#sectionheading-rendered{
   display: inline-block;
   font-family: 'Avenir-Medium';
   font-size: 22px;
   margin-top: -0.5em;
 }
 
-.paragraph-sample-smartwatch-smartphone{
-  margin-top: 1em;
-  font-family:'Avenir Light';
-  font-size: 13px;
-}
-
-.paragraph-sample-gameconsole{
+#para-sect p{
   margin-top: 1em;
   font-family:'Avenir Light';
   font-size: 18px;
 }
 
-.bulletedlist-smartwatch-smartphone li{
-  font-family: 'Avenir Light';
-  font-size: 14px;
-}
-
-.bulletedlist-gameconsole li{
+.bulletedlist-rendered li{
   font-family: 'Avenir Light';
   font-size: 18px;
 }
 
-.numberedlist-smartwatch-smartphone li{
-  font-family: 'Avenir Light';
-  font-size: 14px;
-}
-
-.numberedlist-gameconsole li{
+.numberedlist-rendered li{
   font-family: 'Avenir Light';
   font-size: 18px;
 }
@@ -460,9 +430,27 @@ section code {
 
 
 /*Menu Button*/
-.menu-button-up{
-display: inline-block;
-  padding: 0.25em 3em 0.25em 1em;
+
+.menu-rendered{
+  -webkit-transition-property: width; /* Safari */
+    -webkit-transition-duration: 5s; /* Safari */
+    -webkit-transition-delay: 2s; /* Safari */
+    transition-property: width;
+    transition-duration: 5s;
+    transition-delay: 2s;
+}
+
+.menu-rendered button:hover {
+  background-color: #CC6600;
+}
+
+.menu-rendered button:active {
+  background-color: #B2702C;
+}
+
+.menu-rendered button{
+  display: inline-block;
+  padding: 0.4em 2em 0.4em 2em;
   color: #FFF;
   background-color: #D18334;
   border-radius: 0.5em;
@@ -471,58 +459,14 @@ display: inline-block;
   border-style: solid;
   text-decoration: none;
   font-family: 'TsukuBRdGothic-Regular','Tsukushi B Round Gothic';
-  font-size: 16px;
-}
-
-.menu-button-up img{
-  margin-left: 0.5em;
-  position: absolute;
-}
-
-.menu-button-up:hover {
-  background-color: #CC6600;
-}
-
-.menu-button-up:active {
-  background-color: #D18334;
-}
-
-.menu-button-down{
-display: inline-block;
-  padding: 0.25em 3em 0.25em 1em;
-  color: #FFF;
-  background-color: #D18334;
-  border-radius: 0.5em;
-  border-color: #DF9C58;
-  border-width:5px;
-  border-style: solid;
-  text-decoration: none;
-  font-family: 'TsukuBRdGothic-Regular','Tsukushi B Round Gothic';
-  font-size: 16px;
-}
-
-.menu-button-down img{
-  margin-left: 0.5em;
-  position: absolute;
-}
-
-.menu-button-down:hover {
-  background-color: #CC6600;
-}
-
-.menu-button-down:active {
-  background-color: #D18334;
-}
-
-.menu-gc button{
-  font-size: 22px;
+  font-size: 20px;
 }
 
 /*Back and Next Buttons*/
 
 .back-button{
 display: inline-block;
-  padding: 0.1em 0.3em 0.1em 0.3em;
+  padding: 0.25em 1.5em 0.25em 1.5em;
   color: #FFF;
   background-color: #D18334;
   border-radius: 0.5em;
@@ -539,12 +483,12 @@ display: inline-block;
 }
 
 .back-button:active{
-  background-color: #D18334;  
+  background-color:#B2702C;
 }
 
 .next-button{
 display: inline-block;
-  padding: 0.1em 0.3em 0.1em 0.3em;
+  padding: 0.25em 1.5em 0.25em 1.5em;
   color: #FFF;
   background-color: #D18334;
   border-radius: 0.5em;
@@ -561,16 +505,7 @@ display: inline-block;
 }
 
 .next-button:active{
-  background-color: #D18334;  
-}
-
-#back-next-smartphone a{
-  padding: 0.1em 2.5em 0.1em 2.5em;
-}
-
-#back-next-gameconsole a{
-  font-size: 22px;
-  padding: 0.1em 1.8em 0.1em 1.8em;
+  background-color:#B2702C;
 }
 
 /*Home page buttons*/
@@ -588,6 +523,7 @@ display: inline-block;
   border-width:5px;
   border-style: solid;
   text-decoration: none;
+  font-size: 18px;
 }
 
 .homepage-buttons a:hover {
@@ -595,63 +531,26 @@ display: inline-block;
 }
 
 .homepage-buttons a:active {
-  background-color: #D18334;
-}
-
-#homepage-button-smartwatch{
-  font-size: 16px;
-}
-
-#homepage-button-smartphone{
-  font-size: 18px;
-}
-
-#homepage-button-gameconsole{
-  font-size: 20px;
+  background-color:#B2702C;
 }
 
 /*Navigation Bar*/
 
-#smartwatch-nav{
-  margin-top: -2em;
-  width:30%;
+#menu-rendered-active button{
+  background-color:#B2702C;
 }
 
-#smartwatch-nav a{
-  margin-top: 1.5em;
-  font-size: 16px;
-  width:8em;
-  text-align: center;
-  font-family: 'TsukuBRdGothic-Regular','Tsukushi B Round Gothic';
-}
-
-#smartphone-nav{
+#nav-button{
   width:50%;
 }
 
-#smartphone-nav a{
-  font-size: 16px;
-  width:8em;
-  padding-top: 0.8em;
-  padding-bottom: 0.8em;
-  padding-left: 5em;
-  padding-right: 5em;
-  text-align: center;
-  border-width: 4px;
-  font-family: 'TsukuBRdGothic-Regular','Tsukushi B Round Gothic';
-}
-
-#gameconsole-nav{
-  width:50%;
-}
-
-#gameconsole-nav a{
-  font-size: 22px;
+#nav-button a{
+  font-size: 20px;
   width:8em;
   padding-top: 0.5em;
   padding-bottom: 0.5em;
-  padding-left: 5em;
-  padding-right: 5em;
+  padding-left: 7em;
+  padding-right: 7em;
   text-align: center;
   border-width: 4px;
   font-family: 'TsukuBRdGothic-Regular','Tsukushi B Round Gothic';
@@ -669,29 +568,13 @@ display: inline-block;
 
 .productlisting a{
   margin-top: 10em;
-  margin-left: -9em;
+  margin-left: -31.5em;
 }
 
 .productlisting p{
   margin-top: 1em;
   width:200px;
-}
-
-#productlisting-smartphone .productlisting p{
-  width:350px;
-}
-
-#productlisting-smartphone .productlisting a{
-  margin-left: -22.25em;
-}
-
-#productlisting-gameconsole .productlisting a{
-  font-family: 'Avenir-Medium';
-  margin-left: -25.3em;
-  font-size: 20px;
-}
-
-#productlisting-gameconsole .productlisting p{
+  font-size: 18px;
   width: 576px;
 }
 
