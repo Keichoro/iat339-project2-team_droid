@@ -166,7 +166,7 @@ section code {
 /* Styling for the navigation button */
 .button-nav{
   display: inline-block;
-  padding: 0.25em 5em 0.25em 5em;
+  padding: 0.25em 0em 0.25em 0em;
   color: #FFF;
   background-color: #D18334;
   border-radius: 0.25em;
@@ -176,6 +176,7 @@ section code {
   text-decoration: none;
   font-family: 'TsukuBRdGothic-Regular','Tsukushi B Round Gothic';
   font-size: 16px;
+  width: 100%;
 /*  -webkit-transition: background-color 0.5s ease-out;
   transition: background-color 0.5s ease-out;*/
 }
@@ -186,30 +187,6 @@ section code {
 
 .button-nav:active {
   background-color:#B2702C;
-}
-
-.button-nav-sp-gc{
-  display: inline-block;
-  padding: 0.25em 5em 0.25em 5em;
-  color: #FFF;
-  background-color: #D18334;
-  border-radius: 0.25em;
-  border-color: #DF9C58;
-  border-width:5px;
-  border-style: solid;
-  text-decoration: none;
-  font-family: 'TsukuBRdGothic-Regular','Tsukushi B Round Gothic';
-  font-size: 22px;
-/*  -webkit-transition: background-color 0.5s ease-out;
-  transition: background-color 0.5s ease-out;*/
-}
-
-.button-nav-sp-gc:hover {
-  background-color: #CC6600;
-}
-
-.button-nav-sp-gc:active {
-  background-color: #D18334;
 }
 
 
@@ -366,8 +343,8 @@ section code {
   font-family:'Avenir-Heavy';
   background-color: #FFC287;
   color:white;
-  width: 80%;
   padding: 0.25em 1em 0.25em 1em;
+  text-align: left;
 }
 
 .subpageheading{
@@ -586,12 +563,30 @@ display: inline-block;
   text-align: center;
 }
 
-.grid-col-1of1, .grid-col-2of10, .grid-col-1of4{
+.grid-col-1of1, .grid-col-2of10{
   width: 100%;
   background: #D18334;
   height:3em;
-  margin-right: 0.5em;
+  margin-left: 1em;
+  margin-right: 0.7em;
   margin-bottom: 1em;
+}
+
+.grid-col-2of4{
+  width:50%;
+} 
+.grid-col-3of4{
+  width:75%;
+}
+.grid-col-1of4{
+  width:25%;
+}
+.grid-col-4of4{
+  width: 100%;
+}
+
+.grid-row{
+  width: 100%;
 }
 
 .grid-row:after{
@@ -608,7 +603,18 @@ display: inline-block;
 
 @media (min-width:25em){
   .grid-col-1of4 {
-    width: 22.5%;
+    width: 30%;
+  }
+  .grid-col-2of4 {
+    width: 47.5%;
+  }
+
+  .grid-col-3of4{
+    width: 68.8%;
+  }
+
+  .grid-col-4of4{
+    width: 100%;
   }
 }
 
@@ -616,4 +622,25 @@ display: inline-block;
   .grid-col-2of10 {
     width: 18.5%;
   }
+/*  .grid-col-3of4{
+    width: 65%;
+  }*/
 }
+
+@media (min-width: 60em){
+/*  .grid-col-3of4{
+    width: 65%;
+  }*/
+}
+
+@media (min-width: 73em){
+/*    .grid-col-3of4{
+    width: 65%;
+  }*/
+}
+
+/* Rent A Friend Template */
+#rent-a-friend-header{
+  margin-bottom: 1em;
+}
+
