@@ -21,6 +21,10 @@
   display: inline-block;
 }
 
+input[type=checkbox]{
+  height: 50px;
+}
+
 #border-col{
   background-color: #DF9C58;
 }
@@ -581,6 +585,10 @@ display: inline-block;
   float:left;
 }
 
+#button-right-alignment a{
+  float:right;
+}
+
 /*Grid Structure*/
 
 [class^='grid-col-'] {
@@ -630,7 +638,7 @@ display: inline-block;
 
 @media (min-width:25em){
   .grid-col-1of4 {
-    width: 25%;
+    width: 24.5%;
   }
   .grid-col-2of4 {
     width: 49%;
