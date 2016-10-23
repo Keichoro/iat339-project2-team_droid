@@ -555,6 +555,12 @@ display: inline-block;
   width: 576px;
 }
 
+/* Rent A Friend Template */
+
+#rental-friend-options{
+  width:90%;
+}
+
 /*Grid Structure*/
 
 [class^='grid-col-'] {
@@ -587,6 +593,7 @@ display: inline-block;
 
 .grid-row{
   width: 100%;
+  margin-bottom: 0.5em;
 }
 
 .grid-row:after{
@@ -603,18 +610,22 @@ display: inline-block;
 
 @media (min-width:25em){
   .grid-col-1of4 {
-    width: 30%;
+    width: 25%;
   }
   .grid-col-2of4 {
-    width: 47.5%;
+    width: 48.3%;
   }
 
   .grid-col-3of4{
-    width: 68.8%;
+    width: 73.9%;
   }
 
   .grid-col-4of4{
     width: 100%;
+  }
+
+  #rental-friend-options{
+    width: 75%;
   }
 }
 
@@ -622,25 +633,9 @@ display: inline-block;
   .grid-col-2of10 {
     width: 18.5%;
   }
-/*  .grid-col-3of4{
-    width: 65%;
-  }*/
+
 }
 
-@media (min-width: 60em){
-/*  .grid-col-3of4{
-    width: 65%;
-  }*/
+#search-for-friend{
+  margin-top: 2.5em;
 }
-
-@media (min-width: 73em){
-/*    .grid-col-3of4{
-    width: 65%;
-  }*/
-}
-
-/* Rent A Friend Template */
-#rent-a-friend-header{
-  margin-bottom: 1em;
-}
-
