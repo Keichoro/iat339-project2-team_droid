@@ -290,27 +290,20 @@ section code {
   display:block;
   font-family: 'Avenir Book';
 }
-#textfieldlabel-16px{
+#textfieldlabel{
   float:left;
-  font-size: 16px;
+  font-size: 18px;
 }
 #textfieldlabel-20px{
   float:left;
   font-size: 20px;
 }
-#input-mobile{
+#input{
   margin-left:-2.4em;
   margin-top:2em;
   width: 25%;
-  height: 16px;
+  height: 18px;
 
-}
-#input-gameconsole{
-  margin-top:2em;
-  width:25%;
-  height:20px;
-  margin-left: -3em;
-  float:left;
 }
 
 .textfield-info{
@@ -559,6 +552,32 @@ display: inline-block;
 
 #rental-friend-options{
   width:90%;
+  float:left;
+}
+
+#reasons-for-new-friend-paragraph{
+  text-align: left;
+}
+
+#reasons-input{
+  width: 99%;
+  height: 8em;
+}
+
+#number-text{
+  text-align: left;
+  padding-top: 1.25em;
+  vertical-align: middle;
+}
+
+#number-available-friends{
+  text-align: left;
+  font-size: 20px;
+  padding-top:0.9em;
+  vertical-align: middle;
+}
+
+#button-left-alignment a{
   float:left;
 }
 
