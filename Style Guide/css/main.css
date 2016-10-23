@@ -559,6 +559,7 @@ display: inline-block;
 
 #rental-friend-options{
   width:90%;
+  float:left;
 }
 
 /*Grid Structure*/
@@ -613,7 +614,7 @@ display: inline-block;
     width: 25%;
   }
   .grid-col-2of4 {
-    width: 48.3%;
+    width: 49%;
   }
 
   .grid-col-3of4{
@@ -624,9 +625,6 @@ display: inline-block;
     width: 100%;
   }
 
-  #rental-friend-options{
-    width: 75%;
-  }
 }
 
 @media (min-width:45em){
