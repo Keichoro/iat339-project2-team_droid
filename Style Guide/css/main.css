@@ -3,6 +3,9 @@
   Default styling for the style guide 
 */
 
+* {
+  box-sizing:border-box;
+}
 
 /* descriptive colors used to highlight specific colors for each element */
 .descriptive-colors li{
@@ -626,7 +629,26 @@ display: inline-block;
   margin-top: 1.75em;
 }
 
-#gender-options
+/*#gender-options*/
+
+
+.small-img{
+  display:inline-block;
+  height:10em;
+  border:1px solid blue;
+}
+
+.medium-img{
+  display:inline-block;
+  height:15em;
+  border:1px solid green;
+}
+
+.large-img{
+  display:inline-block;
+  height:20em;
+  border:1px solid red;
+}
 
 /*Grid Structure*/
 
