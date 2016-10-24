@@ -297,17 +297,18 @@ section code {
 #textfieldlabel{
   float:left;
   font-size: 18px;
+  margin-left: 2em;
 }
 #textfieldlabel-20px{
   float:left;
   font-size: 20px;
 }
 #input{
-  margin-left:-2.4em;
+  float: left;
+  margin-left: -5.4em;
   margin-top:2em;
-  width: 25%;
+  width: 75%;
   height: 18px;
-
 }
 
 .textfield-info{
@@ -316,7 +317,6 @@ section code {
   margin-right:2em;
   font-size: 20px;
 }
-
 
 
 /* 
@@ -588,6 +588,45 @@ display: inline-block;
 #button-right-alignment a{
   float:right;
 }
+
+#month{
+  float:left;
+  margin-top: 1.75em;
+  margin-left: -6em;
+}
+
+#day{
+  float:left;
+  margin-top: 1.75em;
+}
+
+#year{
+  float:left;
+  margin-top: 1.75em;
+  margin-left: 1em;
+}
+
+
+#email-input{
+  float: left;
+  margin-top: 1.75em;
+  margin-left: -7em;
+  width: 70%;
+}
+
+#location-input{
+  float: left;
+  margin-top: 1.75em;
+  width: 70%;
+  margin-left: -8.2em;
+}
+
+.single-dropdown{
+  float:left;
+  margin-top: 1.75em;
+}
+
+#gender-options
 
 /*Grid Structure*/
 
