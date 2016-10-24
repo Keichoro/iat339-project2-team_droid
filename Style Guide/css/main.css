@@ -784,6 +784,7 @@ display: inline-block;
 
   .grid-col-3of4{
     width: 73.9%;
+    /*border:1px solid black;*/
   }
 
   .grid-col-4of4{
