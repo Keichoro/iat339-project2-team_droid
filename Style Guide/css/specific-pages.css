@@ -22,7 +22,7 @@ div{
 	display:inline;
 	padding:1em 0;
 	background-color: #FFE09D;
-	/*border:1px solid black;*/
+	/*border:1px solid blue;*/
 	position:relative;
 }
 
@@ -33,7 +33,12 @@ div{
 .head-nav-main-link a{
 	padding:1em;
 	color:white;
-/*	border:1px solid red;*/
+	/*border:1px solid red;*/
+}
+
+#on-this-page{
+	background: #FFC280; /*same as .head-nav-main-link:hover color*/
+	/*border:1px solid black;*/
 }
 
 .head-nav-sub{
