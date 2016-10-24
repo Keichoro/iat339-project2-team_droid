@@ -796,6 +796,31 @@ display: inline-block;
 
 /*Grid Structure*/
 
+#rendered-grid-structure .grid-col-1of4{ 
+  padding: 1em 0em 1em 0em;
+  background-color: orange;
+  margin: 0.1em;
+}
+
+#rendered-grid-structure .grid-col-2of4{
+  padding: 1em 0em 1em 0em;
+  background-color: orange;
+  margin: 0.1em;
+}
+
+#rendered-grid-structure .grid-col-3of4{
+  padding: 1em 0em 1em 0em;
+  background-color: orange;
+  margin: 0.1em;
+}
+
+#rendered-grid-structure .grid-col-4of4{
+  padding: 1em 0em 1em 0em;
+  background-color: orange;
+  margin: 0.1em;
+  width:98.9%;
+}
+
 [class^='grid-col-'] {
   float: left;
   padding:0;
