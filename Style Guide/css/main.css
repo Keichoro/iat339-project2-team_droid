@@ -115,7 +115,7 @@ input[type=checkbox]{
   margin-top:0;
 }
 
-/*.url-links{
+.url-links{
   background-color: #FFE09D;
   padding-left: 2em;
   width:auto;
@@ -131,7 +131,7 @@ input[type=checkbox]{
 
 .url-links a:hover{
   background: #FFC280;
-}*/
+}
 
 body {
   font-family: sans-serif;
@@ -428,13 +428,13 @@ section code {
   COMBINED ELEMENTS -------------------
 */
 
-
 /*Menu Button*/
 
-.menu-rendered{
-  -webkit-transition-property: width; /* Safari */
-    -webkit-transition-duration: 5s; /* Safari */
-    -webkit-transition-delay: 2s; /* Safari */
+/*---- Old Menu Button------*/
+/*.menu-rendered{
+  -webkit-transition-property: width; 
+    -webkit-transition-duration: 5s; 
+    -webkit-transition-delay: 2s; 
     transition-property: width;
     transition-duration: 5s;
     transition-delay: 2s;
@@ -460,6 +460,36 @@ section code {
   text-decoration: none;
   font-family: 'TsukuBRdGothic-Regular','Tsukushi B Round Gothic';
   font-size: 20px;
+}*/
+
+/*---- New Menu Button------*/
+.menu-button{
+  -webkit-transition-property: width; /* Safari */
+    -webkit-transition-duration: 5s; /* Safari */
+    -webkit-transition-delay: 2s; /* Safari */
+    transition-property: width;
+    transition-duration: 5s;
+    transition-delay: 2s;
+
+  display: inline-block;
+  padding: 0.4em 2em 0.4em 2em;
+  color: #FFF;
+  background-color: #D18334;
+  border-radius: 0.5em;
+  border-color: #DF9C58;
+  border-width:5px;
+  border-style: solid;
+  text-decoration: none;
+  font-family: 'TsukuBRdGothic-Regular','Tsukushi B Round Gothic';
+  font-size: 20px;
+}
+
+.menu-button:hover {
+  background-color: #CC6600;
+}
+
+.menu-button:active {
+  background-color: #B2702C;
 }
 
 /*Back and Next Buttons*/
@@ -758,6 +788,7 @@ display: inline-block;
 
   .grid-col-3of4{
     width: 73.9%;
+    /*border:1px solid black;*/
   }
 
   .grid-col-4of4{
