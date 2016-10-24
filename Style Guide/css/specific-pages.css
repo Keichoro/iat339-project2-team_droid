@@ -81,8 +81,6 @@ div{
 }
 /* -----END OF HEADER STYLING	----- */
 
-
-
 /* ----FOOTER STYLING----- */
 
 #footer{
@@ -125,3 +123,15 @@ div{
   }
 }
 /* -----END OF FOOTER STYLING	----- */
+
+
+/* -----Profile.html Styling------*/
+
+.centered-r{
+	text-align:left;
+	padding-left:2em;
+}
+
+.hobbies{
+	list-style-type:none;
+}
