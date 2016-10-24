@@ -115,7 +115,7 @@ input[type=checkbox]{
   margin-top:0;
 }
 
-.url-links{
+/*.url-links{
   background-color: #FFE09D;
   padding-left: 2em;
   width:auto;
@@ -131,7 +131,7 @@ input[type=checkbox]{
 
 .url-links a:hover{
   background: #FFC280;
-}
+}*/
 
 body {
   font-family: sans-serif;
