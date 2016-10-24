@@ -8,7 +8,7 @@ div{
 	list-style-type:none;
 	display:block;
 	width:100%;
-	padding:1em;
+	padding:0 1em;
 	margin:0;
 	background-color: #FFE09D;
 	z-index: 99;
@@ -19,10 +19,11 @@ div{
 }
 
 .head-nav-main-link{
-	display:inline;
-	padding:1em 0;
+	display:inline-block;
+	padding:0;
+	margin:0;
 	background-color: #FFE09D;
-	/*border:1px solid blue;*/
+	border:1px solid blue;
 	position:relative;
 }
 
@@ -31,13 +32,16 @@ div{
 }
 
 .head-nav-main-link a{
-	padding:1em;
+	padding:1em 1em;
 	color:white;
+	display:block;
 	/*border:1px solid red;*/
 }
 
 #on-this-page{
 	background: #FFC280; /*same as .head-nav-main-link:hover color*/
+	/*border:1px solid green;*/
+	margin:0;
 }
 
 .head-nav-sub{
@@ -57,7 +61,9 @@ div{
 .head-nav-sub a{
 	color:#FFE09D;
 	width:100%;
-	/*border:1px solid red;  /* why doesn't Contact <a> extend all the way???!!! */
+	padding:1em;
+	margin:0;
+	/*border:1px solid red;*/
 }
 
 .head-nav-sub-link a:hover{
@@ -65,15 +71,12 @@ div{
 }
 
 .head-nav-main-link:hover .head-nav-sub{
-	display:block;
+	display:inline-block;
 	position:absolute;
 }
 
 .head-nav-sub-link{
-	/*border:1px solid black;*/
 	position:relative;
-	padding:0.5em 0;
-	margin:0.5em 0;
 }
 
 .head-nav-sub-link:hover{
