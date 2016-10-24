@@ -204,6 +204,19 @@ section code {
   margin: 0.5em 0;
 }
 
+#registration-form{
+  text-align:left;
+  margin-bottom:2em;
+}
+
+#account-info{
+  margin-bottom:1em;
+}
+
+#personal-info{
+  margin-bottom:1em;
+}
+
 #submit{
   display: inline-block;
   padding: 0.25em 1.6em 0.25em 1.6em;

@@ -40,17 +40,31 @@
 		</header>
 
 		<section id="content">
-			<div class="grid-col-1of4">
-				<p>content</p>
-			</div>
-			<div class="grid-col-1of4">
-				<p>content</p>
-			</div>
-			<div class="grid-col-1of4">
-				<p>content</p>
-			</div>
-			<div class="grid-col-1of4">
-				<p>content</p>
+			<h1 class="grid-col-4of4">Registration</h1>
+			<div class="grid-row">	
+				<div class="grid-col-1of4 large-img">Image Placeholder</div>
+				<div class="grid-col-1of4 large-img">Complete the following information</div>
+				<div class="grid-col-2of4">
+					<form id="registration-form">
+						<div id="account-info">
+							<label class="reg-labels">Email:</label>
+							<input type="text" name="username" class="inputfield"><br>
+							<label class="reg-labels">Password:</label>
+							<input type="text" name="password" class="inputfield"><br>
+						</div>
+						<div id="personal-info">
+							<label class="reg-labels">Name:</label>
+							<input type="text" name="name" class="inputfield"><br>
+
+							<label class="reg-labels">Age:</label>
+							<input type="text" name="age" class="inputfield short"><br>
+							<label class="reg-labels">Gender:</label><br>
+							<input type="radio" name="gender" value="male">Male<br>
+							<input type="radio" name="gender" value="female">Female<br>
+						</div>
+						<input type="submit" value="Register" id="submit">
+					</form>
+				</div>
 			</div>
 		</section>
 
