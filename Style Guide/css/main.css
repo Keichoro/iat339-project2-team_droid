@@ -196,6 +196,13 @@ section code {
   background-color:#B2702C;
 }
 
+.login-form {
+    text-align:left;
+}
+
+.inputfield{
+  margin: 0.5em 0;
+}
 
 #submit{
   display: inline-block;
@@ -629,23 +636,7 @@ display: inline-block;
   margin-top: 1.75em;
 }
 
-.small-img{
-  display:inline-block;
-  height:10em;
-  border:1px solid blue;
-}
 
-.medium-img{
-  display:inline-block;
-  height:15em;
-  border:1px solid green;
-}
-
-.large-img{
-  display:inline-block;
-  height:20em;
-  border:1px solid red;
-}
   
 #gender-options{
   margin-top: 2em;
@@ -675,6 +666,7 @@ display: inline-block;
   float: left;
   padding:0;
   text-align: center;
+  width:100%; /* if window is smaller than the smallest media query, make it extend to the full window width*/
 }
 
 .grid-col-1of1, .grid-col-2of10{
@@ -686,6 +678,8 @@ display: inline-block;
   margin-bottom: 1em;
 }
 
+
+/*
 .grid-col-2of4{
   width:50%;
 } 
@@ -698,6 +692,7 @@ display: inline-block;
 .grid-col-4of4{
   width: 100%;
 }
+*/
 
 .grid-row{
   width: 100%;
@@ -743,4 +738,24 @@ display: inline-block;
 
 #search-for-friend{
   margin-top: 2.5em;
+}
+
+
+/* placeholders */
+.small-img{
+  display:inline-block;
+  height:10em;
+  border:1px solid blue;
+}
+
+.medium-img{
+  display:inline-block;
+  height:15em;
+  border:1px solid green;
+}
+
+.large-img{
+  display:inline-block;
+  height:20em;
+  border:1px solid red;
 }
