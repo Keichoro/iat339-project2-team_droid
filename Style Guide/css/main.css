@@ -727,6 +727,47 @@ display: inline-block;
   margin-left: 1.5em;
 }
 
+#legal-content{
+  text-align: left;
+  margin-left: 2em;
+}
+
+#legal-content li{
+  margin-left: -1.2em;
+}
+
+#legal-checkbox input{
+  float: left;
+  margin-left: 1.75em;
+}
+
+#legal-checkbox p{
+  float: left;
+  text-align: left;
+  margin-top: 1em;
+  margin-left: 1em;
+}
+
+#payment-header{
+  float:left;
+  margin-left: 1.5em;
+}
+
+#payment-accept{
+  float:left;
+  margin-left: 2em;
+}
+
+#card-number{
+  margin-left:1.5em;
+}
+
+#card-input{
+  float:left;
+  margin-left:1em;
+  width: 20%;
+}
+
 /*Grid Structure*/
 
 [class^='grid-col-'] {
@@ -793,6 +834,10 @@ display: inline-block;
 
   .grid-col-4of4{
     width: 100%;
+  }
+
+  #legal-checkbox p{
+    width: 75%;
   }
 
 }
