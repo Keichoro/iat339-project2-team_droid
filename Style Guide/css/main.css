@@ -677,6 +677,22 @@ display: inline-block;
   margin-left: 0.4em;
 }
 
+#country{
+  margin-left: -3.5em;
+}
+
+#province-state{
+  margin-left: -6.9em;
+}
+
+#city{
+  margin-left: -1.5em;
+}
+
+#hours{
+  margin-left: -12.5em;
+}
+
 /*Grid Structure*/
 
 [class^='grid-col-'] {
