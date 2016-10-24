@@ -402,11 +402,10 @@ section code {
   margin-right: 2em;
 }
 
-#sectionheading-rendered{
+.sectionheading-rendered{
   display: inline-block;
   font-family: 'Avenir-Medium';
   font-size: 22px;
-  margin-top: -0.5em;
 }
 
 #para-sect p{
@@ -691,6 +690,11 @@ display: inline-block;
 
 #hours{
   margin-left: -12.5em;
+}
+
+#legal-agreement-header{
+  float:left;
+  margin-left: 1.5em;
 }
 
 /*Grid Structure*/
