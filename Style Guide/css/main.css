@@ -629,9 +629,6 @@ display: inline-block;
   margin-top: 1.75em;
 }
 
-/*#gender-options*/
-
-
 .small-img{
   display:inline-block;
   height:10em;
@@ -648,6 +645,28 @@ display: inline-block;
   display:inline-block;
   height:20em;
   border:1px solid red;
+}
+  
+#gender-options{
+  margin-top: 2em;
+  display: block;
+  float: left;
+  margin-left:-9.9em;
+}
+
+.choice{
+  margin: 1em;
+  padding:5px;
+}
+
+#female{
+  margin-top: 0.5em;
+  margin-left: 1.1em;
+}
+
+#either{
+  margin-top: 0.5em;
+  margin-left: 0.4em;
 }
 
 /*Grid Structure*/

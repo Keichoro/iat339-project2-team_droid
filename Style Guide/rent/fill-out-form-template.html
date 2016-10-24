@@ -163,11 +163,16 @@
 			<div class="grid-row">
 				<div class="grid-col-3of4">
 					<label id="textfieldlabel">Preferred Gender</label>
-					<form action="" id="gender-options">
-					  <input type="radio" name="gender" value="male"> Male
-					  <input type="radio" name="gender" value="female"> Female
-					  <input type="radio" name="gender" value="either"> Either
-					</form>
+
+					<div id="gender-options">
+					  <input type="radio" name="gender" value="male">
+					  <label class="choice">Male</label><br>
+					  <input type="radio" name="gender" value="female" id="female">
+					  <label class="choice">Female</label><br>
+					  <input type="radio" name="gender" value="either" id="either">
+					  <label class="choice">Either</label>
+					</div>
+
 				</div>
 				<div class="grid-col-1of4">
 				</div>
