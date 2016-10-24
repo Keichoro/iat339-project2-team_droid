@@ -38,41 +38,46 @@ div{
 
 #on-this-page{
 	background: #FFC280; /*same as .head-nav-main-link:hover color*/
-	/*border:1px solid black;*/
 }
 
 .head-nav-sub{
-	display:inline-block;
+	display:none;
+	position:absolute;
+
 	list-style-type:none;
 	margin:0;
 	padding:0;
 	width:100%;
-	background: white;
-	border:1px solid black;
+	/*background: white;*/
+	border: 1px solid #FFC280;
+	/*border:1px solid green;*/
 	z-index:100; /*keeps it just above the head-nav-main*/
 }
 
-.head-nav-sub-link{
-	/*padding-left:0;*/
-	border:1px solid red;
-}
-
 .head-nav-sub a{
-	color:black;
-	/*padding-top:3em;*/
-	border:1px solid black;
+	color:#FFE09D;
+	width:100%;
+	/*border:1px solid red;  /* why doesn't Contact <a> extend all the way???!!! */
 }
 
 .head-nav-sub-link a:hover{
 	color:black;
 }
-.head-nav-sub{
-	display:none;
-}
 
 .head-nav-main-link:hover .head-nav-sub{
 	display:block;
-	position: absolute;
+	position:absolute;
+}
+
+.head-nav-sub-link{
+	/*border:1px solid black;*/
+	position:relative;
+	padding:0.5em 0;
+	margin:0.5em 0;
+}
+
+.head-nav-sub-link:hover{
+	background:#FFC280;
 }
 /* -----END OF HEADER STYLING	----- */
 
