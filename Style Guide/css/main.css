@@ -626,7 +626,27 @@ display: inline-block;
   margin-top: 1.75em;
 }
 
-#gender-options
+#gender-options{
+  margin-top: 2em;
+  display: block;
+  float: left;
+  margin-left:-9.9em;
+}
+
+.choice{
+  margin: 1em;
+  padding:5px;
+}
+
+#female{
+  margin-top: 0.5em;
+  margin-left: 1.1em;
+}
+
+#either{
+  margin-top: 0.5em;
+  margin-left: 0.4em;
+}
 
 /*Grid Structure*/
 
