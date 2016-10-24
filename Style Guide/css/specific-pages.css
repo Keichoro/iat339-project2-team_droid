@@ -23,7 +23,7 @@ div{
 	padding:0;
 	margin:0;
 	background-color: #FFE09D;
-	border:1px solid blue;
+	/*border:1px solid blue;*/
 	position:relative;
 }
 
@@ -83,6 +83,21 @@ div{
 	background:#FFC280;
 }
 /* -----END OF HEADER STYLING	----- */
+
+/* -----SIDE BAR NAV -----*/
+
+#events-nav-bar{
+	-webkit-flex: 1 1 auto;
+	-ms-flex: 1 1 auto;
+	flex: 1 1 auto;
+	border:1px solid red;
+	margin-top: 3em;
+}
+
+#events-nav-bar a{
+	display:block;
+	margin-top:1em;
+}
 
 /* ----FOOTER STYLING----- */
 
