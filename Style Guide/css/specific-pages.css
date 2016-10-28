@@ -47,6 +47,7 @@ div{
 .head-nav-sub{
 	display:none;
 	position:absolute;
+	background:white;
 
 	list-style-type:none;
 	margin:0;
@@ -81,6 +82,46 @@ div{
 
 .head-nav-sub-link:hover{
 	background:#FFC280;
+}
+
+#special-nav{
+	float:right;
+}
+
+/*#url-links ul, #url-links ul li{
+	width:100%;
+	margin:0;
+	padding:0;
+	border: 1px solid red;
+}*/
+
+
+@media (max-width: 30em){
+	#head-nav-main, .head-nav-main-link{
+		width:100%;
+		padding:0;
+/*		border:1px solid black*/
+	}
+
+	.head-nav-sub{
+		display:block;
+		position:relative;
+		/*border:1px solid red;	*/
+	}
+
+	.head-nav-main-link a{
+		padding: .5em 1em;
+	}
+
+	.head-nav-sub a{
+		/*border:1px solid green;*/
+		padding: .5em 2.5em;
+	}
+
+	.head-nav-main-link:hover .head-nav-sub{
+		display:block;
+		position:relative;
+	}
 }
 /* -----END OF HEADER STYLING	----- */
 
