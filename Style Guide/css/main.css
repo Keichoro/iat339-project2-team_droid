@@ -12,6 +12,15 @@
   list-style:none;
 }
 
+.calendar-input{
+
+  margin-top: 2em;
+  margin-bottom: 1em;
+  float:left;
+  display: block;
+  margin-left: -6.5em;
+}
+
 .color-box{
   padding: 0.5em 1em;
   background-color: #D18334;
@@ -534,6 +543,10 @@ display: inline-block;
   background-color: #CC6600;
 }
 
+.back-and-next-buttons{
+  margin-top: 5em; 
+}
+
 .next-button:active{
   background-color:#B2702C;
 }
@@ -610,8 +623,8 @@ display: inline-block;
 
 /* Rent A Friend Template */
 
-#rental-friend-options{
-  width:90%;
+.rental-friend-options{
+  width:50%;
   float:left;
 }
 
@@ -688,28 +701,18 @@ display: inline-block;
   margin-top: 1.75em;
 }
 
-
-  
-#gender-options{
-  margin-top: 2em;
-  display: block;
-  float: left;
-  margin-left:-9.9em;
+#full-legal-agreement{
+  width: 40%;
+  margin-top: 1em;
+  margin-bottom: 2em;
 }
 
 .choice{
   margin: 1em;
   padding:5px;
 }
-
-#female{
-  margin-top: 0.5em;
-  margin-left: 1.1em;
-}
-
-#either{
-  margin-top: 0.5em;
-  margin-left: 0.4em;
+#date-of-birth{
+  margin-left: -6.2em;
 }
 
 #country{
@@ -896,6 +899,36 @@ display: inline-block;
 @media (max-width: 952px){
   #number-available-friends{
       margin-top: 0.3em;
+  }
+}
+
+@media (max-width: 960px){
+  .rental-friend-options{
+    width: 70%;
+  }
+}
+
+@media (max-width: 757px){
+  #full-legal-agreement{
+    width: 65%;
+  }
+}
+
+@media (max-width: 445px){
+  #full-legal-agreement{
+    width: 80%;
+  }
+}
+
+@media (max-width: 697px){
+  .rental-friend-options{
+    width: 50%;
+  }
+}
+
+@media (max-width: 598px){
+  .rental-friend-options{
+    width: 80%;
   }
 }
 
