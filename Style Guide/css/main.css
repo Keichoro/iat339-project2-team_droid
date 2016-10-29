@@ -797,6 +797,11 @@ display: inline-block;
   margin-top: 0em;
 }
 
+#progress-flow-bar{
+  height: 125px;
+}
+
+
 /*Grid Structure*/
 
 #rendered-grid-structure .grid-col-1of4{ 
@@ -929,6 +934,9 @@ display: inline-block;
 @media (max-width: 598px){
   .rental-friend-options{
     width: 80%;
+  }
+  #button-left-alignment{
+    margin-left: -1em;
   }
 }
 
