@@ -810,6 +810,11 @@ display: inline-block;
   margin-left: 1em;    
 }
 
+#select-instructions{
+  text-align: left;
+  margin-left: 2em;
+}
+
 
 /*Grid Structure*/
 
@@ -952,7 +957,7 @@ display: inline-block;
 }
 
 @media (max-width: 613px){
-  
+
 }
 
 @media (max-width: 598px){
