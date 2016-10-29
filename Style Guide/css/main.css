@@ -628,6 +628,10 @@ display: inline-block;
   float:left;
 }
 
+#rent-paragraph{
+  margin-top: 1em;
+}
+
 #reasons-for-new-friend-paragraph{
   text-align: left;
   margin-left: 0.3em;
@@ -801,6 +805,11 @@ display: inline-block;
   height: 125px;
 }
 
+#rent-paragraph{
+  text-align: left;
+  margin-left: 1em;    
+}
+
 
 /*Grid Structure*/
 
@@ -901,6 +910,17 @@ display: inline-block;
 
 }
 
+@media (max-width: 1274px){
+  #rent-friend-img{
+    width: 100%;
+    height: auto;
+  }
+  #search-friend-img{
+    width: 100%;
+    height: auto;
+  }
+}
+
 @media (max-width: 952px){
   #number-available-friends{
       margin-top: 0.3em;
@@ -931,12 +951,22 @@ display: inline-block;
   }
 }
 
+@media (max-width: 613px){
+  
+}
+
 @media (max-width: 598px){
   .rental-friend-options{
     width: 80%;
   }
   #button-left-alignment{
     margin-left: -1em;
+  }
+}
+
+@media (max-width: 450px){
+  #rent-paragraph{
+    font-size: 14px;
   }
 }
 
