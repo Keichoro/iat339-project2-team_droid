@@ -833,6 +833,11 @@ display: inline-block;
   width: 75%;
 }
 
+.profile-row{
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
 /*Grid Structure*/
 
 #rendered-grid-structure .grid-col-1of4{ 
@@ -1016,10 +1021,11 @@ display: inline-block;
   }
   #profile-description{
     width: 55%;
-    
+    margin-left: 0.5em;
   }
   #select-checkbox{
     width: 15%;
+    margin-left: -0.5em;
   }
   #button-left-alignment{
     width: 15%;
@@ -1034,6 +1040,9 @@ display: inline-block;
   #button-right-alignment{
     width: 15%;
     margin-left: 0em;
+  }
+  #legal-checkbox p{
+    width: 80%;
   }
 }
 
