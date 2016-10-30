@@ -35,6 +35,7 @@
 
 input[type=checkbox]{
   height: 50px;
+  margin-top: 2em;
 }
 
 #border-col{
@@ -753,6 +754,7 @@ display: inline-block;
 #legal-checkbox input{
   float: left;
   margin-left: 1.75em;
+  margin-top: 0em;
 }
 
 #legal-checkbox p{
@@ -817,9 +819,19 @@ display: inline-block;
 
 #select-instructions{
   text-align: left;
-  margin-left: 2em;
 }
 
+#only-right-button-alignment{
+  text-align: right;
+}
+#space-between-two-buttons{
+    border:1px solid white;
+}
+
+#three-column-filler{
+  border:1px solid white;
+  width: 75%;
+}
 
 /*Grid Structure*/
 
@@ -982,6 +994,46 @@ display: inline-block;
 
   input[type=checkbox]{
     margin-top: 2em;
+  }
+}
+
+@media (max-width: 480px){
+  .rental-friend-options{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 2em;
+  }
+  #number-text{
+    width: 100%;
+  }
+  #number-available-friends{
+    width: 100%;
+    margin-left: 0.2em;
+    margin-top:-1em; 
+  }
+  #profile-photo{
+    width: 30%;
+  }
+  #profile-description{
+    width: 55%;
+    
+  }
+  #select-checkbox{
+    width: 15%;
+  }
+  #button-left-alignment{
+    width: 15%;
+  }
+  #button-left-alignment a{
+    margin-left: 1.5em;
+  }
+  #space-between-two-buttons{
+    width: 50%;
+    margin-left: 5em;
+  }
+  #button-right-alignment{
+    width: 15%;
+    margin-left: 0em;
   }
 }
 
