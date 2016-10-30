@@ -35,6 +35,7 @@
 
 input[type=checkbox]{
   height: 50px;
+  margin-top: 2.5em;
 }
 
 #border-col{
@@ -752,6 +753,7 @@ display: inline-block;
 #legal-checkbox input{
   float: left;
   margin-left: 1.75em;
+  margin-top: 0em;
 }
 
 #legal-checkbox p{
@@ -815,6 +817,9 @@ display: inline-block;
   margin-left: 2em;
 }
 
+#profile-description{
+  text-align: left;
+}
 
 /*Grid Structure*/
 
@@ -948,6 +953,9 @@ display: inline-block;
   #full-legal-agreement{
     width: 80%;
   }
+  .rental-friend-options{
+    font-size: 14px;
+  }
 }
 
 @media (max-width: 697px){
@@ -956,9 +964,9 @@ display: inline-block;
   }
 }
 
-@media (max-width: 613px){
+/*@media (max-width: 613px){
 
-}
+}*/
 
 @media (max-width: 598px){
   .rental-friend-options{
@@ -966,6 +974,13 @@ display: inline-block;
   }
   #button-left-alignment{
     margin-left: -1em;
+  }
+  #profile-description{
+    font-size: 15px;
+    margin-left: 1.5em;
+  }
+  #checkbox-column{
+    width:20%;
   }
 }
 
