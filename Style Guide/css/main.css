@@ -192,7 +192,8 @@ section code {
   text-decoration: none;
   font-family: 'TsukuBRdGothic-Regular','Tsukushi B Round Gothic';
   font-size: 16px;
-  width: 100%;
+  /*width: 100%;*/
+
 /*  -webkit-transition: background-color 0.5s ease-out;
   transition: background-color 0.5s ease-out;*/
 }
@@ -848,6 +849,7 @@ display: inline-block;
   padding:0;
   text-align: center;
   width:100%; /* if window is smaller than the smallest media query, make it extend to the full window width*/
+  /*position:relative;*/
 }
 
 .grid-col-1of1, .grid-col-2of10{
@@ -892,7 +894,7 @@ display: inline-block;
   }
 }
 
-@media (min-width:25em){
+@media (min-width:30em){
   .grid-col-1of4 {
     width: 24.5%;
   }
