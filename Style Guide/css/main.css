@@ -883,8 +883,8 @@ display: inline-block;
 }
 
 
-/*
-.grid-col-2of4{
+
+/*.grid-col-2of4{
   width:50%;
 } 
 .grid-col-3of4{
@@ -895,8 +895,8 @@ display: inline-block;
 }
 .grid-col-4of4{
   width: 100%;
-}
-*/
+}*/
+
 
 .grid-row{
   width: 100%;
@@ -915,7 +915,7 @@ display: inline-block;
   }
 }
 
-@media (min-width:30em){
+@media (min-width:55em){ /*changed from 30em*/
   .grid-col-1of4 {
     width: 24.5%;
   }
@@ -925,7 +925,6 @@ display: inline-block;
 
   .grid-col-3of4{
     width: 73.9%;
-    /*border:1px solid black;*/
   }
 
   .grid-col-4of4{

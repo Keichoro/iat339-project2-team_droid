@@ -1,5 +1,5 @@
 div{
-/*	border:1px solid white;*/
+	/*border:1px solid black;*/
 }
 
 /* ----HEADER STYLING----- */
@@ -225,26 +225,54 @@ div{
 	text-align:left;
 }
 
+
+.friend-img{
+	border: 2px solid #BBBBBB;
+	padding: .1em;
+/*	-webkit-transition: border 0.1s ease-out;
+	transition: border 1s ease-out;*/
+}
+
+a .friend-img:hover{
+
+	border: 2px solid #FFC280;
+}
+
+.friends-section{
+	text-align:left;
+	margin-left: 18%;
+}
+
+@media (max-width: 75em){
+	.profile-img{
+		width:12em;
+		margin:0;
+	}
+
+	.friends-section{
+		width:75%;
+	}
+}
+
 @media (max-width: 30em){
 	.profile-img{
 		margin:0;
-		width:100%;
+		/*width:100%;*/
+		text-align:center;
 	}
 
 	.profile-description{
 		padding:1em;
 		margin:0;
-		background:red;
 	}
 
 	.profile-details{
 		text-align:center;
 	}
+
+	.friends-section{
+		margin:0;
+		width:100%;
+	}
 }
 
-/*@media (max-width: 60em){
-	.profile-img{
-		width:12em;
-		margin:0;
-	}
-}*/
