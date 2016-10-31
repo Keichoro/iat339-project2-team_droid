@@ -5,7 +5,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<title>Registration</title>
+		<title>Review Confirmation</title>
 
 		<link href="../css/normalize.css" rel="stylesheet">
 		<link href="../css/grid.css" rel="stylesheet">
@@ -14,7 +14,7 @@
 		<link href="../css/specific-pages.css" rel="stylesheet">
 	</head>
 
-	<body>
+  	<body>
 		<header id="header">
 			<h1 id="styleguidetitle">Chum Buddies</h1>
 			<nav id="url-links">
@@ -29,39 +29,25 @@
 					<li class="head-nav-main-link">
 						<a href="../rent/rent-template.html">Rent a Friend</a>
 					</li>
-					<li id="on-this-page" class="head-nav-main-link special-nav">
-						<a href="login.html">Login</a>
+					<li id="special-nav" class="head-nav-main-link">
+						<a href="profile.html" id="on-this-page">Profile</a>
+						<ul class="head-nav-sub">
+							<li class="head-nav-sub-link"><a href="calendar.html">Calendar</a></li>
+							<li class="head-nav-sub-link"><a href="friends-list.html">Friends</a></li>
+						</ul>	
 					</li>
 				</ul>
 			</nav>
 		</header>
 
 		<section id="content">
-			<h1 id="pageheading-rendered" class="grid-col-4of4">Registration</h1>
-			<p>Please fill in the following information to complete your registration
-			<div class="grid-row">	
-				<div class="grid-col-4of4">
-					<form id="form">
-						<div id="account-info">
-							<h2>Account Details</h2>
-							<label class="reg-labels">Email:</label>
-							<input type="text" name="username" class="inputfield"><br>
-							<label class="reg-labels">Password:</label>
-							<input type="text" name="password" class="inputfield"><br>
-						</div>
-						<div id="personal-info">
-							<h2>Personal Information</h2>
-							<label class="reg-labels">Name:</label>
-							<input type="text" name="name" class="inputfield"><br>
-
-							<label class="reg-labels">Age:</label>
-							<input type="text" name="age" class="inputfield short"><br>
-							<label class="reg-labels">Gender:</label><br>
-							<input type="radio" name="gender" value="male" class="radio-button">Male<br>
-							<input type="radio" name="gender" value="female" class="radio-button">Female<br>
-						</div>
-						<a id="submit" href="registration-approved.html">Register</a>
-					</form>
+			<h1 class="grid-col-4of4">Review Complete!</h1>
+			<div class="grid-row">
+				<div id="registration-approved" class="grid-col-4of4">
+					<p>Thank you for reviewing your friend.</p>
+					<p>Go to:</p>
+					<a href="../personal/profile.html" class="button-nav grid-col-1of4">Profile</a>
+					<a href="../rent/rent-template.html" class="button-nav grid-col-1of4">Find a Friend</a>
 				</div>
 			</div>
 		</section>
@@ -72,7 +58,5 @@
 			<a href="../citations.html">Citations</a>
 			<a href="https://github.com/TechieWidget/iat339-project2-team_droid/commits/master">GitHub Repository</a>
 		</footer>
-	</body>
+  	</body>
 </html>
-
-

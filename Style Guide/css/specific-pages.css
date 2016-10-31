@@ -378,3 +378,60 @@ a .friend-img:hover{
 		margin:0;
 	}
 }
+
+
+/* ----- END OF friends-.html Styling------*/
+
+
+/* ----- review.html Styling------*/
+
+.review-page h1, .review-page h2, .review-page p{
+	text-align:left;
+}
+
+#on-review-page a{
+	margin: 1em 0 3em 0;
+}
+
+.skill-section {
+	text-align:left;
+	margin-left:15%;
+}
+
+.skill-section label{
+	display:inline-block;
+	margin: 1em;
+}
+
+.comment-box{
+	width:90%;
+	height:30%;
+	background:red;
+}
+
+
+
+@media(max-width:30em){
+	.review-page h1, .review-page h2, .review-page p{
+	text-align:center;
+	}
+}
+
+/* ----- END OF review.html Styling------*/
+
+/* ----- login.html Styling------*/
+
+#need-register{
+	padding:2em 0;
+	margin-bottom:2em;
+	background:#EFEFEF;
+	-webkit-border-radius:.5em;
+	border-radius:.5em;
+	width:80%;
+}
+
+@media(max-width:30em){
+	#need-register{
+		width:100%;
+	}
+}

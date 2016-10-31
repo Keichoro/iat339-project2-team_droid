@@ -151,6 +151,7 @@ input[type=checkbox]{
 
 .url-links a:hover{
   background: #FFC280;
+  text-decoration:none;
 }
 
 body {
@@ -262,27 +263,51 @@ section code {
 .more-button:hover{
   color:black;
   border:1px solid black;
+  text-decoration:none;
 }
 
 .button-nav:hover {
   background-color: #CC6600;
+  text-decoration:none;
 }
 
 .button-nav:active {
   background-color:#B2702C;
 }
 
-.login-form {
-    text-align:left;
-}
-
 .inputfield{
   margin: 0.5em 0;
 }
 
-#registration-form{
+#form{
   text-align:left;
   margin-bottom:2em;
+}
+
+#form .inputfield{
+  display:block;
+  height:2em;
+  width:15em;
+}
+
+#form .short{
+  width:8em;
+}
+
+#form .radio-button{
+  height:1.2em;
+  width:3em;
+  margin: 1em 0;
+}
+
+@media(max-width:30em){
+  #form{
+    text-align:center;
+  }
+
+  #form .inputfield{
+    width:100%;
+  }
 }
 
 #account-info{
@@ -315,6 +340,7 @@ section code {
 
 #submit:hover{
   background-color: #DC7B1A;
+  text-decoration:none;
 }
 
 #submit:active {
@@ -337,6 +363,7 @@ section code {
 
 #reset:hover{
   background-color: #b11a1a;
+  text-decoration:none;
 }
 
 #reset:active {
@@ -359,6 +386,7 @@ section code {
 
 #submit-gc:hover{
   background-color: #eb8e1f;
+  text-decoration:none;
 }
 
 #reset-gc{
@@ -377,6 +405,7 @@ section code {
 
 #reset-gc:hover{
   background-color: #b11a1a;
+  text-decoration:none;
 }
 
 .link-sample{
@@ -562,6 +591,7 @@ section code {
 
 .menu-button:hover {
   background-color: #CC6600;
+  text-decoration:none;
 }
 
 .menu-button:active {
@@ -586,6 +616,7 @@ display: inline-block;
 
 .back-button:hover{
   background-color: #CC6600;
+  text-decoration:none;
 }
 
 .back-button:active{
@@ -608,6 +639,7 @@ display: inline-block;
 
 .next-button:hover{
   background-color: #CC6600;
+  text-decoration:none;
 }
 
 .back-and-next-buttons{
@@ -638,6 +670,7 @@ display: inline-block;
 
 .homepage-buttons a:hover {
   background-color: #CC6600;
+  text-decoration:none;
 }
 
 .homepage-buttons a:active {
