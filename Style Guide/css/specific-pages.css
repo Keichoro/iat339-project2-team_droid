@@ -185,17 +185,8 @@ div{
 
 /* -----Profile.html Styling------*/
 
-.centered-r{
-	text-align:left;
-	padding-left:2em;
-}
-
-.hobbies{
-	list-style-type:none;
-}
 
 .profile-img{
-	/*width:75%;*/
 	width:15em;
 	margin-left: 12%;
 	padding-bottom:0;
@@ -207,7 +198,9 @@ div{
 	width:100%;
 	padding: .5em;
 	border: 4px solid #FFC280;
-	outline: 1px solid #BBBBBB;
+	-webkit-border-radius:0.5em;
+	border-radius:0.5em;
+	/*outline: 1px solid #BBBBBB;*/
 }
 
 .profile-description{
@@ -226,10 +219,13 @@ div{
 }
 
 
+
 .friend-img{
 	border: 2px solid #BBBBBB;
 	padding: .1em;
 	background:white;
+	-webkit-border-radius:0.5em;
+	border-radius:0.5em;
 /*	-webkit-transition: border 0.1s ease-out;
 	transition: border 1s ease-out;*/
 }
@@ -242,6 +238,27 @@ a .friend-img:hover{
 .friends-section{
 	text-align:left;
 	margin-left: 18%;
+}
+
+.activity-feed{
+	background:#EFEFEF;
+	padding: 1em;
+	border-radius:0.5em;
+}
+
+.feed-list{
+	background:white;
+	padding: 1em;
+	border-radius:0.5em;
+}
+
+.activity-details{
+	text-align:left;
+}
+
+.time-stamp{
+	color: #BBBBBB;
+	font-size:.8em;
 }
 
 @media (max-width: 75em){
