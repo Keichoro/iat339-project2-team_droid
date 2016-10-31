@@ -688,6 +688,26 @@ display: inline-block;
   width: 576px;
 }
 
+/* Contact Us */
+
+#company-building-photo{
+  margin-top: 1.75em;
+}
+
+#company-contact h1{
+  text-align: left;
+  margin-left: 7.25em;
+}
+
+#company-contact p{
+  text-align: left;
+  margin-left: 15em;
+}
+
+#contact-information{
+  margin-bottom: 10em;
+}
+
 /* Rent A Friend Template */
 
 .rental-friend-options{
@@ -1244,7 +1264,7 @@ display: inline-block;
 .medium-img{
   display:inline-block;
   height:15em;
-  border:1px solid green;
+  /*border:1px solid green;*/
 }
 
 .large-img{
