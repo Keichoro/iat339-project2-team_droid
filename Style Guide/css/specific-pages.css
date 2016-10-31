@@ -385,9 +385,6 @@ a .friend-img:hover{
 
 /* ----- review.html Styling------*/
 
-/*#on-review-page{
-	float:right;
-}*/
 .review-page h1, .review-page h2, .review-page p, #form-form{
 	text-align:left;
 }
@@ -413,5 +410,35 @@ a .friend-img:hover{
 @media(max-width:30em){
 	.review-page h1, .review-page h2, .review-page p, #form-form{
 	text-align:center;
+	}
+}
+
+/* ----- END OF review.html Styling------*/
+
+/* ----- registration.html Styling------*/
+
+#registration-form .inputfield{
+	display:block;
+	height:2em;
+	width:15em;
+}
+
+#registration-form .short{
+	width:8em;
+}
+
+#registration-form .radio-button{
+	height:1.2em;
+	width:3em;
+	margin: 1em 0;
+}
+
+@media(max-width:30em){
+	#registration-form{
+		text-align:center;
+	}
+
+	#registration-form .inputfield{
+		width:100%;
 	}
 }
