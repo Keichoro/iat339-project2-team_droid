@@ -669,6 +669,17 @@ display: inline-block;
   float:right;
 }
 
+#yes a{
+  float:left;
+  width: 50%;
+  margin-left: 1.5em;
+}
+
+#no a{
+  float:right;
+  width: 50%;
+}
+
 #month{
   float:left;
   margin-top: 1.75em;
@@ -965,6 +976,13 @@ display: inline-block;
   #master-card{
     margin-left: 2em;
   }
+  #yes a{
+    width:80%;
+  }
+
+  #no a{
+    width:80%;
+  }
 }
 
 @media (max-width: 757px){
@@ -1017,6 +1035,13 @@ display: inline-block;
   }
   #button-left-alignment{
     margin-left: -1em;
+  }
+  #yes a{
+    width:80%;
+  }
+
+  #no a{
+    width:80%;
   }
 }
 
@@ -1072,10 +1097,27 @@ display: inline-block;
   #legal-checkbox p{
     width: 80%;
   }
+  #yes a{
+    margin-left: 0em;
+    width:40%;
+  }
+
+  #no a{
+    width:40%;
+    margin-top: -2.75em;
+  }
 }
 
 .credit-card-brand{
     margin-bottom: 3em;
+}
+
+.card-type-selection{
+  margin-bottom: 2em;
+}
+
+.card-number-input{
+  margin-bottom: 2em;
 }
 
 @media (max-width: 479px){
