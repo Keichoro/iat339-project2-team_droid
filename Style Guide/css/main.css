@@ -10,6 +10,15 @@
 a {
   text-decoration:none;
   color: black;
+  font-family: 'Avenir Book';
+}
+
+p {
+  font-family: 'Avenir Light';
+}
+
+h1 {
+  font-family: 'Avenir-Heavy';
 }
 
 a:hover{
@@ -728,6 +737,11 @@ display: inline-block;
 }
 
 #make-someones-day{
+  margin-left: 0em;
+  float: left;
+}
+
+#getting-started-img{
   margin-left: 0em;
   float: left;
 }
