@@ -240,7 +240,7 @@ a .friend-img:hover{
 	margin-left: 18%;
 }
 
-.activity-feed{
+.feed{
 	background:#EFEFEF;
 	padding: 1em;
 	border-radius:0.5em;
@@ -252,7 +252,7 @@ a .friend-img:hover{
 	border-radius:0.5em;
 }
 
-.activity-details{
+.details{
 	text-align:left;
 }
 
@@ -345,3 +345,36 @@ a .friend-img:hover{
 	}
 }
 
+/* ----- END OF friends-list.html Styling------*/
+
+
+/* ----- friend-.html Styling------*/
+
+#on-friend-page .review-button{
+	margin:5em 0;
+}
+
+.details h3{
+	margin:0;
+}
+
+.skill{
+	text-align:left;
+}
+
+.skill h3{
+	margin:0;
+	padding:1em;
+}
+
+.summary{
+	margin-bottom:2.5em;
+	width:2em;
+	height:2em;
+}
+
+@media(max-width:55em){
+	#on-friend-page .review-button{
+		margin:0;
+	}
+}
