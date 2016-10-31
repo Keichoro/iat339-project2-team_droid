@@ -415,30 +415,19 @@ a .friend-img:hover{
 
 /* ----- END OF review.html Styling------*/
 
-/* ----- registration.html Styling------*/
+/* ----- login.html Styling------*/
 
-#registration-form .inputfield{
-	display:block;
-	height:2em;
-	width:15em;
-}
-
-#registration-form .short{
-	width:8em;
-}
-
-#registration-form .radio-button{
-	height:1.2em;
-	width:3em;
-	margin: 1em 0;
+#need-register{
+	padding:2em 0;
+	margin-bottom:2em;
+	background:#EFEFEF;
+	-webkit-border-radius:.5em;
+	border-radius:.5em;
+	width:80%;
 }
 
 @media(max-width:30em){
-	#registration-form{
-		text-align:center;
-	}
-
-	#registration-form .inputfield{
+	#need-register{
 		width:100%;
 	}
 }

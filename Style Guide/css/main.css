@@ -275,17 +275,39 @@ section code {
   background-color:#B2702C;
 }
 
-.login-form {
-    text-align:left;
-}
-
 .inputfield{
   margin: 0.5em 0;
 }
 
-#registration-form{
+#form{
   text-align:left;
   margin-bottom:2em;
+}
+
+#form .inputfield{
+  display:block;
+  height:2em;
+  width:15em;
+}
+
+#form .short{
+  width:8em;
+}
+
+#form .radio-button{
+  height:1.2em;
+  width:3em;
+  margin: 1em 0;
+}
+
+@media(max-width:30em){
+  #form{
+    text-align:center;
+  }
+
+  #form .inputfield{
+    width:100%;
+  }
 }
 
 #account-info{
