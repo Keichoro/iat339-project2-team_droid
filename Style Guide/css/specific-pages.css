@@ -229,6 +229,7 @@ div{
 .friend-img{
 	border: 2px solid #BBBBBB;
 	padding: .1em;
+	background:white;
 /*	-webkit-transition: border 0.1s ease-out;
 	transition: border 1s ease-out;*/
 }
@@ -254,6 +255,24 @@ a .friend-img:hover{
 	}
 }
 
+@media(max-width:55em){
+	.profile-page [class^='grid-col-'] {
+		width:100%;
+	}
+
+	.friends-section{
+		margin:0;
+		/*width:25%;*/
+		padding: 0 10em;
+	}
+}
+
+@media(max-width:45em){
+	.friends-section{
+		padding:0 7em;
+	}
+}
+
 @media (max-width: 30em){
 	.profile-img{
 		margin:0;
@@ -273,6 +292,39 @@ a .friend-img:hover{
 	.friends-section{
 		margin:0;
 		width:100%;
+		padding:0;
+	}
+}
+
+/* ----- END OF Profile.html Styling------*/
+
+/* ----- friends-list.html Styling------*/
+
+.friend-list{
+	background: #EFEFEF;
+	-webkit-border-radius:0.5em;
+	border-radius:0.5em;
+
+	padding: 1em 0;
+/*	border:1px solid black;*/
+	margin-bottom: 1em;
+}
+
+.friend-list-details{
+	text-align: left;
+	margin-left: 2%;
+}
+
+@media (max-width:55em){
+
+	.friend-list-details{
+		margin:0;
+	}
+}
+
+@media (max-width:30em){
+	.friend-list-details{
+		text-align:center;
 	}
 }
 
