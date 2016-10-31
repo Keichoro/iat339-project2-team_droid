@@ -130,7 +130,6 @@ div{
 	-webkit-flex: 1 1 auto;
 	-ms-flex: 1 1 auto;
 	flex: 1 1 auto;
-	border:1px solid red;
 	margin-top: 3em;
 }
 
@@ -434,4 +433,33 @@ a .friend-img:hover{
 	#need-register{
 		width:100%;
 	}
+}
+
+/* ----- END OF login.html Styling------*/
+
+/* ----- Event Pages Styling------*/
+
+.event-list{
+	padding-left: 2em;
+	background: #EFEFEF;
+	-webkit-border-radius:.5em;
+	border-radius:.5em;
+	margin-bottom:1em;
+}
+
+
+.event-img{
+	width:85%;
+	padding: 0.2em;
+	margin-top:.5em;
+	background:white;
+}
+
+.event-img img{
+	width:100%;
+}
+
+
+.event-details{
+	text-align:left;
 }
