@@ -669,6 +669,17 @@ display: inline-block;
   float:right;
 }
 
+#yes a{
+  float:left;
+  width: 50%;
+  margin-left: 1.5em;
+}
+
+#no a{
+  float:right;
+  width: 50%;
+}
+
 #month{
   float:left;
   margin-top: 1.75em;
@@ -960,9 +971,25 @@ display: inline-block;
   }
 }
 
+@media (max-width: 925px){
+  #master-card{
+    margin-left: 2em;
+  }
+  #yes a{
+    width:80%;
+  }
+
+  #no a{
+    width:80%;
+  }
+}
+
 @media (max-width: 757px){
   #full-legal-agreement{
     width: 65%;
+  }
+  #master-card{
+    margin-left: 3em;
   }
 }
 
@@ -978,8 +1005,27 @@ display: inline-block;
   }
 }
 
-@media (max-width: 613px){
-
+@media (max-width: 656px){
+  #visa{
+    width: 95%;
+    height: 95%;
+    margin-top: 1.25em;
+  }
+  #master-card{
+    width: 80%;
+    height: 80%;
+    margin-left: 0em;
+  }
+  #amex{
+    width: 50%;
+    height: 50%;
+    margin-top: 0.5em;
+  }
+  #capitalone{
+    width: 90%;
+    height: 90%;
+    margin-top: 1em;
+  }
 }
 
 @media (max-width: 598px){
@@ -988,6 +1034,13 @@ display: inline-block;
   }
   #button-left-alignment{
     margin-left: -1em;
+  }
+  #yes a{
+    width:80%;
+  }
+
+  #no a{
+    width:80%;
   }
 }
 
@@ -1042,6 +1095,59 @@ display: inline-block;
   }
   #legal-checkbox p{
     width: 80%;
+  }
+  #yes a{
+    margin-left: 0em;
+    width:40%;
+  }
+
+  #no a{
+    width:40%;
+    margin-top: -2.75em;
+  }
+}
+
+.credit-card-brand{
+    margin-bottom: 3em;
+}
+
+.card-type-selection{
+  margin-bottom: 2em;
+}
+
+.card-number-input{
+  margin-bottom: 2em;
+}
+
+@media (max-width: 479px){
+  #visa{
+    width: 25%;
+    height: 25%;
+    position: relative;
+    float: left;
+    margin-left: 2em;
+  }
+  #master-card{
+    width: 25%;
+    height: 25%;
+    position: relative;
+    float: left;
+    margin-left: 10.5em;
+    margin-top: -3.5em;
+  }
+  #amex{
+    width: 20%;
+    height: 20%;
+    position: relative;
+    margin-left: -13em;
+    margin-top: 2em;
+  }
+  #capitalone{
+    width: 45%;
+    height: 20%;
+    margin-left: -3em;
+    margin-top: -5em;
+    position: absolute;
   }
 }
 
