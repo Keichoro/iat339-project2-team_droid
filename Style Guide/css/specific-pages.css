@@ -385,7 +385,7 @@ a .friend-img:hover{
 
 /* ----- review.html Styling------*/
 
-.review-page h1, .review-page h2, .review-page p, #form-form{
+.review-page h1, .review-page h2, .review-page p{
 	text-align:left;
 }
 
@@ -405,10 +405,14 @@ a .friend-img:hover{
 
 .comment-box{
 	width:90%;
+	height:30%;
+	background:red;
 }
 
+
+
 @media(max-width:30em){
-	.review-page h1, .review-page h2, .review-page p, #form-form{
+	.review-page h1, .review-page h2, .review-page p{
 	text-align:center;
 	}
 }
