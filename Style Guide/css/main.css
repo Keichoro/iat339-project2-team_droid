@@ -502,7 +502,7 @@ section code {
   font-family:'Avenir-Medium';
   background-color: #FFC287;
   color:white;
-  width: 75%;
+  width: 100%;
   border-radius: 15px;
   text-align: left;
   padding: 0.25em 1em 0.25em 1em;
@@ -780,6 +780,13 @@ display: inline-block;
   margin-top: -1em;
   margin-right: 1em;
   margin-bottom: 2em;
+}
+
+/* About Us */
+
+#about-us-description{
+  text-align: left;
+  margin-left: 5em;
 }
 
 /* Contact Us */
