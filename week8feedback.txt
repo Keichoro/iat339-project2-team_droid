@@ -1,0 +1,55 @@
+main page does not look like main page, because of bullet points.
+Do not know what to do in step 1. Long paragraph on step 1. "Tell me about yourself"
+Condense it.
+Number is too far away.
+Try to click on Breadcrumbs.
+Link font color is the same as paragraph. Unable to tell if it is a link or not.
+
+Put a map in white space for Step 3.
+
+alignment dd/mm/yyyy is same as "Email Address"
+
+mouse hover animation for credit card brands
+
+text field too long for credit card number
+
+Yes and No should be reversed.
+
+A lot of white space on the right side of rent-template.html
+
+"Chum Buddies" is not a button
+
+Keep content consistent.
+
+hamburger menu bar is helpful.
+
+Profile content is in the middle. Some too short and some too long.
+
+No typos
+
+Too much reading
+
+The images are usable and shows the person.
+
+navigation bar is not consistent.
+
+Questions for prof tomorrow:
+1. Which pages do you think are the most important to work on and meet the criteria?
+
+-company updates/events
+-about the company
+-how to contact the business
+-a multi-product listing
+-one product detailed view
+-the entire process of purchasing a product
+-appropriate means for the user to provide feedback on a product
+
+2. Ask about the logo design. Should it stand out more to look like a button?
+
+3. Ask about the breadcrumbs. Should each step be clickable and linked to each step? If so, would that make the back and next buttons useless?
+
+4. Opinion about using a subpage header or section header.
+
+5. Clarify that all fonts chosen for this project must be downloaded.
+
+6. Use darker colors for the banner?
