@@ -8,7 +8,7 @@
 }
 
 a {
-  text-decoration:none;
+  text-decdition:none;
   color: black;
   font-family: 'Avenir Book', Arial, sans-serif;
 }
@@ -53,9 +53,9 @@ a:hover{
   display: inline-block;
 }
 
-input[type=checkbox]{
-  height: 50px;
-  margin-top: 2em;
+.checkbox{
+  height:2em;
+  width:2em;
 }
 
 #border-col{
