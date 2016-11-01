@@ -2,36 +2,22 @@
 
 
 @font-face{
-	font-family: 'Abel';
+	font-family: 'Roboto Slab';
 	font-weight: normal;
 	font-style: normal;
-	src: url('../fonts/Abel-Regular.ttf');
+	src: url('../fonts/RobotoSlab-Regular.ttf');
 }
 
 @font-face{
-	font-family: 'Open Sans Light';
+	font-family: 'Roboto Slab Light';
 	font-weight: 200;
 	font-style: normal;
-	src: url('../fonts/OpenSans-Light.ttf');
+	src: url('../fonts/RobotoSlab-Light.ttf');
 }
 
 @font-face{
-	font-family: 'Open Sans';
-	font-weight: normal;
-	font-style: normal;
-	src: url('../fonts/OpenSans-Regular.ttf');
-}
-
-@font-face{
-	font-family: 'Open Sans Bold';
+	font-family: 'Roboto Slab Bold';
 	font-weight: bold;
 	font-style: normal;
-	src: url('../fonts/OpenSans-Bold.ttf');
-}
-
-@font-face{
-	font-family: 'Open Sans BoldItalic';
-	font-weight: bold;
-	font-style: italic;
-	src: url('../fonts/OpenSans-BoldItalic.ttf');
+	src: url('../fonts/RobotoSlab-Bold.ttf');
 }
