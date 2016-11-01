@@ -21,3 +21,45 @@
 	font-style: normal;
 	src: url('../fonts/RobotoSlab-Bold.ttf');
 }
+
+
+@font-face{
+	font-family: 'Avenir Light';
+	font-weight: lighter;
+	font-style: normal;
+	src: url('../fonts/AvenirLTStd-Light.otf');
+}
+
+
+@font-face{
+	font-family: 'Avenir Book';
+	font-weight: normal;
+	font-style: normal;
+	src: url('../fonts/AvenirLTStd-Book.otf');
+}
+
+@font-face{
+	font-family: 'Avenir Roman';
+	font-weight: normal;
+	font-style: normal;
+	src: url('../fonts/AvenirLTStd-Roman.otf');
+}
+
+@font-face{
+	font-family: 'Avenir Medium';
+	font-weight: normal;
+	font-style: normal;
+	src: url('../fonts/AvenirLTStd-Medium.otf');
+}
+
+@font-face{
+	font-family: 'Avenir Heavy';
+	font-weight: normal;
+	font-style: normal;
+	src: url('../fonts/AvenirLTStd-Heavy.otf');
+}
+
+
+
+
+

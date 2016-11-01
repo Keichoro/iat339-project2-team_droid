@@ -10,15 +10,15 @@
 a {
   text-decoration:none;
   color: black;
-  font-family: 'Avenir Book';
+  font-family: 'Avenir Book', Arial, sans-serif;
 }
 
 p {
-  font-family: 'Avenir Light';
+  font-family: 'Avenir Light', Arial, sans-serif;
 }
 
 h1 {
-  font-family: 'Avenir-Heavy';
+  font-family: 'Avenir Heavy', Arial, sans-serif;
 }
 
 a:hover{
@@ -471,7 +471,7 @@ section code {
 }
 
 .pageheading p {
-  font-family:'Avenir-Heavy';
+  font-family:'Avenir Heavy';
   font-size: 32px;
   display:inline-block;
   margin-right: 1em;
@@ -480,7 +480,7 @@ section code {
 
 #pageheading-rendered{
   font-size: 32px;
-  font-family:'Avenir-Heavy';
+  font-family:'Avenir Heavy';
   background-color: #FFC287;
   color:white;
   padding: 0.25em 1em 0.25em 1em;
@@ -492,7 +492,7 @@ section code {
 }
 
 .subpageheading p {
-  font-family:'Avenir-Medium';
+  font-family:'Avenir Medium';
   font-size: 26px;
   display:inline-block;
   margin-right: 1em;
@@ -513,7 +513,7 @@ section code {
 }
 
 .sectionheading p{
-  font-family: 'Avenir-Medium';
+  font-family: 'Avenir Medium';
   font-size: 22px;
   margin-right: 2em;
 }
