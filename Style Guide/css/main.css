@@ -15,6 +15,7 @@ a {
 
 p {
   font-family: 'Avenir Light', Arial, sans-serif;
+  text-align: left;
 }
 
 h1 {
@@ -786,7 +787,7 @@ display: inline-block;
 
 #about-us-description{
   text-align: left;
-  margin-left: 5em;
+  margin-left: 6em;
 }
 
 /* Contact Us */
@@ -1330,7 +1331,7 @@ display: inline-block;
   }
   #capitalone{
     width: 45%;
-    height: 20%;
+    height: 15%;
     margin-left: -3em;
     margin-top: -5em;
     position: absolute;
