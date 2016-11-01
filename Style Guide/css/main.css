@@ -134,6 +134,9 @@ input[type=checkbox]{
 
 /* end of descriptive colors section*/
 
+#company-logo{
+  margin-right: 1em;
+}
 
 #styleguidetitle{
   background-color: #FFC280;
