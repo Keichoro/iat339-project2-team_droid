@@ -359,6 +359,10 @@ section code {
 
 .inputfield{
   margin: 0.5em 0;
+
+  display:block;
+  height:2em;
+  width:15em;
 }
 
 #form{
@@ -366,11 +370,11 @@ section code {
   margin-bottom:2em;
 }
 
-#form .inputfield{
+/*#form .inputfield{
   display:block;
   height:2em;
   width:15em;
-}
+}*/
 
 #form .short{
   width:8em;
@@ -1196,7 +1200,7 @@ display: inline-block;
   float: left;
 }
 
-#card-input{
+.card-input{
   float:left;
   margin-left:0em;
   width: 50px;
