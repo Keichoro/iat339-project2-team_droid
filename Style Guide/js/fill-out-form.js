@@ -1,5 +1,5 @@
 $( function() {
-    $( "#date-of-birth" ).datepicker({
+    $( '#meeting-date' ).datepicker({
       changeMonth: true,
       changeYear: true
     });
