@@ -407,7 +407,7 @@ section code {
   border-width:5px;
   border-style: solid;
   text-decoration: none;
-  font-family: 'TsukuBRdGothic-Regular','Tsukushi B Round Gothic';
+  font-family: 'Roboto Slab',Times, serif;
   font-size: 16px;
 /*  -webkit-transition: background-color 0.5s ease-out;
   transition: background-color 0.5s ease-out;*/
@@ -432,7 +432,7 @@ section code {
   border-width:5px;
   border-style: solid;
   text-decoration: none;
-  font-family: 'TsukuBRdGothic-Regular','Tsukushi B Round Gothic';
+  font-family: 'Roboto Slab',Times, serif;
   font-size: 16px;
 }
 
@@ -455,7 +455,7 @@ section code {
   border-width:5px;
   border-style: solid;
   text-decoration: none;
-  font-family: 'TsukuBRdGothic-Regular','Tsukushi B Round Gothic';
+  font-family: 'Roboto Slab',Times, serif;
   font-size: 22px;
 }
 
@@ -474,7 +474,7 @@ section code {
   border-width:5px;
   border-style: solid;
   text-decoration: none;
-  font-family: 'TsukuBRdGothic-Regular','Tsukushi B Round Gothic';
+  font-family: 'Roboto Slab',Times, serif;
   font-size: 22px;
 }
 
@@ -661,7 +661,7 @@ section code {
   border-width:5px;
   border-style: solid;
   text-decoration: none;
-  font-family: 'TsukuBRdGothic-Regular','Tsukushi B Round Gothic';
+  font-family: 'Roboto Slab',Times, serif;
   font-size: 20px;
 }
 
@@ -686,7 +686,7 @@ display: inline-block;
   border-width:3px;
   border-style: solid;
   text-decoration: none;
-  font-family: 'TsukuBRdGothic-Regular','Tsukushi B Round Gothic';
+  font-family: 'Roboto Slab',Times, serif;
   font-size: 18px;
 }
 
@@ -709,7 +709,7 @@ display: inline-block;
   border-width:3px;
   border-style: solid;
   text-decoration: none;
-  font-family: 'TsukuBRdGothic-Regular','Tsukushi B Round Gothic';
+  font-family: 'Roboto Slab',Times, serif;
   font-size: 18px;
 }
 
@@ -731,7 +731,7 @@ display: inline-block;
 .homepage-buttons a{
   width:15em;
   text-align: center;
-  font-family: 'TsukuBRdGothic-Regular','Tsukushi B Round Gothic';
+  font-family: 'Roboto Slab',Times, serif;
   display: inline-block;
   padding: 0.25em 1em 0.25em 1em;
   color: #FFF;
@@ -772,7 +772,7 @@ display: inline-block;
   padding-right: 7em;
   text-align: center;
   border-width: 4px;
-  font-family: 'TsukuBRdGothic-Regular','Tsukushi B Round Gothic';
+  font-family: 'Roboto Slab',Times, serif;
 }
 
 /*Product Listing*/
@@ -874,7 +874,17 @@ display: inline-block;
   text-align: left;
   margin-left: 0.5em;
   width: 100%;
->>>>>>> Stashed changes
+}
+
+/* Calendar Styling*/
+
+#date-of-birth{
+  margin-left: -5.5em;
+  font-size: 18px;
+}
+
+.ui-datepicker a {
+  text-decoration: none;
 }
 
 /* Contact Us */
@@ -1035,10 +1045,6 @@ display: inline-block;
 .meeting-location{
   margin-top: 1.25em;
   margin-bottom: 1.25em;
-}
-
-#date-of-birth{
-  margin-left: -6.2em;
 }
 
 #country{
