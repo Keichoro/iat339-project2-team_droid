@@ -39,7 +39,7 @@ a:hover{
   margin-bottom: 1em;
   float:left;
   display: block;
-  margin-left: -6.5em;
+  margin-left: -6.7em;
 }
 
 .color-box{
@@ -984,15 +984,15 @@ display: inline-block;
 #email-input{
   float: left;
   margin-top: 1.75em;
-  margin-left: -7em;
+  margin-left: -7.2em;
   width: 70%;
 }
 
 #location-input{
   float: left;
-  margin-top: 1.75em;
+  margin-top: 2em;
   width: 70%;
-  margin-left: -8.2em;
+  margin-left: -8.5em;
 }
 
 .single-dropdown{
@@ -1006,28 +1006,53 @@ display: inline-block;
   margin-bottom: 2em;
 }
 
-.choice{
-  margin: 1em;
-  padding:5px;
+.last-name > #input{
+  height: 24px;
 }
+
+.first-name{
+  margin-top: 2em;
+}
+
+.first-name > #input{
+  height: 24px;
+}
+
+.birth{
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+.number-of-hours{
+  margin-top: 2.5em;
+}
+
+.meeting-date{
+  margin-top: 2.5em;
+}
+
+.meeting-location{
+  margin-top: 1.25em;
+  margin-bottom: 1.25em;
+}
+
 #date-of-birth{
   margin-left: -6.2em;
 }
 
 #country{
-  margin-left: -3.5em;
+  margin-left: -3.9em;
+  margin-bottom: 2.5em;
 }
 
 #province-state{
-  margin-left: -6.9em;
+  margin-left: -7.3em;
+  margin-bottom: 2.5em;
 }
 
 #city{
-  margin-left: -1.5em;
-}
-
-#hours{
-  margin-left: -12.5em;
+  margin-left: -2em;
+  margin-bottom: 2.5em;
 }
 
 #legal-agreement-header{
@@ -1379,7 +1404,7 @@ display: inline-block;
 }
 
 @media (max-width: 697px){
-/*  .rental-friend-options{
+  .rental-friend-options{
     width: 50%;
   }
   #about-us-description{
@@ -1413,6 +1438,7 @@ display: inline-block;
   }
 
 }
+
 
 @media (max-width: 598px){
 /*  .rental-friend-options{
