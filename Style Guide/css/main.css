@@ -19,13 +19,18 @@ p {
   font-size: 18px;
 }
 
-h1 {
+h1, h2, h3 {
   font-family: 'Avenir Heavy', Arial, sans-serif;
 }
 
 a:hover{
   text-decoration:underline;
   color:#FFC280;
+}
+
+body {
+  /*font-family: sans-serif;*/
+  /*padding: 2rem;*/
 }
 
 /* descriptive colors used to highlight specific colors for each element */
@@ -170,10 +175,6 @@ a:hover{
   text-decoration:none;
 }
 
-body {
-  font-family: sans-serif;
-  /*padding: 2rem;*/
-}
 
 section:not([id]) {
   margin: 1em 0;
@@ -350,7 +351,8 @@ section code {
   border-width:5px;
   border-style: solid;
   text-decoration: none;
-  font-family: 'TsukuBRdGothic-Regular','Tsukushi B Round Gothic';
+  /*font-family: 'TsukuBRdGothic-Regular','Tsukushi B Round Gothic';*/
+  font-family: 'Roboto Slab',Times, serif;
   font-size: 16px;
 /*  -webkit-transition: background-color 0.5s ease-out;
   transition: background-color 0.5s ease-out;*/
@@ -375,7 +377,8 @@ section code {
   border-width:5px;
   border-style: solid;
   text-decoration: none;
-  font-family: 'TsukuBRdGothic-Regular','Tsukushi B Round Gothic';
+  /*font-family: 'TsukuBRdGothic-Regular','Tsukushi B Round Gothic';*/
+  font-family: 'Roboto Slab',Times, serif;
   font-size: 16px;
 }
 
@@ -398,7 +401,8 @@ section code {
   border-width:5px;
   border-style: solid;
   text-decoration: none;
-  font-family: 'TsukuBRdGothic-Regular','Tsukushi B Round Gothic';
+  /*font-family: 'TsukuBRdGothic-Regular','Tsukushi B Round Gothic';*/
+  font-family: 'Roboto Slab',Times, serif;
   font-size: 22px;
 }
 
@@ -417,7 +421,8 @@ section code {
   border-width:5px;
   border-style: solid;
   text-decoration: none;
-  font-family: 'TsukuBRdGothic-Regular','Tsukushi B Round Gothic';
+  /*font-family: 'TsukuBRdGothic-Regular','Tsukushi B Round Gothic';*/
+  font-family: 'Roboto Slab',Times, serif;
   font-size: 22px;
 }
 
@@ -427,7 +432,7 @@ section code {
 }
 
 .link-sample{
-  font-family: 'Avenir Book';
+  font-family: 'Avenir Book', Arial, sans-serif;
   color:#0360B2;
   font-size: 16px;
 }
@@ -442,7 +447,7 @@ section code {
   margin-top: 2em;
   margin-right: 2em;
   display:block;
-  font-family: 'Avenir Book';
+  font-family: 'Avenir Book', Arial, sans-serif;
 }
 #textfieldlabel{
   float:left;
@@ -462,7 +467,7 @@ section code {
 }
 
 .textfield-info{
-  font-family: 'Avenir Book';
+  font-family: 'Avenir Book', Arial, sans-serif;
   margin-top:5em;
   margin-right:2em;
   font-size: 20px;
@@ -478,7 +483,7 @@ section code {
 }
 
 .pageheading p {
-  font-family:'Avenir Heavy';
+  font-family: 'Avenir Heavy', Arial, sans-serif;
   font-size: 32px;
   display:inline-block;
   margin-right: 1em;
@@ -487,7 +492,7 @@ section code {
 
 #pageheading-rendered{
   font-size: 32px;
-  font-family:'Avenir Heavy';
+  font-family: 'Avenir Heavy', Arial, sans-serif;
   background-color: #FFC287;
   color:white;
   padding: 0.25em 1em 0.25em 1em;
@@ -740,10 +745,10 @@ display: inline-block;
 }
 
 /* Home Page */
-#latest-news{
+/*#latest-news{
   margin-bottom: 3em;
   margin-top: 2em;
-}
+}*/
 
 #make-someones-day{
   margin-left: 0em;
@@ -753,9 +758,10 @@ display: inline-block;
 #getting-started-img{
   margin-left: 0em;
   float: left;
+  width:100%;
 }
 
-#current-news h2{
+/*#current-news h2{
   text-align: left;
   margin-top: 0em;
 }
@@ -774,7 +780,7 @@ display: inline-block;
 #getting-started p{
   float: left;
   text-align: left;
-  margin-bottom: 2em;
+  margin-bottom: 1em;
 }
 
 #getting-started a{
@@ -787,7 +793,7 @@ display: inline-block;
   margin-top: -1em;
   margin-right: 1em;
   margin-bottom: 2em;
-}
+}*/
 
 /* About Us */
 
@@ -1156,6 +1162,10 @@ display: inline-block;
 
   #legal-checkbox p{
     width: 75%;
+  }
+
+  .grid-col-1of3{
+    width: 33.3%;
   }
 
 }
