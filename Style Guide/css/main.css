@@ -19,7 +19,7 @@ p {
   font-size: 18px;
 }
 
-h1 {
+h1,h2,h3 {
   font-family: 'Avenir Heavy', Arial, sans-serif;
 }
 
@@ -142,11 +142,12 @@ a:hover{
 }
 
 #styleguidetitle{
-  background-color: #FFC280;
-  padding-top: 1em;
-  padding-bottom: 1em;
+  /*previous color: FFC280*/
+  background-color: #E9AB69;
+  padding-top: 0.3em;
+  padding-bottom: 0.1em;
   color:#FFFFFF;
-  padding-left:1em;
+  padding-left:0.5em;
   margin-bottom: 0em;
   margin-top:0;
 }
@@ -543,7 +544,8 @@ section code {
 #pageheading-rendered{
   font-size: 32px;
   font-family:'Avenir Heavy';
-  background-color: #FFC287;
+  /*old color: FFC287*/
+  background-color: #E9AB69;
   color:white;
   padding: 0.25em 1em 0.25em 1em;
   text-align: left;
@@ -852,6 +854,28 @@ display: inline-block;
   margin-left: 1em;
 }
 
+#workplace-photo{
+  display: block;
+  width: 30%;
+}
+
+#about-us-description{
+  width: 65%;
+
+}
+
+#about-us-description p{
+  text-align: left;
+  margin-left: 1.5em;
+}
+
+#work-culture{
+  text-align: left;
+  margin-left: 0.5em;
+  width: 100%;
+>>>>>>> Stashed changes
+}
+
 /* Contact Us */
 
 #company-building-photo{
@@ -1104,7 +1128,6 @@ display: inline-block;
 #profile-description a{
   font-style:italic;
   font-size: 18px;
-
 }
 
 #select-checkbox{
@@ -1257,18 +1280,29 @@ display: inline-block;
     width: 100%;
     height: auto;
   }
+
 }
 
 @media (max-width: 1120px){
   .profile-summary{
     width: 90%;
   } 
+  
+}
+
+@media (max-width: 1190px){
+   #about-us-description{
+    width: 40%;
+    display: inline-block;
+    margin-left: 8em;
+  }
 }
 
 @media (max-width: 952px){
   #number-available-friends{
       margin-top: 0.3em;
   }
+  
 }
 
 /*@media (max-width: 960px){
@@ -1344,12 +1378,17 @@ display: inline-block;
   }
 }
 
-/*@media (max-width: 697px){
-  .rental-friend-options{
+@media (max-width: 697px){
+/*  .rental-friend-options{
     width: 50%;
   }
+  #about-us-description{
+    width: 90%;
+    margin-top: 1em;
+    margin-left: 0em;
+  }
   
-}*/
+}
 
 @media (max-width: 656px){
   #visa{
@@ -1372,6 +1411,7 @@ display: inline-block;
     height: 90%;
     margin-top: 1em;
   }
+
 }
 
 @media (max-width: 598px){
