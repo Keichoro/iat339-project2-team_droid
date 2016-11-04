@@ -889,9 +889,15 @@ display: inline-block;
   width: 100%;
 }
 
-/* Calendar Input*/
+/* Calendar Input */
 
 #meeting-date{
+  width: 100px;
+}
+
+#dateofbirth{
+  margin-left: -5.5em;
+  font-size: 18px;
   width: 100px;
 }
 
@@ -901,14 +907,15 @@ display: inline-block;
 }
 
 .ui-datepicker table {
-  width: 175%;
+  width: 100%;
+  background-color:white;
 }
 
 .ui-datepicker-header {
-  background-color: #E9AB69;
+  background-color: #FFE09D;
   line-height: 50px;
   border: 2px solid black;
-  width: 175%;
+  width: 100%;
 }
 
 .ui-datepicker-title{
@@ -962,9 +969,64 @@ display: inline-block;
   filter: dropshadow(color=#fff, offx=1, offy=0);
 }
 
-#dateofbirth{
-  margin-left: -5.5em;
-  font-size: 18px;
+.ui-datepicker tbody td {
+  padding: 0;
+  border-right: 1px solid #000;
+}
+
+.ui-datepicker tbody td:last-child {
+  border-right: 0px;
+}
+
+.ui-datepicker tbody tr {
+  border-bottom: 1px solid #bbb;
+}
+.ui-datepicker tbody tr:last-child {
+  border-bottom: 0px;
+}
+
+.ui-datepicker td span, .ui-datepicker td a {
+  display: inline-block;
+  font-weight: bold;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  color: #666666;
+  text-shadow: 1px 1px 0px #fff;
+  filter: dropshadow(color=#fff, offx=1, offy=1);
+}
+.ui-datepicker-calendar .ui-state-default {
+  background: #ededed;
+  background: -moz-linear-gradient(top,  #ededed 0%, #dedede 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ededed), color-stop(100%,#dedede));
+  background: -webkit-linear-gradient(top,  #ededed 0%,#dedede 100%);
+  background: -o-linear-gradient(top,  #ededed 0%,#dedede 100%);
+  background: -ms-linear-gradient(top,  #ededed 0%,#dedede 100%);
+  background: linear-gradient(top,  #ededed 0%,#dedede 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ededed', endColorstr='#dedede',GradientType=0 );
+  -webkit-box-shadow: inset 1px 1px 0px 0px rgba(250, 250, 250, .5);
+  -moz-box-shadow: inset 1px 1px 0px 0px rgba(250, 250, 250, .5);
+  box-shadow: inset 1px 1px 0px 0px rgba(250, 250, 250, .5);
+}
+.ui-datepicker-unselectable .ui-state-default {
+  background: #f4f4f4;
+  color: #b4b3b3;
+}
+.ui-datepicker-calendar .ui-state-hover {
+  background: #f7f7f7;
+}
+.ui-datepicker-calendar .ui-state-active {
+  background: #6eafbf;
+  -webkit-box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, .1);
+  -moz-box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, .1);
+  box-shadow: inset 0px 0px 10px 0px rgba(0, 0, 0, .1);
+  color: #e0e0e0;
+  text-shadow: 0px 1px 0px #4d7a85;
+  filter: dropshadow(color=#4d7a85, offx=0, offy=1);
+  border: 1px solid #55838f;
+  position: relative;
+  margin: -1px;
 }
 
 /* Contact Us */
@@ -1112,6 +1174,11 @@ display: inline-block;
 .birth{
   margin-top: 2em;
   margin-bottom: 1em;
+}
+
+.number-of-hours > #hours{
+  margin-top: 3em;
+  margin-left: -12.75em;
 }
 
 .number-of-hours{
