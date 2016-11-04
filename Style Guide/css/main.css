@@ -1379,7 +1379,7 @@ display: inline-block;
 }
 
 @media (max-width: 697px){
-/*  .rental-friend-options{
+  .rental-friend-options{
     width: 50%;
   }
   #about-us-description{
@@ -1414,10 +1414,13 @@ display: inline-block;
 
 }
 
-@media (max-width: 598px){
+
 /*  .rental-friend-options{
     width: 80%;
   }*/
+
+
+@media (max-width: 598px){
   #button-left-alignment{
     margin-left: -1em;
   }
