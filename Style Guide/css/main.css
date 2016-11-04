@@ -753,6 +753,7 @@ display: inline-block;
 #getting-started-img{
   margin-left: 0em;
   float: left;
+  width:100%;
 }
 
 #current-news h2{
@@ -763,7 +764,7 @@ display: inline-block;
 #current-news li{
   text-align: left;
   margin-bottom: 1em;
-  margin-left: -1.5em;
+  margin-left: 0;
 }
 
 #getting-started h2{
@@ -1174,6 +1175,10 @@ display: inline-block;
 
   .grid-col-4of4{
     width: 100%;
+  }
+
+  .grid-col-1of3{
+    width:33.3%;
   }
 
 }
