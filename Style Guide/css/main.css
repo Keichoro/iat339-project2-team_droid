@@ -230,6 +230,61 @@ section code {
   border: 2px solid #EFEFEF;
 }
 
+
+#progress-bar-text, #progress-bar-symbol{
+  border-bottom: 2px solid #BBBBBB;
+  border-top:2px solid #BBBBBB;
+}
+
+.breadcrumb-step{
+  font-family: 'Roboto Slab', Times, serif;
+  float:left;
+  padding:1em;
+  /*margin*/
+}
+
+.not-completed{
+ /* border-top:2px solid white;*/
+  /*border-bottom:2px solid #BBBBBB;*/
+  color: #BBBBBB;
+
+}
+
+.old-step{
+  font-family:'Roboto Slab', Times, serif;
+  color: #BBBBBB;
+  text-decoration:line-through;
+  padding:;
+}
+
+#current-step{
+  color:#D18334;
+  /*border: 2px solid #686868;*/
+}
+
+
+
+.old-step:hover{
+  padding:0;
+  margin:0;
+  color:#BBBBBB;
+  /*border:2px solid #BBBBBB;*/
+}
+
+#progress-bar-symbol{
+  display:none;
+}
+
+@media(max-width:55em){ /*need to find the right point still */
+  #progress-bar-text{
+    display:none;
+  }
+  #progress-bar-symbol{
+    display:block;
+  }
+}
+
+
 /* Styling for the navigation button */
 .button-nav{
   display: inline-block;
