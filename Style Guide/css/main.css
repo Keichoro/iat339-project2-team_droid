@@ -290,6 +290,15 @@ section code {
 /* Styling for the navigation button */
 .button-nav{
   display: inline-block;
+  font-family: 'Roboto Slab',Times, serif;
+  color:white;
+  border: 3px solid #DF9C58;
+  background-color: #D18334;
+  -webkit-border-radius:0.5em;
+  border-radius:0.5em;
+  padding: 0.25em 1.5em 0.25em 1.5em;
+
+  /*display: inline-block;
   padding: 0.25em 0em 0.25em 0em;
   color: #FFF;
   background-color: #D18334;
@@ -299,9 +308,7 @@ section code {
   border-style: solid;
   text-decoration: none;
   font-family: 'Roboto Slab',Times, serif;
-  font-size: 16px;
-  /*width: 100%;*/
-
+  font-size: 16px;*/
 /*  -webkit-transition: background-color 0.5s ease-out;
   transition: background-color 0.5s ease-out;*/
 }
@@ -676,18 +683,20 @@ section code {
 
 /*Back and Next Buttons*/
 
-.back-button{
+/*.back-button{
 display: inline-block;
   padding: 0.25em 1.5em 0.25em 1.5em;
   color: #FFF;
   background-color: #D18334;
   border-radius: 0.5em;
-  border-color: #DF9C58;
+  border-color: #DF9C58;  
   border-width:3px;
   border-style: solid;
   text-decoration: none;
   font-family: 'Roboto Slab',Times, serif;
   font-size: 18px;
+
+
 }
 
 .back-button:hover{
@@ -724,7 +733,7 @@ display: inline-block;
 
 .next-button:active{
   background-color:#B2702C;
-}
+}*/
 
 /*Home page buttons*/
 
@@ -759,7 +768,7 @@ display: inline-block;
   background-color:#B2702C;
 }
 
-#nav-button{
+/*#nav-button{
   width:50%;
 }
 
@@ -773,7 +782,7 @@ display: inline-block;
   text-align: center;
   border-width: 4px;
   font-family: 'Roboto Slab',Times, serif;
-}
+}*/
 
 /*Product Listing*/
 

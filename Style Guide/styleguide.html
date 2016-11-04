@@ -24,11 +24,20 @@
             <a href="http://www.sfu.ca/~kcngo/iat339/P1/week5/ThomasNgo_citations.html">Citations</a>
         </div> -->
         <h1 id="styleguidetitle"><a href="index.html"><img id="company-logo" alt="company logo" src="img/chum-buddies-logo-version2.png"></a></h1>
-        <div class="url-links">
-            <a href="index.html">Website</a>
-            <a href="citations.html">Citations</a>
-            <a href="https://github.com/TechieWidget/iat339-project2-team_droid/commits/master">GitHub Repository</a>
-        </div>
+        <nav id="url-links">
+            <ul id="head-nav-main">
+              <li class="head-nav-main-link">
+                <a href="index.html">Website</a>
+              </li>
+              <li class="head-nav-main-link">
+                <a href="citations.html">Citations</a>
+              </li>
+
+              <li class="head-nav-main-link">
+                <a href="https://github.com/TechieWidget/iat339-project2-team_droid/commits/master">GitHub Repository</a>
+              </li>
+            </ul>
+        </nav>
     </section>
 
     <nav id="side-nav-bar" >
@@ -80,9 +89,14 @@
 
             <h3>CSS selector:</h3>
             <p>.button-nav</p>
+            <p>.next</p>
+            <p>.back</p>
 
             <h3>Sample code:</h3>
-            <code>&lt;a href="#" class="button-nav"&gt;Default Button&lt;/a&gt;</code>
+            <code>&lt;a href="#" class="button-nav"&gt;Default Button&lt;/a&gt;<br>
+            &lt;a href="#" class="button-nav back"&gt;Back Default&lt;/a&gt;<br>
+            &lt;a href="#" class="button-nav next"&gt;Next Default&lt;/a&gt;
+            </code>
 
             <h3>Colors:</h3>
             <ul class="descriptive-colors">
@@ -110,6 +124,8 @@
 
             <h3>Rendered element:</h3>
             <a class="button-nav" href="">Default Button</a>
+            <a class="button-nav back" href="">Back Default</a>
+            <a class="button-nav next" href="">Next Default</a>
 
           </section>
 
@@ -434,6 +450,7 @@
                 <li class="head-nav-main-link"><a href="">About Us</a></li>
                 <li class="head-nav-main-link"><a href="">Contact Us</a></li>
                 <li class="head-nav-main-link"><a href="">Rent</a></li>
+                <li class="head-nav-main-link special-nav"><a href="">Login</a></li>
             </ul>
 
           </section>
