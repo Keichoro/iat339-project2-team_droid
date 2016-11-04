@@ -257,7 +257,7 @@ section code {
   padding:;
 }
 
-#current-step{
+.current-step{
   color:#D18334;
   /*border: 2px solid #686868;*/
 }
@@ -1011,12 +1011,12 @@ display: inline-block;
   margin-left: 1.5em;
 }
 
-#legal-content{
+.legal-content{
   text-align: left;
   margin-left: 2em;
 }
 
-#legal-content li{
+.legal-content li{
   margin-left: -1.2em;
 }
 
