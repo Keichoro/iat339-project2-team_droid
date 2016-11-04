@@ -344,7 +344,7 @@
 
             <h3>Colors:</h3>
             <ul class="descriptive-colors">
-                <li>
+<!--                 <li>
                     <p class="title-box">Border:</p>
                     <p id="main-border-col" class="color-box">#DF9C58</p>
                 </li>
@@ -363,11 +363,12 @@
                 <li>
                     <p class="title-box">Active:</p>
                     <p id="main-active-col" class="color-box">#B2702C</p>
-                </li>
+                </li> -->
             </ul>
             
             <h3>Menu Button</h3>
             <h4>CSS selector:</h4>
+            
             <p>.menu-button-up</p>
             <p>.menu-button-down</p>
 
@@ -375,9 +376,9 @@
             <code>&lt;button type="button" class="menu-button"&gt;Menu&lt;/button&gt;</code>
 
             <h4>Rendered Element:</h4>
-            <!-- <div class="menu-rendered">
+            <div class="menu-rendered">
             <button type="button" class="menu-button">Menu</button>
-            </div> -->
+            </div>
             <a href="" class="menu-button">Menu</a>
 
             <h3>Back and Next Buttons</h3>
@@ -402,7 +403,7 @@
             <h4>CSS selector:</h4>
             <p>.homepage-button</p>
 
-            <div class="homepage-buttons">
+            <!-- <div class="homepage-buttons"> -->
             <h4>Sample code for Return To Home Page button</h4>
             <code>&lt;a class="homepage-button" href=""&gt;Return To Home Page&lt;/a&gt;</code>
 
@@ -412,31 +413,28 @@
             <h3>Navigation Bar</h3>
 
             <h4>CSS selector:</h4>
-            <p>.nav-bar</p>
+            <p>#head-nav-main</p>
+            <p>.head-nav-main-link</p>
+            <!-- <p>.nav-bar</p> -->
 
             <h4>Sample code for navigation bar</h4>
-            <code>&lt;div class="nav-bar"&gt;<br>
-            &lt;a class="button-nav" href="">About Us&lt;/a&gt;<br>
-            &lt;a class="button-nav" href="">Calendar&lt;/a&gt;<br>
-            &lt;a class="button-nav" href="">Rent A Friend&lt;/a&gt;<br>
-            &lt;a class="button-nav" href="">Service Catalog&lt;/a&gt;<br>
-            &lt;a class="button-nav" href="">Apply For Job&lt;/a&gt;<br>
-            &lt;/div&gt;
+            <code>
+            &lt;ul id="head-nav-main"&gt;<br>
+            &nbsp;&nbsp;&lt;li class="head-nav-main-link">&lt;a href=""&gt;About Us&lt;/a&gt;&lt;/li&gt;<br>
+            &nbsp;&nbsp;&lt;li class="head-nav-main-link">&lt;a href=""&gt;Contact Us&lt;/a&gt;&lt;/li&gt;<br>
+            &nbsp;&nbsp;&lt;li class="head-nav-main-link">&lt;a href=""&gt;Rent&lt;/a&gt;&lt;/li&gt;<br>
+            &nbsp;&lt;/ul&gt;
             </code>
 
             <h4>Rendered Element:</h4>
-            <div id="menu-rendered-active" class="menu-rendered">
-            <button type="button">Menu</button>
-            </div>
-            <div id="nav-button">
-            <a class="button-nav" href="">About Us</a>
-            <a class="button-nav" href="">Calendar</a>
-            <a class="button-nav" href="">Rent A Friend</a>
-            <a class="button-nav" href="">Service Catalog</a>
-            <a class="button-nav" href="">Apply For Job</a>
-            </div>
-
-            <h4>Rendered Element for Game Console:</h4>
+            <!-- <div id="menu-rendered-active" class="menu-rendered"> -->
+            <!-- <button type="button">Menu</button> -->
+            <!-- </div> -->
+            <ul id="head-nav-main">
+                <li class="head-nav-main-link"><a href="">About Us</a></li>
+                <li class="head-nav-main-link"><a href="">Contact Us</a></li>
+                <li class="head-nav-main-link"><a href="">Rent</a></li>
+            </ul>
 
           </section>
 
@@ -480,7 +478,7 @@
               &lt;div class="grid-col-1of4"&gt;&lt;/div&gt;<br>
               &lt;div class="grid-col-1of4"&gt;&lt;/div&gt;<br>
               &lt;div class="grid-col-1of4"&gt;&lt;/div&gt;<br>
-            &lt;/div&gt;
+              &lt;/div&gt;
           </code>
 
             <h3>Website Grid Structure</h3>

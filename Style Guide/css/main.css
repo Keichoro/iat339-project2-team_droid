@@ -153,7 +153,7 @@ a:hover{
   margin-top:0;
 }
 
-.url-links{
+/*.url-links{
   background-color: #FFE09D;
   padding-left: 2em;
   width:auto;
@@ -170,7 +170,7 @@ a:hover{
 .url-links a:hover{
   background: #FFC280;
   text-decoration:none;
-}
+}*/
 
 body {
   font-family: sans-serif;
