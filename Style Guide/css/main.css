@@ -138,14 +138,15 @@ a:hover{
 /* end of descriptive colors section*/
 
 #company-logo{
-  margin-right: 1em;
+  /*margin-right: 1em;*/
+  width:7em;
 }
 
 #styleguidetitle{
   /*previous color: FFC280*/
   background-color: #E9AB69;
-  padding-top: 0.3em;
-  padding-bottom: 0.1em;
+  /*padding-top: 0.3em;*/
+  /*padding-bottom: 0.1em;*/
   color:#FFFFFF;
   padding-left:0.5em;
   margin-bottom: 0em;
