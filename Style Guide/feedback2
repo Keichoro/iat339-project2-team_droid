@@ -1,0 +1,77 @@
+
+RENTING PAGES:
+
+careful with credit card img stacking
+
+header height --> fix
+
+padding/margin:weird spacing
+
+font consistency --> sans-serif/serif
+
+collapsing steps into numbers
+	-not ideal
+	-change words to condense (payment->pay, legal)
+
+
+back/forward buttons
+
+next button too far --> need to clarify with proximity
+
+collapse a- alignment
+
+Built-in calendar form field --> chrome and iOS has some bugs
+
+fix padding in mobile version
+
+Rent-a-friend-list
+	-need a cue that area is interactive to check the check box
+	-too much space for checkbox, and not enough for text ~330px
+	-padding text and image too cozy at times
+	-add line length cap
+
+Set of options
+Fix proximity of numbers and text
+
+Return button --> more specific to rent a friend for rent-template.html
+
+HTML Shiv --polyfills load up library tell what need to polyfill --> uses javascript
+	-eg. webshim
+
+Register padding of button
+--> need button style similar (doesn't fit set)
+
+Submit & register --> straight to profile page
+
+Condense pages --> dont need so many pages
+
+Rating --> circular elements not seen before --> doesn't complement other elements
+- consistency of leave a review to complement other buttons
+
+-overlapping and positiong, confusing (left alignment causes unclear hierarchy) --> fix line alignment
+
+-get rid of calendar and events pages!!
+
+
+
+-Readability of header nav links hard to read
+-Chum Buddies logo ---> doesn't need to be in a different color box
+
+Latest news
+--> give them activity, add a fake link
+--> christmas take to profile
+--> reorganize at big width
+
+
+
+Update StyleGuide 
+	-remove stuff not being used
+	-collect elements, to consolidate
+
+
+share class names and ids
+
+
+
+To Do:
+-fix respective pages and update Style guide as we go
