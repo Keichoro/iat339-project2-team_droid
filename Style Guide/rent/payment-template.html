@@ -83,7 +83,7 @@
 					<img id="amex" alt="image placeholder for credit card brand" src="../img/500px-American_Express_logo.svg.png" height="75px" width="75px">
 				</div>
 				<div class="grid-col-1of4">
-					<img id="capitalone" alt="image placeholder for credit card brand" src="../img/2015_Capital_One_Logo.png" height="75px" width="200px">
+					<img id="capitalone" alt="image placeholder for credit card brand" src="../img/2015_Capital_One_Logo.png" height="75px" width="150px">
 				</div>
 			</div>
 
@@ -92,6 +92,7 @@
 					<label id="textfieldlabel">Card Type:</label>
 					<select class="single-dropdown" id="card-type">
 						<option value="debit">Debit</option>
+						<option value="debit">Credit</option>
 					</select>
 				</div>
 			</div>
@@ -107,10 +108,13 @@
 			<div class="grid-row card-number-input">
 				<div class="grid-col-4of4">
 					<div id="card-number">
-            		<input type="text" id="card-input" name="input">
-            		<input type="text" id="card-input" name="input">
-            		<input type="text" id="card-input" name="input">
-            		<input type="text" id="card-input" name="input">
+            		<input type="text" id="card-input" name="input" placeholder="XXXX">
+            		<p id="dash-between-card-number">-</p>
+            		<input type="text" id="card-input" name="input" placeholder="XXXX">
+            		<p id="dash-between-card-number">-</p>
+            		<input type="text" id="card-input" name="input" placeholder="XXXX">
+            		<p id="dash-between-card-number">-</p>
+            		<input type="text" id="card-input" name="input" placeholder="XXXX">
             		</div>
 				</div>
 			</div>
@@ -121,9 +125,26 @@
 					<label id="textfieldlabel">Expiry Date:</label>
 					<select class="single-dropdown" id="expiry-dropdown">
 						<option value="01">01</option>
+						<option value="02">02</option>
+						<option value="03">03</option>
+						<option value="04">04</option>
+						<option value="05">05</option>
+						<option value="06">06</option>
+						<option value="07">07</option>
+						<option value="08">08</option>
+						<option value="09">09</option>
+						<option value="10">10</option>
+						<option value="11">11</option>
+						<option value="12">12</option>
 					</select>
 					<select class="single-dropdown" id="expiry-dropdown">
 						<option value="17">17</option>
+						<option value="18">18</option>
+						<option value="19">19</option>
+						<option value="20">20</option>
+						<option value="21">21</option>
+						<option value="22">22</option>
+						<option value="23">23</option>
 					</select>
 				</div>
 			</div>
@@ -155,5 +176,6 @@
 			<a href="">GitHub Repository</a>
 		</footer>
 
+		<script src="../js/payment.js"></script>
   	</body>
 </html>

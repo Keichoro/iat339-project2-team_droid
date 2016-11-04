@@ -867,13 +867,13 @@ display: inline-block;
   float:right;
 }
 
-#yes a{
+#no a{
   float:left;
   width: 50%;
   margin-left: 1.5em;
 }
 
-#no a{
+#yes a{
   float:right;
   width: 50%;
 }
@@ -962,8 +962,8 @@ display: inline-block;
 
 #legal-checkbox input{
   float: left;
-  margin-left: 1.75em;
-  margin-top: 0em;
+  margin-left: 2.75em;
+  margin-top: 0.75em;
 }
 
 #legal-checkbox p{
@@ -994,13 +994,20 @@ display: inline-block;
 }
 
 #card-number{
-  margin-left:1.3em;
+  margin-top: 1em;
+  margin-left:2.25em;
+}
+#dash-between-card-number{
+  font-size: 22px;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  float: left;
 }
 
 #card-input{
   float:left;
-  margin-left:1em;
-  width: 15%;
+  margin-left:0em;
+  width: 50px;
 }
 
 #card-type{
@@ -1060,6 +1067,21 @@ display: inline-block;
   margin-top: 3em;
   margin-bottom: 3em;
 }
+
+.choice{
+/*  position: relative;
+  display: inline-block;*/
+}
+
+.choice input{
+  /*display: none;*/
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+}
+/*.switch input {display:none;}*/
 
 /*Grid Structure*/
 
@@ -1154,10 +1176,6 @@ display: inline-block;
     width: 100%;
   }
 
-  #legal-checkbox p{
-    width: 75%;
-  }
-
 }
 
 @media (max-width: 1274px){
@@ -1193,12 +1211,15 @@ display: inline-block;
   #master-card{
     margin-left: 2em;
   }
-  #yes a{
+  #no a{
     width:80%;
   }
 
-  #no a{
+  #yes a{
     width:80%;
+  }
+  #select-instructions{
+    margin-left: 1.25em;
   }
 }
 
@@ -1290,11 +1311,11 @@ display: inline-block;
   #button-left-alignment{
     margin-left: -1em;
   }
-  #yes a{
+  #no a{
     width:80%;
   }
 
-  #no a{
+  #yes a{
     width:80%;
   }
 }
@@ -1313,6 +1334,10 @@ display: inline-block;
 @media (max-width: 480px){
   p{
     font-size: 16px;
+  }
+  #select-instructions{
+    font-size: 17px;
+    margin-left: 1em;
   }
   .rental-friend-options{
     margin-top: 1em;
@@ -1355,14 +1380,14 @@ display: inline-block;
     margin-left: 0em;
   }
   #legal-checkbox p{
-    width: 80%;
+    width: 75%;
   }
-  #yes a{
+  #no a{
     margin-left: 0em;
     width:40%;
   }
 
-  #no a{
+  #yes a{
     width:40%;
     margin-top: -2.75em;
   }
@@ -1410,6 +1435,7 @@ display: inline-block;
     margin-top: -5em;
     position: absolute;
   }
+
 }
 
 @media (max-width: 450px){
