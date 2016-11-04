@@ -181,6 +181,22 @@ div{
 }
 /* -----END OF FOOTER STYLING	----- */
 
+/* -----about-is.html Styling------*/
+
+.about-details{
+	/*position:relative;*/
+}
+
+.about-img{
+	width:100%;
+	/*position:absolute;*/
+}
+
+.culture-details{
+	text-align:left;
+}
+
+/* -----END OF about-us.html Styling-----*/
 
 /* -----Profile.html Styling------*/
 
@@ -582,3 +598,14 @@ a .friend-img:hover{
 .rent-img{
 	width:100%;
 }
+
+.search-option{
+	position:relative;
+}
+
+/*@media(min-width:55em){
+	.search-options{
+		width:100%;
+	}
+}*/
+
