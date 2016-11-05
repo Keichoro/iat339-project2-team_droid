@@ -1281,7 +1281,7 @@ display: inline-block;
   margin-top: 1em;
   margin-left:2.25em;
 }
-#dash-between-card-number{
+.dash-between-card-number{
   font-size: 22px;
   margin-left: 0.5em;
   margin-right: 0.5em;
@@ -1552,6 +1552,37 @@ display: inline-block;
     width: 70%;
     float: left;
     margin-left: 1.5em;
+  }
+}
+
+@media (max-width: 460px){
+  .credit-card-brand{
+    width: 60%;
+  }
+  #amex{
+    margin-left: 1em;
+    margin-top: 1em;
+  }
+  #capitalone{
+    margin-top: 1em;
+  }
+}
+
+@media (max-width: 410px){
+  .credit-card-brand{
+    width: 70%;
+  }
+}
+
+@media (max-width: 359px){
+  .credit-card-brand{
+    width: 80%;
+  }
+  .dash-between-card-number{
+    margin-left: 0.15em;
+    margin-right: 0.15em;
+  }
+  .card-number-input{
   }
 }
 
