@@ -1246,14 +1246,18 @@ display: inline-block;
   margin-left: 2em;
 }
 
-#payment-summary{
-  margin-left: -0.5em;
-}
 
-#payment-summary p{
-  float:left;
-  margin-top: 0.2em;
-  margin-left: 0.5em;
+.payment-summary td{
+  text-align: left;
+  background-color: #E8E8E3;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+.payment-summary table{
+  margin-left: 2em;
+  margin-bottom: 2em;
 }
 
 #visa{
