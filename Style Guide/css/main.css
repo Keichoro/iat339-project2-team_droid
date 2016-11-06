@@ -1308,6 +1308,16 @@ display: inline-block;
   margin-bottom: 3em;
 }
 
+.cvc{
+  margin-bottom: 3em;
+}
+
+.cvc input{
+  float: left;
+  width: 40px;
+  margin-left: 1em;
+}
+
 #progress-flow-bar{
   height: 125px;
 }
@@ -1317,25 +1327,31 @@ display: inline-block;
   margin-left: 1em;    
 }
 
-#profile-photo{
+.profile-photo{
   width: 15%;
   margin-left: 1em;
   float: left;
 }
 
-#profile-description{
+.profile-description{
   text-align: left;
-  width: 80%;
+  width: 90%;
   float: left;
 }
 
-#profile-description a{
+.profile-description a{
   font-style:italic;
   font-size: 18px;
 }
 
-#select-checkbox{
+.select-checkbox{
   width: 5%;
+  float: right;
+  margin-top: -6.5em;
+}
+
+.friend-description{
+  width: 80%;
 }
 
 #select-instructions{
@@ -1357,8 +1373,8 @@ display: inline-block;
 }
 
 .profile-row{
-  margin-top: 4em;
-  margin-bottom:5em;
+  margin-top: 2em;
+  margin-bottom:2em;
 }
 
 /*Grid Structure*/
@@ -1469,13 +1485,16 @@ display: inline-block;
     width: 100%;
     height: auto;
   }
+  .select-checkbox{
+    margin-top: -7em;
+  }
 
 }
 
 @media (max-width: 1120px){
-  .profile-summary{
+/*  .profile-summary{
     width: 90%;
-  } 
+  } */
   
 }
 
@@ -1484,6 +1503,16 @@ display: inline-block;
     width: 40%;
     display: inline-block;
     margin-left: 8em;
+  }
+}
+
+@media (max-width: 965px){
+  .profile-description > .friend-description{
+    width: 90%;
+  }
+  .profile-photo {
+    margin-right: 1em;
+    margin-left: 0em;
   }
 }
 
@@ -1514,12 +1543,17 @@ display: inline-block;
 }
 
 @media (max-width: 820px){
-  #profile-description{
-    float:right;
-    width: 80%;
+  .profile-description > .friend-description{
+    margin-left: 6em;
+    width: 70%;
+
   }
-  .profile-summary{
-    width: 90%;
+  .profile-description > .select-checkbox{
+    position: relative;
+    width: 5%;
+  }
+  .profile-photo {
+    width: 20%;
   }
 }
 
@@ -1527,7 +1561,7 @@ display: inline-block;
   #full-legal-agreement{
     width: 65%;
   }
-  #profile-photo{
+  .profile-photo{
     width: 17%;
   }
   #select-checkbox{
@@ -1535,60 +1569,21 @@ display: inline-block;
   }
 }
 
-@media (max-width: 720px){
-  #profile-description{
-    width: 75%;
+@media (max-width: 730px){
+  .profile-description{
+    font-size: 15px;  
   }
-  #profile-photo{
+  .profile-photo{
     width: 20%;
+
+/*    background-color: red;*/
+    height: 190px;
   }
 }
 
-@media (max-width: 570px){
-  .checkbox{
-    margin-top: 4em;
-  }
-  #profile-description{
-    width: 70%;
-    float: left;
-    margin-left: 1.5em;
-  }
-}
-
-@media (max-width: 460px){
-  .credit-card-brand{
-    width: 60%;
-  }
-  #amex{
-    margin-left: 1em;
-    margin-top: 1em;
-  }
-  #capitalone{
-    margin-top: 1em;
-  }
-}
-
-@media (max-width: 410px){
-  .credit-card-brand{
-    width: 70%;
-  }
-}
-
-@media (max-width: 359px){
-  .credit-card-brand{
-    width: 80%;
-  }
-  .dash-between-card-number{
-    margin-left: 0.15em;
-    margin-right: 0.15em;
-  }
-  .card-number-input{
-  }
-}
-
-@media (max-width: 445px){
-  #full-legal-agreement{
-    width: 80%;
+@media (min-width:45em){
+  .grid-col-2of10 {
+    width: 18.5%;
   }
 }
 
@@ -1604,6 +1599,28 @@ display: inline-block;
   
 }
 
+
+@media (max-width: 650px){
+  .profile-row{
+    margin-left: -1.5em;
+  }
+  .profile-photo{
+
+    
+  }
+  .profile-photo img{
+    width: 90px;
+    margin-left: -1em;
+  }
+  .profile-description > .friend-description{
+    width: 75%;
+    margin-left: 5em;
+  }
+  .profile-description >.select-checkbox > input{
+    margin-left: 2em;
+    margin-top: 1em;
+  }
+}
 
 @media (max-width: 598px){
 /*  .rental-friend-options{
@@ -1621,21 +1638,41 @@ display: inline-block;
   }
 }
 
-@media (max-width: 586px){
-  #friend-description{
-    font-size: 15px;
+@media (max-width: 570px){
+  .checkbox{
+    margin-top: 4em;
   }
-
-  #profile-description a {
-    font-size: 15px;
+  .profile-description > .friend-name{
+    margin-left: 4em;
   }
-
+  .profile-description{
+    width: 92%;
+    float: left;
+    margin-left: 1.5em;
+  }
+  .profile-description >.select-checkbox > input{
+    margin-left: 1em;
+    margin-top: 1em;
+  }
 }
 
-@media (max-width: 480px){
-  p{
-    font-size: 16px;
+@media (max-width: 542px){
+  .profile-description a{
+    margin-left: 5.2em;
   }
+}
+
+@media (max-width: 490px){
+  .profile-description > .friend-description{
+    width: 70%;
+  }
+}
+
+
+@media (max-width: 480px){
+/*  p{
+    font-size: 16px;
+  }*/
   #select-instructions{
     font-size: 17px;
     margin-left: 1em;
@@ -1653,19 +1690,45 @@ display: inline-block;
     margin-left: 0.2em;
     margin-top:-1em; 
   }
-  #profile-photo{
-    width: 30%;
+
+  .profile-row{
+    margin-left: 0.95em;
+    margin-right: 0em;
   }
-  #profile-description{
-    width: 55%;
-    margin-left: 0.5em;
+
+  .profile-photo{
+    height: 100px;
   }
-  .profile-summary{
-    width: 80%;
+
+  .profile-description > .friend-description{
+    font-size: 15px;
+    width: 90%;
+    margin-top: 6em;
+    margin-left: 0em;
   }
-  #select-checkbox{
+  .profile-description > .friend-name{
+    margin-left: 3.4em;
+  }
+
+  .profile-photo{
     width: 15%;
   }
+  .profile-photo img{
+    width: 70px;
+    margin-left: 0em;
+  }
+
+  .profile-description >.select-checkbox > input{
+    margin-left: 0.5em;
+    margin-top: 1em;
+  }
+
+  .profile-description a{
+    font-size: 15px;
+    margin-left: 0em;
+  }
+
+
   #button-left-alignment{
     width: 15%;
   }
@@ -1694,6 +1757,45 @@ display: inline-block;
   }
 }
 
+@media (max-width: 460px){
+  .credit-card-brand{
+    width: 60%;
+  }
+  #amex{
+    margin-left: 1em;
+    margin-top: 1em;
+  }
+  #capitalone{
+    margin-top: 1em;
+  }
+
+  .profile-description a{
+    margin-left: 0.75em;
+  }
+}
+
+@media (max-width: 445px){
+  #full-legal-agreement{
+    width: 80%;
+  }
+}
+
+@media (max-width: 410px){
+  .credit-card-brand{
+    width: 70%;
+  }
+}
+
+@media (max-width: 359px){
+  .credit-card-brand{
+    width: 80%;
+  }
+  .dash-between-card-number{
+    margin-left: 0.15em;
+    margin-right: 0.15em;
+  }
+}
+
 .credit-card-brand{
     margin-bottom: 3em;
     margin-left: 2em;
@@ -1716,13 +1818,9 @@ display: inline-block;
   #rent-paragraph{
     font-size: 14px;
   }
-  #profile-description{
-    margin-left: 1em;
-    width: 58%;
-  }
-  .profile-summary{
+/*  .profile-summary{
     width: 90%;
-  }
+  }*/
   #select-checkbox{
     float: right;
     width: 10%;
@@ -1730,18 +1828,26 @@ display: inline-block;
   .checkbox{
     margin-left: 1em;
   }
-  #friend-description{
-    font-size: 15px;
-    margin-top: -0.5em;
-    margin-bottom: 0.5em;
-  }
 }
 
-@media (min-width:45em){
-  .grid-col-2of10 {
-    width: 18.5%;
+@media (max-width: 400px){
+  
+  .profile-description >.friend-description{
+    width: 90%;
+    margin-top: 6em;
+    margin-left: 0em;
   }
-
+  .profile-description > .friend-name{
+    font-size: 18px;
+    margin-left: 4.25em;
+  }
+  .friend-description{
+    margin-top: -0.5em;
+  }
+  .profile-description >.select-checkbox > input{
+    margin-left: 0em;
+    margin-top: -1em;
+  }
 }
 
 #search-for-friend{
