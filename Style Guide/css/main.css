@@ -542,7 +542,14 @@ section code {
 */
 
 .pageheading{
-  margin-top: 2em;
+  /*margin-top: 2em;*/
+  font-size: 32px;
+  font-family:'Avenir Heavy';
+  /*old color: FFC287*/
+  background-color: #E9AB69;
+  color:white;
+  padding: 0.25em 1em 0.25em 1em;
+  text-align: left;
 }
 
 .pageheading p {
@@ -564,7 +571,15 @@ section code {
 }
 
 .subpageheading{
-  margin-top: 5em;
+/*  margin-top: 5em;*/
+  font-size: 26px;
+  font-family:'Avenir Medium';
+  background-color: #FFC287;
+  color:white;
+  width: 100%;
+  border-radius: 15px;
+  text-align: left;
+  padding: 0.25em 1em 0.25em 1em;
 }
 
 .subpageheading p {
@@ -585,7 +600,10 @@ section code {
 }
 
 .sectionheading{
-  margin-top: 5em;
+/*  margin-top: 5em;*/
+  display: inline-block;
+  font-family: 'Avenir Medium';
+  font-size: 22px;
 }
 
 .sectionheading p{
