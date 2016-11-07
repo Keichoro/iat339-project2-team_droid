@@ -1859,6 +1859,10 @@ display: inline-block;
     margin-left: 0em;
   }
 
+  .profile-row{
+    margin-bottom: 3em;
+  }
+
 
   #button-left-alignment{
     width: 15%;
