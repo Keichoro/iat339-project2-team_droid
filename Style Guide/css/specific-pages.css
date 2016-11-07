@@ -240,7 +240,9 @@ div{
 /* -----Profile.html Styling------*/
 
 
-
+.profile-page .profile-description:active{
+	background:#EFEFEF;
+}
 
 
 .profile-img{
