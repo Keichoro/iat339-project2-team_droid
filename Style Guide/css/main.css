@@ -616,16 +616,6 @@ section code {
   
 }
 
-#pageheading-rendered{
-  font-size: 32px;
-  font-family:'Avenir Heavy';
-  /*old color: FFC287*/
-  background-color: #E9AB69;
-  color:white;
-  padding: 0.25em 1em 0.25em 1em;
-  text-align: left;
-}
-
 .subpageheading{
 /*  margin-top: 5em;*/
   font-size: 26px;
@@ -644,16 +634,6 @@ section code {
   display:inline-block;
   margin-right: 1em;
 }
-/*#subpageheading-rendered{
-  font-size: 26px;
-  font-family:'Avenir Medium';
-  background-color: #FFC287;
-  color:white;
-  width: 100%;
-  border-radius: 15px;
-  text-align: left;
-  padding: 0.25em 1em 0.25em 1em;
-}*/
 
 .sectionheading{
 /*  margin-top: 5em;*/
@@ -957,9 +937,9 @@ display: inline-block;
   margin-left: 1.5em;
 }
 
-#work-culture{
+.culture-details{
   text-align: left;
-  margin-left: 0.5em;
+  margin-left: 1.5em;
   width: 100%;
 }
 
@@ -977,7 +957,6 @@ display: inline-block;
 
 .ui-datepicker a {
   text-decoration: none;
-  /*color: #FFFFFF;*/
 }
 
 .ui-datepicker table {
@@ -1138,11 +1117,6 @@ display: inline-block;
   font-size: 22px;
   font-weight: bold;
 }
-
-/*#reasons-for-new-friend-paragraph{
-  text-align: left;
-  margin-left: 0.3em;
-}*/
 
 #reasons-input{
   width: 99%;
@@ -1529,16 +1503,6 @@ display: inline-block;
   /*position:relative;*/
 }
 
-.grid-col-1of1, .grid-col-2of10{
-  width: 100%;
-  background: #D18334;
-  height:3em;
-  margin-left: 1em;
-  margin-right: 0.7em;
-  margin-bottom: 1em;
-}
-
-
 
 /*.grid-col-2of4{
   width:50%;
@@ -1563,12 +1527,6 @@ display: inline-block;
   content: "";
   display: block;
   clear: both;
-}
-
-@media (min-width:17em){
-  .grid-col-1of1 {
-    width: 10%;
-  }
 }
 
 @media (min-width:30em){
@@ -1608,18 +1566,27 @@ display: inline-block;
 
 }
 
-@media (max-width: 1120px){
-/*  .profile-summary{
-    width: 90%;
-  } */
-  
-}
-
 @media (max-width: 1190px){
    #about-us-description{
-    width: 40%;
+    width: 65%;
     display: inline-block;
-    margin-left: 8em;
+    margin-left: 2em;
+  }
+}
+
+@media (max-width: 1100px){
+   #about-us-description{
+    width: 55%;
+    display: inline-block;
+    margin-left:4em;
+  }
+}
+
+@media (max-width: 975px){
+   #about-us-description{
+    width: 55%;
+    display: inline-block;
+    margin-left: 6em;
   }
 }
 
@@ -1640,12 +1607,6 @@ display: inline-block;
   
 }
 
-/*@media (max-width: 960px){
-  .rental-friend-options{
-    width: 70%;
-  }
-}*/
-
 @media (max-width: 925px){
   #no a{
     width:80%;
@@ -1656,6 +1617,14 @@ display: inline-block;
   }
   #select-instructions{
     margin-left: 1.25em;
+  }
+}
+
+@media (max-width: 870px){
+   #about-us-description{
+    width: 47%;
+    display: inline-block;
+    margin-left: 10em;
   }
 }
 
@@ -1698,15 +1667,29 @@ display: inline-block;
   }
   .profile-photo{
     width: 20%;
-
-/*    background-color: red;*/
     height: 190px;
   }
 }
 
-@media (min-width:45em){
-  .grid-col-2of10 {
-    width: 18.5%;
+@media (max-width: 727px){
+   #about-us-description{
+    width: 95%;
+    display: inline-block;
+    margin-left: -1.5em;
+    margin-top: 1em;
+  }
+}
+
+@media (max-width: 724px){
+  #workplace-photo{
+    width: auto;
+    margin-left: 1.75em;
+  }
+   #about-us-description{
+    width: 100%;
+    display: inline-block;
+    margin-left:-1em;
+    margin-top: 1em;
   }
 }
 
@@ -1746,9 +1729,6 @@ display: inline-block;
 }
 
 @media (max-width: 598px){
-/*  .rental-friend-options{
-    width: 80%;
-  }*/
   #button-left-alignment{
     margin-left: -1em;
   }
@@ -1799,18 +1779,10 @@ display: inline-block;
 
 
 @media (max-width: 480px){
-/*  p{
-    font-size: 16px;
-  }*/
   #select-instructions{
     font-size: 17px;
     margin-left: 1em;
   }
-/*  .rental-friend-options{
-    margin-top: 1em;
-    margin-bottom: 1em;
-    margin-left: 2em;
-  }*/
   #number-text{
     width: 100%;
   }
@@ -1898,6 +1870,10 @@ display: inline-block;
     margin-left: 8em;
   }
 
+  .culture-details{
+    width: 90%;
+  }
+
 }
 
 @media (max-width: 460px){
@@ -1938,6 +1914,17 @@ display: inline-block;
   }
 }
 
+@media (max-width: 430px){
+   #workplace-photo{
+    margin-left: 1em;
+   }
+   #about-us-description{
+    width: 95%;
+    display: inline-block;
+    margin-left: 0em;
+  }
+}
+
 @media (max-width: 420px){
   #breadcrumbs > #next a{
     margin-left: 5.5em;
@@ -1959,6 +1946,31 @@ display: inline-block;
   #legal-checkbox p{
     width: 60%;
     font-size: 16px;
+  }
+  #workplace-photo{
+    margin-left: 0.5em;
+   }
+   #about-us-description{
+    width: 95%;
+    display: inline-block;
+    margin-left: -0.5em;
+  }
+}
+
+@media (max-width: 400px){
+  #workplace-photo{
+    margin-left: 0.25em;
+   }
+   #workplace-photo img{
+    width: 100%;
+   }
+   #about-us-description{
+    width: 95%;
+    display: inline-block;
+    margin-left: -0.75em;
+  }
+  .culture-details{
+    margin-left: 1em;
   }
 }
 
@@ -2059,17 +2071,14 @@ display: inline-block;
 .small-img{
   display:inline-block;
   height:10em;
-/*  border:1px solid blue;*/
 }
 
 .medium-img{
   display:inline-block;
   height:15em;
-  /*border:1px solid green;*/
 }
 
 .large-img{
   display:inline-block;
   height:20em;
-/*  border:1px solid red;*/
 }
