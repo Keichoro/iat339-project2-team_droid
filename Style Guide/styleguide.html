@@ -50,6 +50,8 @@
                 <li><a href="#in-text-link">In-text Link</a></li>
                 <li><a href="#submit-button">Submit/Reset Buttons</a></li>
                 <li><a href="#input-fields">Text Input Field and Label</a></li>
+                <li><a href="#calendar">Calendar</a></li>
+                <li><a href="#table">Table</a></li>
             </ul>
         </li>
         <li class="side-button">
@@ -216,10 +218,55 @@
           <section id="calendar">
             <h2>Calendar</h2>
 
-            </section>
+            <h3>CSS selectors:</h3>
+            <p>.calendar-input</p>
+            <p>#dateofbirth</p>
+            <p>#meeting-date</p>
 
-            <section id="table">
+            <h3>Sample Code:</h3>
+            <code>&lt;label id="textfieldlabel"&gt;Date of Birth&lt;/label&gt;<br><br>
+            &lt;input type="text" id="dateofbirth" class="calendar-input"/&gt;</code><br><br>
+            <code>&lt;label id="textfieldlabel"&gt;Meeting&lt;/label&gt;<br><br>
+            &lt;input type="text" id="meeting-date" class="calendar-input"/&gt;</code>
+
+            <h3>Rendered Element:</h3>
+
+            <label id="textfieldlabel">Date of Birth</label>
+            <input type="text" id="dateofbirth" class="calendar-input"/>
+            
+            <label id="textfieldlabel">Meeting Date</label>
+            <input type="text" id="meeting-date" class="calendar-input" />
+
+          </section>
+
+          <section id="table">
             <h2>Table</h2>
+
+            <h3>CSS selectors:</h3>
+            <p>.payment-summary</p>
+
+            <h3>Sample Code:</h3>
+            <code>&lt;div class="payment-summary"&gt;<br><br>
+                &lt;tr&gt;<br><br>
+
+            </code>
+
+            <div class="payment-summary">
+                    <table>
+                      <tr>
+                          <td>Number Of Friends</td>
+                          <td>3</td>
+                      </tr>
+                      <tr>
+                          <td>Number Of Hours For Each Friend</td>
+                          <td>5</td>
+                      </tr>
+                      <tr>
+                          <td>Total Amount</td>
+                          <td>$225.00</td>
+                      </tr>
+                    </table>
+            </div>
             </section>
 
         </section>
@@ -560,7 +607,12 @@
     </section>
 
 
-    
+        <script src="js/jquery-ui.js"></script>
+        <script src="js/jquery-1.12.4.js"></script>
+        <script src="js/fill-out-form.js"></script>
+
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 
 
   </body>

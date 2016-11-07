@@ -28,6 +28,15 @@ a:hover{
   color:#FFC280;
 }
 
+#calendar > label{
+  float: left;
+}
+
+#table{
+  margin-left: 0em;
+  margin-top: 10em;
+}
+
 /* descriptive colors used to highlight specific colors for each element */
 .descriptive-colors li{
   list-style:none;
@@ -426,6 +435,29 @@ section code {
   margin-bottom:4em;
 }
 
+.login{
+  display: inline-block;
+  padding: 0.25em 1.6em 0.25em 1.6em;
+  color: #FFF;
+  background-color: #F5AF18;
+  border-radius: 1em;
+  border-color: #A36839;
+  border-width:5px;
+  border-style: solid;
+  text-decoration: none;
+  font-family: 'Roboto Slab',Times, serif;
+  font-size: 16px;
+}
+
+.login:hover{
+  background-color: #DC7B1A;
+  text-decoration:none;
+}
+
+.login:active {
+  background-color: #F68711;
+}
+
 #submit{
   display: inline-block;
   padding: 0.25em 1.6em 0.25em 1.6em;
@@ -449,29 +481,6 @@ section code {
 
 #submit:active {
   background-color: #F68711;
-}
-
-#reset{
-  display: inline-block;
-  padding: 0.25em 2em 0.25em 2em;
-  color: #FFF;
-  background-color: #e03333;
-  border-radius: 1em;
-  border-color: #e14a4a;
-  border-width:5px;
-  border-style: solid;
-  text-decoration: none;
-  font-family: 'Roboto Slab',Times, serif;
-  font-size: 16px;
-}
-
-#reset:hover{
-  background-color: #b11a1a;
-  text-decoration:none;
-}
-
-#reset:active {
-  background-color: #6E1616;
 }
 
 #submit-gc{
@@ -915,7 +924,7 @@ display: inline-block;
 }
 
 #dateofbirth{
-  margin-left: -5.5em;
+  margin-left: -5em;
   font-size: 18px;
   width: 100px;
 }
@@ -1189,6 +1198,11 @@ display: inline-block;
 .birth{
   margin-top: 2em;
   margin-bottom: 1em;
+}
+
+.birth > label{
+  margin-left: 2.25em;
+  float: left;
 }
 
 .number-of-hours > #hours{
