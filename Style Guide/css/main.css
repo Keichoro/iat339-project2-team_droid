@@ -242,20 +242,21 @@ section code {
 }
 
 
-#breadcrumbs{
-  border:1px solid black;
+#breadcrumbs .button-nav{
+  /*margin-bottom:2em;*/
 }
 
 #progress-bar-text, #progress-bar-symbol{
   border-bottom: 2px solid #BBBBBB;
   border-top:2px solid #BBBBBB;
+  text-align:center;
+  padding: 1em 0;
 }
 
 .breadcrumb-step{
   font-family: 'Roboto Slab', Times, serif;
-  float:left;
-  padding:1em;
-  /*margin*/
+  /*float:left;*/
+  /*padding:1em;*/
 }
 
 .not-completed{
@@ -287,16 +288,33 @@ section code {
 }
 
 #progress-bar-symbol{
-  display:none;
+  /*display:none;*/
 }
 
 @media(max-width:55em){ /*need to find the right point still */
-  #progress-bar-text{
+/*  #progress-bar-text{
     display:none;
+  }*/
+
+/*  #progress-bar-symbol{
+    display:inline;
+  }*/
+
+/*  #breadcrumbs .progress{
+    width:100%;
+    float:left;
   }
-  #progress-bar-symbol{
-    display:block;
-  }
+
+  #breadcrumbs .button-nav{
+    width:30%;
+    background:red;
+  }*/
+
+  /*#breadcrumbs [class^='grid-col-'] {
+    background:red;
+    width: 30%;
+  }*/
+ 
 }
 
 

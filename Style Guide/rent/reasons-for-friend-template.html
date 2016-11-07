@@ -54,7 +54,6 @@
 						<div class="grid-row">
 							<div class="grid-col-4of4 skill-section">
 								<h2>What type of relationship are you looking for?</h2>
-								<p>What type of relationship are you looking for?</p>
 								<!-- <label id="relationship-type">What type of relationship?</label><br> -->
 								<div class="skill-section">
 									<div>
@@ -77,7 +76,7 @@
 								<div class="grid-col-2of4 skill-section">
 									<h3>Outdoor Activities</h3>
 									
-									<input type="checkbox" name="outdoor activity" value="Go Hiking" class="checkbox">Go Hiking<br>
+									<input type="checkbox" name="outdoor activity" value="Go Hiking" class="radio-button">Go Hiking<br>
 									<input type="checkbox" name="outdoor activity" value="Play Sports" class="radio-button">Play Sports<br>
 									<input type="checkbox" name="outdoor activity" value="Go for Walk" class="radio-button">Go for Walk<br>
 									<input type="checkbox" name="outdoor activity" value="Go Running" class="radio-button">Go Running<br>
@@ -139,25 +138,42 @@
 			</div> -->
 
 
-			<div id="breadcrumbs" class="grid-row">
+<!-- 			<div id="breadcrumbs" class="grid-row">
 				<div class="grid-col-1of4">
 					<a href="rent-template.html" class="button-nav back">Back</a>
 				</div>
-				<div id="progress-bar-text" class="grid-col-2of4">
+				<div id="progress-bar-text" class="grid-col-2of4 progress">
 					<div class="breadcrumb-step current-step">Interests</div>
 					<div class="breadcrumb-step not-completed">Select Friends</div>
 					<div class="breadcrumb-step not-completed">Personal Info</div>
 					<div class="breadcrumb-step not-completed">Legal Agreement</div>
 					<div class="breadcrumb-step not-completed">Payment</div>
 				</div>
-				<div id="progress-bar-symbol" class="grid-col-2of4">
+				<div id="progress-bar-symbol" class="grid-col-2of4 progress">
 					<div class="breadcrumb-step current-step">Interests</div>
 					<div class="breadcrumb-step not-completed">Select</div>
 					<div class="breadcrumb-step not-completed">Info</div>
 					<div class="breadcrumb-step not-completed">Legal</div>
 					<div class="breadcrumb-step not-completed">Pay</div>
 				</div>
-				<div class="grid-col-1of4" id="only-right-button-alignment">
+				<div class="grid-col-1of4">
+					<a href="select-friends-template.html" class="button-nav next">Next</a>
+				</div>
+			</div> -->
+
+
+			<div id="breadcrumbs" class="flex-container">
+				<div id="back" class="col-1">
+					<a href="rent-template.html" class="button-nav back">Back</a>
+				</div>
+				<div id="progress-bar-text" class="col-2 flex-container">
+					<div class="breadcrumb-step current-step col-1">Interests</div>
+					<div class="breadcrumb-step not-completed col-1">Choose</div>
+					<div class="breadcrumb-step not-completed col-1">Personal</div>
+					<div class="breadcrumb-step not-completed col-1">Legal</div>
+					<div class="breadcrumb-step not-completed col-1">Payment</div>
+				</div>
+				<div id="next" class=col-1>
 					<a href="select-friends-template.html" class="button-nav next">Next</a>
 				</div>
 			</div>
