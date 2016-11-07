@@ -529,25 +529,6 @@ section code {
   background-color: #F68711;
 }
 
-#submit-gc{
-  display: inline-block;
-  padding: 0.1em 1.6em 0.1em 1.6em;
-  color: #FFF;
-  background-color: #f5af18;
-  border-radius: 0.75em;
-  border-color: #ca8147;
-  border-width:5px;
-  border-style: solid;
-  text-decoration: none;
-  font-family: 'Roboto Slab',Times, serif;
-  font-size: 22px;
-}
-
-#submit-gc:hover{
-  background-color: #eb8e1f;
-  text-decoration:none;
-}
-
 .link{
   font-family: 'Avenir Book';
   color:#E9AB69;
@@ -1003,6 +984,14 @@ section code {
 #reasons-input{
   width: 99%;
   height: 8em;
+}
+
+#otherlabel1{
+  margin-left: 0em;
+}
+
+#otherlabel2{
+  margin-left: 0em;
 }
 
 #number-text{
