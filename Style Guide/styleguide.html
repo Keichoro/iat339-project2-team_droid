@@ -198,16 +198,13 @@
             <p>.inputfield</p>
 
             <h3>Sample Code:</h3>
-            <code>&lt;label class="label"&gt;Default Label&lt;/label&gt;<br><br>&lt;input type="text" class="inputfield" name="lastname"&gt;</code>
+            <code>&lt;label class="label"&gt;Default Label&lt;/label&gt;<br>&lt;input type="text" id="email-input" name="lastname"&gt;</code>
 
             
-            <div class="textfieldlabel">
-            <p> Labels are in Avenir Book font. 16px for smartwatch and smartphone, and 20px for game console. </p>
             <h3>Rendered element:</h3>
-            <label id="textfieldlabel">Label</label>
-            <input type="text" class="inputfield" id="input" name="input">
-            </div>
-
+            <label class="textfieldlabel">Email Address</label>
+            <input type="text" id="email-input" name="input">
+            
             <div class="textfield-info">
               <p>18px</p>
               <p>Avenir Book</p>
@@ -224,18 +221,20 @@
             <p>#meeting-date</p>
 
             <h3>Sample Code:</h3>
-            <code>&lt;label id="textfieldlabel"&gt;Date of Birth&lt;/label&gt;<br><br>
+            <code>&lt;label id="textfieldlabel"&gt;Date of Birth&lt;/label&gt;<br>
             &lt;input type="text" id="dateofbirth" class="calendar-input"/&gt;</code><br><br>
-            <code>&lt;label id="textfieldlabel"&gt;Meeting&lt;/label&gt;<br><br>
+            <code>&lt;label id="textfieldlabel"&gt;Meeting&lt;/label&gt;<br>
             &lt;input type="text" id="meeting-date" class="calendar-input"/&gt;</code>
 
             <h3>Rendered Element:</h3>
 
             <label id="textfieldlabel">Date of Birth</label>
             <input type="text" id="dateofbirth" class="calendar-input"/>
-            
-            <label id="textfieldlabel">Meeting Date</label>
-            <input type="text" id="meeting-date" class="calendar-input" />
+
+            <div id="rendered-meeting-date">
+                <label id="textfieldlabel">Meeting Date</label>
+                <input type="text" id="meeting-date" class="calendar-input" />
+            </div>
 
           </section>
 
@@ -246,10 +245,25 @@
             <p>.payment-summary</p>
 
             <h3>Sample Code:</h3>
-            <code>&lt;div class="payment-summary"&gt;<br><br>
-                &lt;tr&gt;<br><br>
-
+            <code>&lt;div class="payment-summary"&gt;<br>
+                &lt;table&gt;<br>
+                &lt;tr&gt;<br>
+                &lt;td&gt;Number Of Friends&lt;/td&gt;<br>
+                &lt;td&gt;3&lt;/td&gt;<br>
+                &lt;/tr&gt;<br>
+                &lt;tr&gt;<br>
+                &lt;td&gt;Number Of Hours For Each Friend&lt;/td&gt;<br>
+                &lt;td&gt;3&lt;/td&gt;<br>
+                &lt;/tr&gt;<br>
+                &lt;tr&gt;<br>
+                &lt;td&gt;Total Amount&lt;/td&gt;<br>
+                &lt;td&gt;$225.00&lt;/td&gt;<br>
+                &lt;/tr&gt;<br>
+                &lt;/table&gt;<br>
+                &lt;/div&gt;<br><br>
             </code>
+
+            <h3>Rendered Element:</h3>
 
             <div class="payment-summary">
                     <table>
@@ -298,7 +312,7 @@
             <ul class="descriptive-colors">
                 <li>
                     <p class="title-box">Background:</p>
-                    <p id="heading-back-col" class="color-box">#FFC287</p>
+                    <p id="heading-back-col" class="color-box">#E9AB69</p>
                 </li>
                 <li>
                     <p class="title-box">Font:</p>
@@ -310,9 +324,9 @@
             <h3>Sample code for Page Heading:</h3>
             <code>&lt;h1 class="pageheading"&gt;Page Heading&lt;/h1&gt;</code>
             <h3>Rendered Element:</h3>
-            <h1 id="pageheading-rendered">Page Heading</h1>
-            <p>32px</p>
-            <p>Avenir Heavy</p>
+            <h1 class="pageheading">Page Heading</h1>
+            <p class="avenir-heavy">32px</p>
+            <p class="avenir-heavy">Avenir Heavy</p>
             </div>
 
             
@@ -320,9 +334,9 @@
             <h3>Sample code for Subpage Heading:</h3>
             <code>&lt;h2&gt;Subpage Heading&lt;/h2&gt;</code>
             <h3>Rendered Element:</h3>
-            <h2 id="subpageheading-rendered">Subpage Heading</h2>
-            <p>26px</p>
-            <p>Avenir Medium</p>
+            <h2 class="subpageheading">Subpage Heading</h2>
+            <p class="avenir-medium">26px</p>
+            <p class="avenir-medium">Avenir Medium</p>
             </div>
 
             <div class="sectionheading">
@@ -522,20 +536,52 @@
             <p>.productlisting</p>
 
             <h3>Sample code for product listing</h3>
-            <code>&lt;div class="productlisting"&gt;<br>
-              &lt;a class="link" href=""&gt;Picnic Lunch&lt;/a&gt;<br>
-              &lt;img src="img/picnic.jpg" width="200" height="130"&gt;<br>
-              &lt;p class="paragraph"&gt;Lorem ipsum dolor sit amet, <br>consectetur adipiscing elit. Aenean euismod <br>bibendum laoreet. Proin gravida dolor sit amet <br>lacus accumsan et viverra justo commodo.&lt;/p&gt;<br>
-            &lt;/div&gt;
+            <code>
+              &lt;div class="grid-row profile-row"&gt;<br>
+              &lt;label for="select-friend1"&gt;<br>
+              &lt;div class="grid-col-4of4"&gt;<br>
+              &lt;div class="profile-description"&gt;<br>
+              &lt;div class="profile-photo"&gt;<br>
+              &lt;img alt="friend profile photo" src="img/friend1.png"&gt;<br>
+              &lt;/div&gt;<br>
+              &lt;p class="friend-name"&gt;Bob Graham&lt;/p&gt;<br>
+              &lt;p class="friend-description"&gt;My name is Bob. I work as a Firefighter at the Vancouver Fire Department. I love to work on my car, workout, hike, camp, go to concerts, party, and play video games.&lt;/p&gt;<br>
+              &lt;a href="" class="link"&gt;Click to see his full profile&lt;/a&gt;<br>
+              &lt;div class="select-checkbox"&gt;<br>
+              &lt;input type="checkbox" name="friend" value="" class="checkbox" id="select-friend1"&gt;<br>
+              &lt;/div&gt;<br>
+              &lt;/div&gt;<br>
+              &lt;/div&gt;<br>
+              &lt;/label&gt;<br>
+              &lt;/div&gt;<br>
           </code>
 
             <h3>Rendered element:</h3>
-            <div class="productlisting">
+
+            <div class="grid-row profile-row">
+                <label for="select-friend1">
+                    <div class="grid-col-4of4"> 
+                            <div class="profile-description">
+                            <div class="profile-photo">
+                                <img alt="friend profile photo" src="img/friend1.png" height="">
+                            </div>
+                            <p class="friend-name">Bob Graham</p>
+                            <p class="friend-description">My name is Bob. I work as a Firefighter at the Vancouver Fire Department. I love to work on my car, workout, hike, camp, go to concerts, party, and play video games.</p>
+                            <a href="" class="link">Click to see his full profile</a>
+                            <div class="select-checkbox">
+                                <input type="checkbox" name="friend" value="" class="checkbox" id="select-friend1">
+                            </div>
+                        </div>
+                    </div>
+                </label>    
+            </div>
+
+<!--             <div class="productlisting">
               <img src="img/picnic.jpg" alt="picnic" width="500" height="280">
               <a class="link-sample" href="">Picnic Lunch</a>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo.</p>
             </div>
-            </div>
+            </div> -->
 
           </section>
 

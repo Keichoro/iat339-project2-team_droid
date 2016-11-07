@@ -32,9 +32,31 @@ a:hover{
   float: left;
 }
 
+#rendered-meeting-date > label{
+  float: left;
+  margin-left: 3em;
+}
+
+#rendered-meeting-date > input{
+  margin-left: -6em;
+  margin-top: 2.25em;
+}
+
 #table{
   margin-left: 0em;
   margin-top: 10em;
+}
+
+/*Only be used for style guide*/
+.avenir-heavy{
+  font-size: 32px;
+  font-family:'Avenir Heavy';
+}
+
+/*Only be used for style guide*/
+.avenir-medium{
+  font-size: 26px;
+  font-family:'avenir-medium';
 }
 
 /* descriptive colors used to highlight specific colors for each element */
@@ -141,7 +163,7 @@ a:hover{
 }
 
 #heading-back-col{
-  background-color:#FFC287;
+  background-color:#E9AB69;
 }
 
 /* end of descriptive colors section*/
@@ -1360,14 +1382,25 @@ display: inline-block;
   margin-bottom: 3em;
 }
 
+.expiry-date label{
+  float: left;
+  margin-left: 2.25em;
+}
+
 .cvc{
   margin-bottom: 3em;
+}
+
+.cvc label{
+  float: left;
+  margin-left: 2.25em;
 }
 
 .cvc input{
   float: left;
   width: 40px;
   margin-left: 1em;
+  margin-top: -0.25em;
 }
 
 #progress-flow-bar{
@@ -1904,8 +1937,18 @@ display: inline-block;
   margin-right: 1.5em;
 }
 
+.card-number-label label{
+  float: left;
+  margin-left: 2.25em;
+}
+
 .card-type-selection{
   margin-bottom: 3em;
+}
+
+.card-type-selection label{
+  float:left;
+  margin-left: 2.25em;
 }
 
 .card-number-input{
