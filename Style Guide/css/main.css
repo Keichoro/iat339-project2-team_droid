@@ -34,6 +34,7 @@ a:hover{
 
 #table{
   margin-left: 0em;
+  margin-top: 10em;
 }
 
 /* descriptive colors used to highlight specific colors for each element */
@@ -918,7 +919,7 @@ display: inline-block;
 }
 
 #dateofbirth{
-  margin-left: -5.5em;
+  margin-left: -5em;
   font-size: 18px;
   width: 100px;
 }
@@ -1192,6 +1193,11 @@ display: inline-block;
 .birth{
   margin-top: 2em;
   margin-bottom: 1em;
+}
+
+.birth > label{
+  margin-left: 2.25em;
+  float: left;
 }
 
 .number-of-hours > #hours{
