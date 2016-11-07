@@ -378,6 +378,11 @@ section code {
   width:15em;
 }
 
+.dropdown{
+  width:auto;
+  height:2em;
+}
+
 #form{
   text-align:left;
   margin-bottom:2em;
@@ -1314,7 +1319,7 @@ display: inline-block;
   margin-left: 1em;
 }
 
-#expiry-dropdown{
+.expiry-dropdown{
   margin-left: 1em;
   margin-top: 0em;
 }

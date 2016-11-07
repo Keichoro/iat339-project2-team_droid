@@ -33,7 +33,7 @@
 			</nav>
 		</header>
 
-		<section id="content">
+		<section id="content" class="reasons-for-friend">
 
 			<div class="grid-row">
 				<div class="grid-col-4of4" id="rent-a-friend-header">
@@ -43,45 +43,81 @@
 
 			<div class="grid-row">
 				<div class="grid-col-4of4" id="rent-paragraph">
-				<p>We would love to know why you are interested in renting a friend(s) from us. By telling us below why you want to rent a friend(s), we can instantly tell you how many friends are able to meet your needs.</p>
+				<!-- <p>We would love to know why you are interested in renting a friend(s) from us. By telling us below why you want to rent a friend(s), we can instantly tell you how many friends are able to meet your needs.</p> -->
+					<p>We would love to know why you are interested in renting a friend(s) from us. We will help you find your closest matches.</p>
 				</div>
 			</div>
 
 			<div class="grid-row">
 				<div class="grid-col-4of4">
-					<form id="form">
-						<div class="grid-col-2of4">
-							<h2>Type of Relationship</h2>
-							<p>What type of relationship are you looking for?</p>
-							<!-- <label id="relationship-type">What type of relationship?</label><br> -->
-							<input type="radio" name="type" value="longterm">Long-term<br>
-							<input type="radio" name="type" value="shortterm">Short-term<br>
-							<label class="reg-labels">Relationship Needs</label>
-							<select class="single-dropdown">
-								<option>Friendship</option>
-								<option>Assistant</option>
-								<option>Either</option>
-							</select>
+					<form id="form" class="why-form">
+						<div class="grid-row">
+							<div class="grid-col-4of4 skill-section">
+								<h2>What type of relationship are you looking for?</h2>
+								<p>What type of relationship are you looking for?</p>
+								<!-- <label id="relationship-type">What type of relationship?</label><br> -->
+								<div class="skill-section">
+									<div>
+										<input type="radio" name="type" value="longterm" class="radio-button">Long-term<br>
+										<input type="radio" name="type" value="shortterm" class="radio-button">Short-term<br>
+									</div>
+									<label class="label">Relationship Needs</label>
+									<select class="dropdown" name="types of relationships">
+										<option>Friendship</option>
+										<option>Assistant</option>
+										<option>Either</option>
+									</select>
+								</div>
+							</div>
 						</div>
-						<div class="grid-col-2of4">
-							<h2>Types of Activities</h2>
-							<p>What do you want to do?</p>
-							<label class="reg-labels">Outdoors</label>
-							<select class="single-dropdown">
-								<option>Hiking</option>
-								<option>Sports</option>
-								<option>Walk</option>
-								<option>Running</option>
-								<option>Beach</option>
-							</select>
-							<label class="reg-labels">Indoors</label>
-							<select class="single-dropdown">
-								<option>Shop</option>
-								<option>Run Errands</option>
-								<option>Crafts</option>
-								<option>Video Games</option>
-								<option>Movies</option>
-							</select>
+						<div class="grid-row">
+							<div class="grid-col-4of4 skill-section">
+								<h2>What activities do you want to do?</h2>
+								<p>What type of things do you want to do with your friend(s)?</p>
+								<div class="grid-col-2of4 skill-section">
+									<h3>Outdoor Activities</h3>
+									
+									<input type="checkbox" name="outdoor activity" value="Go Hiking" class="checkbox">Go Hiking<br>
+									<input type="checkbox" name="outdoor activity" value="Play Sports" class="radio-button">Play Sports<br>
+									<input type="checkbox" name="outdoor activity" value="Go for Walk" class="radio-button">Go for Walk<br>
+									<input type="checkbox" name="outdoor activity" value="Go Running" class="radio-button">Go Running<br>
+									<input type="checkbox" name="outdoor activity" value="Go to Beach" class="radio-button">Go to Beach<br>
+									<input type="checkbox" name="outdoor activity" value="Other" class="radio-button">Other<br>
+									<!-- <select class="dropdown" name="list of outdoor activities"><br>
+										<option>Hiking</option>
+										<option>Sports</option>
+										<option>Walk</option>
+										<option>Running</option>
+										<option>Beach</option>
+										<option>Other</option>
+									</select> -->
+									<div>
+										<label class="label">If 'other', please specify:</label>
+										<input type="text" name="other outdoor activity" class="inputfield other">
+									</div>
+								</div>
+								<div class="grid-col-2of4 skill-section">
+									<h3>Indoor Activities</h3>
+										<!-- <select class="dropdown" name="list of indoor activities">
+											<option>Shopping</option>
+											<option>Errands</option>
+											<option>Crafts</option>
+											<option>Video Games</option>
+											<option>Movies</option>
+											<option>Other</option>
+										</select> -->
+									<input type="checkbox" name="indoor activity" value="Go Shopping" class="radio-button">Shopping<br>
+									<input type="checkbox" name="indoor activity" value="Run Errands" class="radio-button">Run Errands<br>
+									<input type="checkbox" name="indoor activity" value="Make Crafts" class="radio-button">Make Crafts<br>
+									<input type="checkbox" name="indoor activity" value="Play Video Games" class="radio-button">Play Video Games<br>
+									<input type="checkbox" name="indoor activity" value="Watch Movies" class="radio-button">Watch Movies<br>
+									<input type="checkbox" name="indoor activity" value="Other" class="radio-button">Other<br>	
+									<div>
+										<label class="label">If 'other', please specify:</label>
+										<input type="text" name="other outdoor activity" class="inputfield other">
+									</div>
+								</div>
+							</div>
 						</div>
 					</form>
 				</div>

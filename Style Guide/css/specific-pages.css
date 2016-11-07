@@ -454,13 +454,22 @@ a .friend-img:hover{
 
 .skill-section {
 	text-align:left;
-	margin-left:15%;
+	padding-left:2em;
+	margin-bottom:2em;
+	/*border:1px solid black;*/
+	/*margin-left:15%;*/
 }
 
 .skill-section label{
 	display:inline-block;
 	margin: 1em;
+/*	float:left;
+	clear:both;*/
 }
+
+/*.skill-section input{
+	padding:2em;
+}*/
 
 .comment-box{
 	width:90%;
@@ -472,6 +481,15 @@ a .friend-img:hover{
 @media(max-width:30em){
 	.review-page h1, .review-page h2, .review-page p{
 	text-align:center;
+	}
+
+	.skill-section{
+		padding:0;
+		text-align:center;
+	}
+
+	.skill-section p{
+		text-align:center;
 	}
 }
 
@@ -671,6 +689,28 @@ a .friend-img:hover{
 
 .search-option{
 	position:relative;
+}
+
+.reg-labels{
+/*	float:left;
+	clear:right;*/
+	border:1px solid black;
+}
+
+.other{
+	display:inline-block;
+	width:10em;
+}
+
+/*.dropdown{
+	float:left;
+	clear:both;
+}*/
+
+@media(max-width:50em){
+	.reasons-for-friend [class^='grid-col-'] {
+		width:100%;
+	}
 }
 
 .confirmation-page p{
