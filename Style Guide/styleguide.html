@@ -128,7 +128,7 @@
           <section id="in-text-link">
             <h2>In-text link</h2>
 
-            <p> In-text link is in Avenir Book font and 16px for smartwatch and smartphone. Avenir Medium and 20px for game console. </p>
+            <p> In-text link is in Avenir Book font and 16px for smartphone.</p>
             
             <h3>CSS selector:</h3>
             <p>.link</p>
@@ -223,11 +223,11 @@
 
             <h3>Rendered Element:</h3>
 
-            <label id="textfieldlabel">Date of Birth</label>
+            <label class="textfieldlabel">Date of Birth</label>
             <input type="text" id="dateofbirth" class="calendar-input"/>
 
             <div id="rendered-meeting-date">
-                <label id="textfieldlabel">Meeting Date</label>
+                <label class="textfieldlabel">Meeting Date</label>
                 <input type="text" id="meeting-date" class="calendar-input" />
             </div>
 
@@ -326,21 +326,21 @@
 
             
             <div>
-            <h3>Sample code for Subpage Heading:</h3>
-            <code>&lt;h2&gt;Subpage Heading&lt;/h2&gt;</code>
-            <h3>Rendered Element:</h3>
-            <h2 class="subpageheading">Subpage Heading</h2>
-            <p class="avenir-medium">26px</p>
-            <p class="avenir-medium">Avenir Medium</p>
+                <h3>Sample code for Subpage Heading:</h3>
+                <code>&lt;h2&gt;Subpage Heading&lt;/h2&gt;</code>
+                <h3>Rendered Element:</h3>
+                <h2 class="subpageheading">Subpage Heading</h2>
+                <p class="avenir-medium">26px</p>
+                <p class="avenir-medium">Avenir Medium</p>
             </div>
 
             <div class="sectionheading">
-            <h3>Sample code for Section Heading:</h3>
-            <code>&lt;h3&gt;Section Heading&lt;/h3&gt;</code>
-            <h3>Rendered Element:</h3>
-            <h3 class="sectionheading-rendered">Section Heading</h3>
-            <p>22px</p>
-            <p>Avenir Medium</p>
+                <h3>Sample code for Section Heading:</h3>
+                <code>&lt;h3&gt;Section Heading&lt;/h3&gt;</code>
+                <h3>Rendered Element:</h3>
+                <h3 class="sectionheading-rendered">Section Heading</h3>
+                <p class="avenir-medium">22px</p>
+                <p class="avenir-medium">Avenir Medium</p>
             </div>
 
           </section>
@@ -444,10 +444,8 @@
             </code>
 
             <h4>Rendered Element:</h4>
-            <!-- <div id="menu-rendered-active" class="menu-rendered"> -->
-            <!-- <button type="button">Menu</button> -->
-            <!-- </div> -->
-            <ul id="head-nav-main">
+            <!--same id as actual page head-nav-main-->
+            <ul id="head-nav-main"> 
                 <li class="head-nav-main-link"><a href="">About Us</a></li>
                 <li class="head-nav-main-link"><a href="">Contact Us</a></li>
                 <li class="head-nav-main-link"><a href="">Rent</a></li>
@@ -465,32 +463,34 @@
             <h3>Sample code for product listing</h3>
             <code>
               &lt;div class="grid-row profile-row"&gt;<br>
-              &lt;label for="select-friend1"&gt;<br>
-              &lt;div class="grid-col-4of4"&gt;<br>
-              &lt;div class="profile-description"&gt;<br>
-              &lt;div class="profile-photo"&gt;<br>
-              &lt;img alt="friend profile photo" src="img/friend1.png"&gt;<br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="grid-col-4of4"&gt;<br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="profile-description"&gt;<br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="profile-photo"&gt;<br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;label for="select-friend1"&gt;<br>
+             &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;img alt="friend profile photo" src="img/friend1.png"&gt;<br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/label&gt;<br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;<br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;p class="friend-name"&gt;Bob Graham&lt;/p&gt;<br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;p class="friend-description"&gt;My name is Bob. I work as a Firefighter at the Vancouver Fire Department. I love to work on my car, workout, hike, camp, go to concerts, party, and play video games.&lt;/p&gt;<br>
+             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;a href="" class="link"&gt;Click to see his full profile&lt;/a&gt;<br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="select-checkbox"&gt;<br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;input type="checkbox" name="friend" value="" class="checkbox" id="select-friend1"&gt;<br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;<br>
+              &nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;<br>
+              &nbsp;&nbsp;&lt;/div&gt;<br>
               &lt;/div&gt;<br>
-              &lt;p class="friend-name"&gt;Bob Graham&lt;/p&gt;<br>
-              &lt;p class="friend-description"&gt;My name is Bob. I work as a Firefighter at the Vancouver Fire Department. I love to work on my car, workout, hike, camp, go to concerts, party, and play video games.&lt;/p&gt;<br>
-              &lt;a href="" class="link"&gt;Click to see his full profile&lt;/a&gt;<br>
-              &lt;div class="select-checkbox"&gt;<br>
-              &lt;input type="checkbox" name="friend" value="" class="checkbox" id="select-friend1"&gt;<br>
-              &lt;/div&gt;<br>
-              &lt;/div&gt;<br>
-              &lt;/div&gt;<br>
-              &lt;/label&gt;<br>
-              &nbsp;&lt;/div&gt;<br>
           </code>
 
             <h3>Rendered element:</h3>
 
             <div class="grid-row profile-row">
-                <label for="select-friend1">
+                
                     <div class="grid-col-4of4"> 
-                            <div class="profile-description">
+                        <div class="profile-description">
                             <div class="profile-photo">
-                                <img alt="friend profile photo" src="img/friend1.png" height="">
+                                <label for="select-friend1">
+                                    <img alt="friend profile photo" src="img/friend1.png">
+                                </label>
                             </div>
                             <p class="friend-name">Bob Graham</p>
                             <p class="friend-description">My name is Bob. I work as a Firefighter at the Vancouver Fire Department. I love to work on my car, workout, hike, camp, go to concerts, party, and play video games.</p>
@@ -499,8 +499,7 @@
                                 <input type="checkbox" name="friend" value="" class="checkbox" id="select-friend1">
                             </div>
                         </div>
-                    </div>
-                </label>    
+                    </div>    
             </div>
 
 <!--             <div class="productlisting">
