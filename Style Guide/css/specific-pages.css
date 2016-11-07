@@ -460,16 +460,20 @@ a .friend-img:hover{
 
 #need-register{
 	padding:2em 0;
-	margin-bottom:2em;
+	margin-bottom:10em;
+	margin-left:2em;
 	background:#EFEFEF;
 	-webkit-border-radius:.5em;
 	border-radius:.5em;
+	border:1px solid black;
 	width:80%;
 }
 
 @media(max-width:30em){
 	#need-register{
 		width:100%;
+		margin-left:0;
+		/*background:red;*/
 	}
 }
 
@@ -620,6 +624,10 @@ a .friend-img:hover{
 
 	.news-item p{
 		margin:0;
+	}
+
+	.details .button-nav{
+		margin-left:10%;
 	}
 }
 
