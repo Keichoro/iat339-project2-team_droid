@@ -1362,6 +1362,16 @@ display: inline-block;
   float: left;
 }
 
+.profile-description:hover{
+  border: 7px solid #E9AB69;
+}
+
+.profile-description:active{
+  background-color: #B5B5B1;
+  -webkit-transition: background-color 0.5s ease-out;
+}
+
+
 .profile-description a{
   font-style:italic;
   font-size: 18px;
@@ -1802,10 +1812,6 @@ display: inline-block;
   }
   #capitalone{
     margin-top: 1em;
-  }
-
-  .profile-description a{
-    margin-left: 0.75em;
   }
 }
 
