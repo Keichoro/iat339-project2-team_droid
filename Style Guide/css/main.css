@@ -1477,6 +1477,12 @@ section code {
   }
 }
 
+@media (max-width: 880px){
+  #on-friend-page #non-italic{
+      margin-top: -10em;
+  }
+}
+
 @media (max-width: 870px){
    #about-us-description{
     width: 47%;
@@ -1867,6 +1873,7 @@ section code {
 .credit-card-brand{
     margin-bottom: 3em;
     margin-left: 2em;
+    width:90%;
 }
 
 .credit-card-brand img{
