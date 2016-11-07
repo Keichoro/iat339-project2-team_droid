@@ -10,6 +10,11 @@
   padding-right: 1em;
 }
 
+#content-index{
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
 /* ------ styling the side navigation bar ----- */
 
 #side-nav-bar{

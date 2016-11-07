@@ -287,6 +287,11 @@ a .friend-img:hover{
 
 .details{
 	text-align:left;
+	padding-right: 3%;
+}
+
+.details a{
+	margin-bottom:5%;
 }
 
 .time-stamp{
@@ -515,12 +520,14 @@ a .friend-img:hover{
 	border: 3px solid #BBBBBB;
 	background:white;
 	padding:0;
-	margin: 0 4em;
+	/*margin: 0 4em;*/
+	margin:0 3%;
 }
 
 .benefits-img{
 	width:90%;
-	padding: 1em;
+	/*padding: 1em;*/
+	padding: 0 3% 5% 3%;
 /*	border-radius: .5em;*/
 	/*border:1px solid black;*/
 }
@@ -558,10 +565,12 @@ a .friend-img:hover{
 }
 
 .news-item{
-	border: 4px solid #EFEFEF;
+	border: 4px solid #BBBBBB;
+	background: #EFEFEF;
 	padding: .8em 1em;
 	margin-bottom: 2.5em;
-	background:white;
+	-webkit-border-radius:0.5em;
+	border-radius:0.5em;
 	/*margin-right: 2em;*/
 	/*margin-left: 2em;*/
 
@@ -582,13 +591,18 @@ a .friend-img:hover{
 	margin-left:3.5em;
 }
 
+.news-photo{
+	width:100%;
+}
+
 @media(max-width:30em){
-	.benefits-img{
-		padding:1em 1em;
+	#content-index p{
+		text-align:center;
+		/*background:red;*/
 	}
 
 	.benefits-container{
-		margin:.5em;
+		margin:.5em 0;
 	}
 
 	#current-news ul{
@@ -600,7 +614,7 @@ a .friend-img:hover{
 		/*padding:.5em;*/
 	}
 
-	.news-img{
+	.news-img, .news-photo{
 		display:none;
 	}
 
