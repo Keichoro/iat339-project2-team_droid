@@ -529,25 +529,6 @@ section code {
   background-color: #F68711;
 }
 
-#submit-gc{
-  display: inline-block;
-  padding: 0.1em 1.6em 0.1em 1.6em;
-  color: #FFF;
-  background-color: #f5af18;
-  border-radius: 0.75em;
-  border-color: #ca8147;
-  border-width:5px;
-  border-style: solid;
-  text-decoration: none;
-  font-family: 'Roboto Slab',Times, serif;
-  font-size: 22px;
-}
-
-#submit-gc:hover{
-  background-color: #eb8e1f;
-  text-decoration:none;
-}
-
 .link{
   font-family: 'Avenir Book';
   color:#E9AB69;
@@ -559,30 +540,17 @@ section code {
   color:#525250;
 }
 
-
-/*.textfieldlabel {
-
-  margin-top: 2em;
-  margin-right: 2em;
-  display:block;
-  font-family: 'Avenir Book';
-}*/
-
 .textfieldlabel{
   float:left;
   font-size: 18px;
   margin-left: 2em;
-}
-.textfieldlabel-20px{
-  float:left;
-  font-size: 20px;
+  font-family: 'Avenir Book';
 }
 .input{
   float: left;
   margin-left: -5.4em;
   margin-top:2em;
   width: 75%;
-  /*height: 18px;*/
 }
 
 .textfield-info{
@@ -674,41 +642,7 @@ section code {
   COMBINED ELEMENTS -------------------
 */
 
-/*Menu Button*/
-
-/*---- Old Menu Button------*/
-/*.menu-rendered{
-  -webkit-transition-property: width; 
-    -webkit-transition-duration: 5s; 
-    -webkit-transition-delay: 2s; 
-    transition-property: width;
-    transition-duration: 5s;
-    transition-delay: 2s;
-}
-
-.menu-rendered button:hover {
-  background-color: #CC6600;
-}
-
-.menu-rendered button:active {
-  background-color: #B2702C;
-}
-
-.menu-rendered button{
-  display: inline-block;
-  padding: 0.4em 2em 0.4em 2em;
-  color: #FFF;
-  background-color: #D18334;
-  border-radius: 0.5em;
-  border-color: #DF9C58;
-  border-width:5px;
-  border-style: solid;
-  text-decoration: none;
-  font-family: 'TsukuBRdGothic-Regular','Tsukushi B Round Gothic';
-  font-size: 20px;
-}*/
-
-/*---- New Menu Button------*/
+/*---- Menu Button------*/
 .menu-button{
   -webkit-transition-property: width; /* Safari */
     -webkit-transition-duration: 5s; /* Safari */
@@ -738,60 +672,6 @@ section code {
 .menu-button:active {
   background-color: #B2702C;
 }
-
-/*Back and Next Buttons*/
-
-/*.back-button{
-display: inline-block;
-  padding: 0.25em 1.5em 0.25em 1.5em;
-  color: #FFF;
-  background-color: #D18334;
-  border-radius: 0.5em;
-  border-color: #DF9C58;  
-  border-width:3px;
-  border-style: solid;
-  text-decoration: none;
-  font-family: 'Roboto Slab',Times, serif;
-  font-size: 18px;
-
-
-}
-
-.back-button:hover{
-  background-color: #CC6600;
-  text-decoration:none;
-}
-
-.back-button:active{
-  background-color:#B2702C;
-}
-
-.next-button{
-display: inline-block;
-  padding: 0.25em 1.5em 0.25em 1.5em;
-  color: #FFF;
-  background-color: #D18334;
-  border-radius: 0.5em;
-  border-color: #DF9C58;
-  border-width:3px;
-  border-style: solid;
-  text-decoration: none;
-  font-family: 'Roboto Slab',Times, serif;
-  font-size: 18px;
-}
-
-.next-button:hover{
-  background-color: #CC6600;
-  text-decoration:none;
-}
-
-.back-and-next-buttons{
-  margin-top: 5em; 
-}
-
-.next-button:active{
-  background-color:#B2702C;
-}*/
 
 /*Home page buttons*/
 
@@ -825,22 +705,6 @@ display: inline-block;
 #menu-rendered-active button{
   background-color:#B2702C;
 }
-
-/*#nav-button{
-  width:50%;
-}
-
-#nav-button a{
-  font-size: 20px;
-  width:8em;
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
-  padding-left: 7em;
-  padding-right: 7em;
-  text-align: center;
-  border-width: 4px;
-  font-family: 'Roboto Slab',Times, serif;
-}*/
 
 /*Product Listing*/
 
@@ -1110,7 +974,6 @@ display: inline-block;
   margin-left:25%;
   margin-top:10%;
   outline:white 1px solid;
-  /*float:left;*/
 }
 
 .friend-name{
@@ -1121,6 +984,14 @@ display: inline-block;
 #reasons-input{
   width: 99%;
   height: 8em;
+}
+
+#otherlabel1{
+  margin-left: 0em;
+}
+
+#otherlabel2{
+  margin-left: 0em;
 }
 
 #number-text{
@@ -1506,23 +1377,7 @@ display: inline-block;
   padding:0;
   text-align: center;
   width:100%; /* if window is smaller than the smallest media query, make it extend to the full window width*/
-  /*position:relative;*/
 }
-
-
-/*.grid-col-2of4{
-  width:50%;
-} 
-.grid-col-3of4{
-  width:75%;
-}
-.grid-col-1of4{
-  width:25%;
-}
-.grid-col-4of4{
-  width: 100%;
-}*/
-
 
 .grid-row{
   width: 100%;
