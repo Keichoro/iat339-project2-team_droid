@@ -62,18 +62,18 @@
 				<form class="grid-col-4of4 review-form">
 					<div class="grid-col-2of4" id="form">
 						<h2>Overview</h2>
-						<label id="review-title">Review Title:</label>
-						<input name="Review Headline" type="text" class="inputfield"><br>
-						<label id="comment-box">Comment:</label>
-						<textarea name="Comment Box" placeholder="Write a detailed review" rows="10" cols="4" class="inputfield comment-box"></textarea>
+						<label id="review-title" for="rev-title">Review Title:</label>
+						<input name="Review Headline" type="text" id="rev-title" class="inputfield"><br>
+						<label id="comment-box" for="comm-box">Comment:</label>
+						<textarea name="Comment Box" placeholder="Write a detailed review" rows="10" cols="4" class="inputfield comment-box" id="comm-box"></textarea>
 					</div>
 
 					<div class="grid-col-2of4 skills-summary">
 						<h2>Skills Summary</h2>
 						<p>Where 1 is the lowest and 5 is the highest</p>
 						<div class="skill-section">
-							<label id="skills-entertainment">Entertainment</label>
-							<select name="entertainment rating: 1 is lowest and 5 is the highest">
+							<label id="skills-entertainment" for="entertainment-rating">Entertainment</label>
+							<select name="entertainment rating: 1 is lowest and 5 is the highest" id="entertainment-rating">
 								<option value="1">1</option>
 								<option value="2">2</option>
 								<option value="3">3</option>
@@ -82,8 +82,8 @@
 							</select>
 						</div>
 						<div class="skill-section">
-							<label id="skills-humour">Humour</label>
-							<select name="humour rating: 1 is lowest and 5 is the highest">
+							<label id="skills-humour" for="humour-rating">Humour</label>
+							<select name="humour rating: 1 is lowest and 5 is the highest" id="humour-rating">
 								<option value="1">1</option>
 								<option value="2">2</option>
 								<option value="3">3</option>
@@ -92,8 +92,8 @@
 							</select>
 						</div>
 						<div class="skill-section">
-							<label id="skills-kindness">Kindness</label>
-							<select name="kindness rating: 1 is lowest and 5 is the highest">
+							<label id="skills-kindness" for="kind-rating">Kindness</label>
+							<select name="kindness rating: 1 is lowest and 5 is the highest" id="kind-rating">
 								<option value="1">1</option>
 								<option value="2">2</option>
 								<option value="3">3</option>
@@ -102,8 +102,8 @@
 							</select>
 						</div>
 						<div class="skill-section">
-							<label id="skills-knowledgable">Knowledgable</label>
-							<select name="knowledgable rating: 1 is lowest and 5 is the highest">
+							<label id="skills-knowledgable" for="knowledge-rating">Knowledgable</label>
+							<select name="knowledgable rating: 1 is lowest and 5 is the highest" id="knowledge-rating">
 								<option value="1">1</option>
 								<option value="2">2</option>
 								<option value="3">3</option>

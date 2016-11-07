@@ -375,9 +375,14 @@ section code {
   margin-bottom:1em;
 }
 
+#non-italic{
+  font-style:normal;
+}
+
 .review-button{
   /*text-decoration:none;*/
   padding:1em;
+  /*font-style:italic;*/
 /*  background:white;
   -webkit-border-radius:.5em;
   border-radius:.5em;

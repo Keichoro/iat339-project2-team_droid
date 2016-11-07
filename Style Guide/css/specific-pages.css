@@ -240,7 +240,9 @@ div{
 /* -----Profile.html Styling------*/
 
 
-
+.profile-page .profile-description:active{
+	background:#EFEFEF;
+}
 
 
 .profile-img{
@@ -380,7 +382,7 @@ a .friend-img:hover{
 
 	.friends-section{
 		margin:0;
-		/*width:25%;*/
+		width:25%;
 		padding: 0 10em;
 	}
 
@@ -394,7 +396,9 @@ a .friend-img:hover{
 	
 
 	.friends-section{
-		padding:0 7em;
+		/*padding:0 7em;*/
+		padding:0 15%;
+		/*background:red;*/
 	}
 }
 
@@ -424,11 +428,17 @@ a .friend-img:hover{
 	}
 
 	.friends-section{
-		margin:0;
+		/*margin:0 0 0 15%;*/
 		width:100%;
-		padding:0;
+		padding:0 0 0 10%;
 	}
 }
+
+ @media(max-width:19em){
+ 	.friends-section{
+ 		padding:0;
+ 	}
+ }
 
 /* ----- END OF Profile.html Styling------*/
 
