@@ -1725,6 +1725,17 @@ section code {
 
 }
 
+@media (max-width: 479px){
+  #getting-started-header{
+    width: 100%;
+    text-align: center;
+  }
+  #start-button{
+    width: 100%;
+    margin-left:auto;
+  }
+}
+
 @media (max-width: 460px){
   .credit-card-brand{
     width: 60%;
