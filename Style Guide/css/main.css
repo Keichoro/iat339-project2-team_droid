@@ -254,8 +254,9 @@ section code {
 }
 
 .filled{
-  background: #5BD7FF;
-  border: 2px solid #EFEFEF;
+  /*background: #5BD7FF;*/
+  background:#BBBBBB;
+  border: 2px solid #BBBBBB;
 }
 
 .empty{
@@ -385,6 +386,7 @@ section code {
   border:6px solid #FFC280;
   color:#FFC280;
   font-family: 'Roboto Slab',Times, serif;
+  font-style:normal;
 
 }
 
@@ -397,16 +399,18 @@ section code {
 
 .more-button{
   text-decoration:none;
+  /*color:#BBBBBB;*/
+  border:3px solid #BBBBBB;
   color:#BBBBBB;
-  border:1px solid #BBBBBB;
+  background:white;
   padding:.2em;
-  font-family: 'Roboto Slab',Times, serif;
+  /*font-family: 'Roboto Slab',Times, serif;*/
 
 }
 
 .more-button:hover{
-  color:black;
-  border:1px solid black;
+  color:#FFC280;
+  border:3px solid #FFC280;
   text-decoration:none;
 }
 

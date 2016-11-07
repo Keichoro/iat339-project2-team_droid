@@ -240,9 +240,12 @@ div{
 /* -----Profile.html Styling------*/
 
 
+
+
+
 .profile-img{
 	width:15em;
-	margin-left: 12%;
+	/*margin-left: 12%;*/
 	padding-bottom:0;
 
 }
@@ -250,8 +253,8 @@ div{
 .profile-img img{
 	/*position:absolute;*/
 	width:100%;
-	padding: .5em;
-	border: 4px solid #FFC280;
+	/*padding: .5em;*/
+	/*border: 4px solid #FFC280;*/
 	-webkit-border-radius:0.5em;
 	border-radius:0.5em;
 	/*outline: 1px solid #BBBBBB;*/
@@ -265,17 +268,36 @@ div{
 	border-radius:0.5em;
 	padding: 2em;
 	margin: 2em 3em;
-	
 }
 
 .profile-details{
 	text-align:left;
+	padding:0 0 0 .5em;
 }
 
+.profile-details h1{
+	margin-top:0;
+}
 
+.section{
+	padding:1em;
+	margin:0;
+	margin-bottom:1em;
+}
+
+.section .description{
+	background:white;
+	padding:1.5em;
+	-webkit-border-radius:0.5em;
+	border-radius:0.5em;
+}
+
+.section:hover{
+	border:2px solid #BBBBBB;
+}
 
 .friend-img{
-	border: 2px solid #BBBBBB;
+	border: 2px solid white;
 	padding: .1em;
 	background:white;
 	-webkit-border-radius:0.5em;
@@ -287,6 +309,14 @@ div{
 a .friend-img:hover{
 
 	border: 2px solid #FFC280;
+}
+
+.friends{
+	background: #EFEFEF;
+	margin-left:2%;
+	-webkit-border-radius:0.5em;
+	border-radius:0.5em;
+	padding-bottom:1em;
 }
 
 .friends-section{
@@ -320,6 +350,12 @@ a .friend-img:hover{
 	font-size:.8em;
 }
 
+@media(max-width: 570px){
+	.section{
+		width:100%;
+	}
+}
+
 @media (max-width: 75em){
 	.profile-img{
 		width:12em;
@@ -329,6 +365,8 @@ a .friend-img:hover{
 	.friends-section{
 		width:75%;
 	}
+
+
 }
 
 @media(max-width:55em){
@@ -336,14 +374,25 @@ a .friend-img:hover{
 		width:100%;
 	}
 
+	.profile-details h1{
+	margin-top:0.5em;
+	}
+
 	.friends-section{
 		margin:0;
 		/*width:25%;*/
 		padding: 0 10em;
 	}
+
+	.friends{
+		margin-left:0;
+		margin-top:1em;
+	}	
 }
 
 @media(max-width:45em){
+	
+
 	.friends-section{
 		padding:0 7em;
 	}
@@ -359,6 +408,11 @@ a .friend-img:hover{
 	.profile-description{
 		padding:1em;
 		margin:0;
+	}
+
+	.section{
+		margin:1em 0;
+		text-align:center;
 	}
 
 	.profile-details{
@@ -505,6 +559,12 @@ a .friend-img:hover{
 	-webkit-border-radius:.5em;
 	border-radius:.5em;
 	width:80%;
+}
+
+@media(max-width:31em){
+	.login-form input{
+		width:14em;
+	}
 }
 
 @media(max-width:30em){
