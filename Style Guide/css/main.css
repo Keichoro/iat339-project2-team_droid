@@ -377,9 +377,9 @@ section code {
 }
 
 .review-button{
-  text-decoration:none;
+  /*text-decoration:none;*/
   padding:1em;
-  background:white;
+/*  background:white;
   -webkit-border-radius:.5em;
   border-radius:.5em;
   display:inline-block;
@@ -387,13 +387,13 @@ section code {
   color:#FFC280;
   font-family: 'Roboto Slab',Times, serif;
   font-style:normal;
-
+*/
 }
 
 .review-button:hover{
-  text-decoration:none;
+/*  text-decoration:none;
   border:6px solid #BBBBBB;
-  color:#BBBBBB;
+  color:#BBBBBB;*/
 }
 
 
