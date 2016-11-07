@@ -1410,19 +1410,25 @@ display: inline-block;
 
 .profile-photo{
   width: 15%;
-  margin-left: 1em;
+  /*margin-right:1em;*/
+  margin-left: 2em;
+ /* padding-bottom:0;*/
   float: left;
 }
 
+/*.profile-photo:hover{
+  border:2px solid #E9AB69;
+}
+*/
 .profile-description{
   text-align: left;
   width: 90%;
   float: left;
 }
 
-.profile-description:hover{
+/*.profile-description:hover{
   border: 7px solid #E9AB69;
-}
+}*/
 
 .profile-description:active{
   background-color: #B5B5B1;
@@ -1710,10 +1716,7 @@ display: inline-block;
   .profile-row{
     margin-left: -1.5em;
   }
-  .profile-photo{
-
-    
-  }
+ 
   .profile-photo img{
     width: 90px;
     margin-left: -1em;
