@@ -582,7 +582,7 @@ section code {
   margin-left: -5.4em;
   margin-top:2em;
   width: 75%;
-  height: 18px;
+  /*height: 18px;*/
 }
 
 .textfield-info{
@@ -1189,7 +1189,7 @@ display: inline-block;
   float: left;
   margin-top: 2em;
   width: 70%;
-  margin-left: -8.5em;
+  margin-left: -8.75em;
 }
 
 .single-dropdown{
