@@ -565,16 +565,38 @@ a .friend-img:hover{
 	padding:2em;
 }*/
 
+.skills-summary{
+	padding-left:3em;
+}
+
+.review-form #form{
+	padding-left:2em;
+}
+
 .comment-box{
 	width:90%;
 	height:30%;
+}
+
+@media(max-width:40em){
+	.comment-box{
+		width:15em;
+	}
+
+	.review-page [class^='grid-col-'] {
+		width:100%;
+	}
 }
 
 
 
 @media(max-width:30em){
 	.review-page h1, .review-page h2, .review-page p{
-	text-align:center;
+		text-align:center;
+	}
+
+	.review-form #form{
+		padding-left:0;
 	}
 
 	.skill-section{
@@ -584,6 +606,9 @@ a .friend-img:hover{
 
 	.skill-section p{
 		text-align:center;
+	}
+	.skills-summary{
+		padding-left:0;
 	}
 }
 

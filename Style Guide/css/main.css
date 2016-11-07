@@ -369,6 +369,7 @@ section code {
 }
 
 .confirmation-buttons{
+  padding-top:2em;
   padding-bottom:12em;
 }
 
@@ -439,6 +440,7 @@ section code {
 #form{
   text-align:left;
   margin-bottom:2em;
+  /*border:1px solid black;*/
 }
 
 /*#form .inputfield{
