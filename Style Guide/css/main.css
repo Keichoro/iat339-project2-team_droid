@@ -476,33 +476,15 @@ section code {
   text-decoration:none;
 }
 
-#reset-gc{
-  display: inline-block;
-  padding: 0.1em 2em 0.1em 2em;
-  color: #FFF;
-  background-color: #e03333;
-  border-radius: 0.75em;
-  border-color: #e14a4a;
-  border-width:5px;
-  border-style: solid;
-  text-decoration: none;
-  font-family: 'Roboto Slab',Times, serif;
-  font-size: 22px;
-}
-
-#reset-gc:hover{
-  background-color: #b11a1a;
-  text-decoration:none;
-}
-
-.link-sample{
+.link{
   font-family: 'Avenir Book';
-  color:#0360B2;
-  font-size: 16px;
+  color:#E9AB69;
+  font-style:italic;
+  font-size: 18px;
 }
 
-.link-sample:visited{
-  color:#6450B2;
+.link:hover{
+  color:#525250;
 }
 
 

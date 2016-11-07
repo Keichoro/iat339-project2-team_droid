@@ -15,7 +15,15 @@
   padding-bottom: 1em;
 }
 
+.table-of-contents-section-heading{
+  text-align: left;
+  font-size: 32px;
+  margin-top: 1em;
+  text-decoration: underline;
+}
+
 /* ------ styling the side navigation bar ----- */
+
 
 #side-nav-bar{
   color: #FFC280;
