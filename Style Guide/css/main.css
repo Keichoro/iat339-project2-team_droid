@@ -86,8 +86,8 @@ a:hover{
 }
 
 .checkbox{
-  height:2em;
-  width:2em;
+/*  height:2em;
+  width:2em;*/
   -webkit-transform: scale(2);
   margin-top: 2.75em;
 }
