@@ -42,12 +42,52 @@
 			</div>
 
 			<div class="grid-row">
-				<div class="grid-col-4of4" id="reasons-for-new-friend-paragraph">
+				<div class="grid-col-4of4" id="rent-paragraph">
 				<p>We would love to know why you are interested in renting a friend(s) from us. By telling us below why you want to rent a friend(s), we can instantly tell you how many friends are able to meet your needs.</p>
 				</div>
 			</div>
 
 			<div class="grid-row">
+				<div class="grid-col-4of4">
+					<form id="form">
+						<div class="grid-col-2of4">
+							<h2>Type of Relationship</h2>
+							<p>What type of relationship are you looking for?</p>
+							<!-- <label id="relationship-type">What type of relationship?</label><br> -->
+							<input type="radio" name="type" value="longterm">Long-term<br>
+							<input type="radio" name="type" value="shortterm">Short-term<br>
+							<label class="reg-labels">Relationship Needs</label>
+							<select class="single-dropdown">
+								<option>Friendship</option>
+								<option>Assistant</option>
+								<option>Either</option>
+							</select>
+						</div>
+						<div class="grid-col-2of4">
+							<h2>Types of Activities</h2>
+							<p>What do you want to do?</p>
+							<label class="reg-labels">Outdoors</label>
+							<select class="single-dropdown">
+								<option>Hiking</option>
+								<option>Sports</option>
+								<option>Walk</option>
+								<option>Running</option>
+								<option>Beach</option>
+							</select>
+							<label class="reg-labels">Indoors</label>
+							<select class="single-dropdown">
+								<option>Shop</option>
+								<option>Run Errands</option>
+								<option>Crafts</option>
+								<option>Video Games</option>
+								<option>Movies</option>
+							</select>
+						</div>
+					</form>
+				</div>
+			</div>
+
+<!-- 			<div class="grid-row">
 				<div class="grid-col-4of4">
 					<textarea id="reasons-input"></textarea>
 				</div>
@@ -60,12 +100,12 @@
 				<div class="grid-col-2of4">
 					<p id="number-available-friends">5</p>
 				</div>
-			</div>
+			</div> -->
 
 
-			<div class="grid-row">
+			<div id="breadcrumbs" class="grid-row">
 				<div class="grid-col-1of4">
-					<a href="rent-template.html" class="button-nav back">Return</a>
+					<a href="rent-template.html" class="button-nav back">Back</a>
 				</div>
 				<div id="progress-bar-text" class="grid-col-2of4">
 					<div class="breadcrumb-step current-step">Interests</div>

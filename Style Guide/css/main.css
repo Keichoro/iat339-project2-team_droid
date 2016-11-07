@@ -173,7 +173,7 @@ a:hover{
 }*/
 
 body {
-  font-family: sans-serif;
+  font-family: 'Avenir Light', Arial, sans-serif;
   /*padding: 2rem;*/
 }
 
@@ -232,6 +232,10 @@ section code {
   border: 2px solid #EFEFEF;
 }
 
+
+#breadcrumbs{
+  border:1px solid black;
+}
 
 #progress-bar-text, #progress-bar-symbol{
   border-bottom: 2px solid #BBBBBB;
@@ -312,6 +316,14 @@ section code {
   font-size: 16px;*/
 /*  -webkit-transition: background-color 0.5s ease-out;
   transition: background-color 0.5s ease-out;*/
+}
+
+.confirmation-buttons{
+  padding-bottom:12em;
+}
+
+.confirmation-buttons .button-nav{
+  margin-bottom:1em;
 }
 
 .review-button{
@@ -488,23 +500,24 @@ section code {
 }
 
 
-.textfieldlabel {
+/*.textfieldlabel {
 
   margin-top: 2em;
   margin-right: 2em;
   display:block;
   font-family: 'Avenir Book';
-}
-#textfieldlabel{
+}*/
+
+.textfieldlabel{
   float:left;
   font-size: 18px;
   margin-left: 2em;
 }
-#textfieldlabel-20px{
+.textfieldlabel-20px{
   float:left;
   font-size: 20px;
 }
-#input{
+.input{
   float: left;
   margin-left: -5.4em;
   margin-top:2em;
@@ -1066,14 +1079,10 @@ display: inline-block;
   font-weight: bold;
 }
 
-#rent-paragraph{
-  margin-top: 1em;
-}
-
-#reasons-for-new-friend-paragraph{
+/*#reasons-for-new-friend-paragraph{
   text-align: left;
   margin-left: 0.3em;
-}
+}*/
 
 #reasons-input{
   width: 99%;
@@ -1329,8 +1338,24 @@ display: inline-block;
 }
 
 #rent-paragraph{
+  /*margin-top: 1em;*/
   text-align: left;
-  margin-left: 1em;    
+  margin-left: 2em;
+  width:60%;    
+}
+
+@media(max-width:50em){
+  #rent-paragraph{
+    width:80%;
+  }
+}
+
+@media(max-width:30em){
+  #rent-paragraph{
+    margin-left:0;
+    width:100%;
+    text-align:center;
+  }
 }
 
 .profile-photo{
@@ -1376,9 +1401,9 @@ display: inline-block;
   margin-left: 1.75em;
 }
 
-#only-right-button-alignment{
+/*#only-right-button-alignment{
   text-align: right;
-}
+}*/
 #space-between-two-buttons{
     border:1px solid white;
 }
@@ -1851,9 +1876,9 @@ display: inline-block;
 }
 
 @media (max-width: 450px){
-  #rent-paragraph{
+/*  #rent-paragraph{
     font-size: 14px;
-  }
+  }*/
 /*  .profile-summary{
     width: 90%;
   }*/

@@ -195,13 +195,13 @@ div{
 	padding:0;
 	margin: 1em;
 	margin-top: 2em;
-	color:#ABABAB;
+	color:#BABABA;
 	color:black;
 
 }
 
 #footer a:hover{
-	color:#FFC280;
+	color:#CC6600;
 }
 
 /** Stacks content when screen is smaller */
@@ -669,10 +669,19 @@ a .friend-img:hover{
 	width:100%;
 }
 
-
-
 .search-option{
 	position:relative;
+}
+
+.confirmation-page p{
+	padding-left:2em;
+}
+
+@media(max-width:30em){
+	.confirmation-page p{
+		padding-left:0;
+		text-align:center;
+	}
 }
 
 

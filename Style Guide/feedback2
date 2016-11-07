@@ -88,3 +88,17 @@ Update style guide with the following:
 
 To Do:
 -fix respective pages and update Style guide as we go
+
+
+
+Danette:
+-breadcrumbs --> mobile alignment
+-profile page layout --> style consistency
+-reasons-for-friend --> layout
+-friend profiles --> layout
+-review page
+-review confirmation
+-make "next" button more distinct
+
+Final Check:
+-check all pages w/ HTML validator
