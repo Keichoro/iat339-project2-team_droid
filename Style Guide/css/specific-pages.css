@@ -316,7 +316,7 @@ a .friend-img:hover{
 	margin-left:2%;
 	-webkit-border-radius:0.5em;
 	border-radius:0.5em;
-	padding-bottom:1em;
+	padding:1em 0;
 }
 
 .friends-section{
@@ -471,12 +471,27 @@ a .friend-img:hover{
 	margin:0;
 }
 
+.rating-summary{
+	position:relative;
+	width:98%;
+	background:#EFEFEF;
+	-webkit-border-radius:0.5em;
+	border-radius:0.5em;
+	/*border:1px solid black;*/
+}
+
+.ratings{
+	position:absolute;
+	padding-left: 10em;
+}
+
 .skill{
 	text-align:left;
 }
 
 .skill h3{
 	margin:0;
+	margin-right:1em;
 	padding:1em;
 }
 
@@ -489,6 +504,22 @@ a .friend-img:hover{
 @media(max-width:55em){
 	#on-friend-page .review-button{
 		margin:0;
+	}
+
+
+}
+@media(max-width:63em){
+	#big-rating .grid-col-2of4{
+		width:100%;
+		margin-bottom:2em;
+	}
+
+	.rating-summary{
+		width:100%;
+	}
+
+	.ratings{
+		position:relative;
 	}
 }
 
