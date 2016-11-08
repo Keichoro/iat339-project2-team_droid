@@ -264,8 +264,8 @@ section code {
 }
 
 
-#breadcrumbs .button-nav{
-  /*margin-bottom:2em;*/
+#breadcrumbs {
+  margin-bottom:2em;
 }
 
 #progress-bar-text, #progress-bar-symbol{
