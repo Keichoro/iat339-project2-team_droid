@@ -1323,9 +1323,9 @@ section code {
   margin-left: 1.75em;
 }
 
-/*#only-right-button-alignment{
+#only-right-button-alignment{
   text-align: right;
-}*/
+}
 #space-between-two-buttons{
     border:1px solid white;
 }
