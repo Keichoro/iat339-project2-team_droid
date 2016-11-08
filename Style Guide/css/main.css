@@ -507,29 +507,27 @@ section code {
   background-color: #F68711;
 }
 
-#submit{
+#login{
   display: inline-block;
-  padding: 0.25em 1.6em 0.25em 1.6em;
-  color: #FFF;
-  background-color: #F5AF18;
-  border-radius: 1em;
-  border-color: #A36839;
-  border-width:5px;
-  border-style: solid;
-  text-decoration: none;
   font-family: 'Roboto Slab',Times, serif;
-  font-size: 16px;
+  color:white;
+  border: 3px solid #DF9C58;
+  background-color: #D18334;
+  -webkit-border-radius:0.5em;
+  border-radius:0.5em;
+  padding: 0.25em 1.5em 0.25em 1.5em;
+  text-align:center;
 /*  -webkit-transition: background-color 0.5s ease-out;
   transition: background-color 0.5s ease-out;*/
 }
 
-#submit:hover{
-  background-color: #DC7B1A;
+#login:hover{
+  background-color: #CC6600;
   text-decoration:none;
 }
 
-#submit:active {
-  background-color: #F68711;
+#login:active {
+  background-color:#B2702C;
 }
 
 .link{
