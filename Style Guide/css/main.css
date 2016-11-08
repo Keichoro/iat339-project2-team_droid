@@ -291,7 +291,7 @@ section code {
 .old-step{
   font-family:'Roboto Slab', Times, serif;
   color: #BBBBBB;
-  text-decoration:line-through;
+  text-decoration:none;
 }
 
 .current-step{
@@ -304,7 +304,8 @@ section code {
 .old-step:hover{
   padding:0;
   margin:0;
-  color:#BBBBBB;
+  color:#CC6600;
+  text-decoration:none;
   /*border:2px solid #BBBBBB;*/
 }
 
@@ -1153,7 +1154,7 @@ section code {
 #legal-checkbox p{
   float: left;
   text-align: left;
-  margin-top: 1em;
+  margin-top: 0.5em;
   margin-left: 1em;
 }
 
