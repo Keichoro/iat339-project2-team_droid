@@ -640,6 +640,12 @@ section code {
   font-size: 18px;
 }
 
+@media(max-width:30em){
+  .pageheading, .subpageheading, .sectionheading, .sectionheading-rendered{
+    text-align:center;
+  }
+}
+
 /* 
   COMBINED ELEMENTS -------------------
 */
